@@ -1,0 +1,168 @@
+"Code", "Beschreibung", "Detail"
+"a1", "Anforderungen und Bedürfnisse an elektronische Hard- oder Softwareproblemstellungen erfassen und interpretieren", "Elektronikerinnen und Elektroniker erhalten den Auftrag für den Versuchsaufbau eines neuen Produkts mit elektronischen Komponenten und allenfalls der dazugehörenden Software. Die
+dafür notwendigen Informationen holen sie sich mit offener Kommunikation und zielführender Fragetechnik bei Arbeitskolleginnen, Arbeitskollegen, externen Fachpersonen oder auch über
+moderne Informations- und Kommunikationsmittel. Aus den gesammelten Informationen formulieren sie selbständig den konkreten Auftrag mit den entsprechenden Anforderungen, dies meist
+in Form eines Pflichtenheftes. Sie bringen rechtzeitig in Erfahrung, welche Qualität gefordert ist und wie diese gemessen wird. Bei diesen Arbeiten berücksichtigen Sie nebst den technischen
+Anforderungen und Rahmenbedingungen sowohl die gültigen Richtlinien und Normen als auch die wirtschaftlichen Aspekte. Beim Setzen von Prioritäten und Treffen von Entscheidungen
+berücksichtigen sie zudem die Aspekte der Nachhaltigkeit mit der notwendigen Konsequenz. Elektronikerinnen und Elektroniker erarbeiten in veränderten oder neuen Situationen zielgerichtet
+und konstruktiv Ideen und Konzepte, indem sie bereits Bekanntes und Neues miteinander verbinden. Überlegungen und Entscheidungen bereiten sie in geeigneter Form verständlich auf und
+kommunizieren diese adressatengerecht. Bevor sie weitere Schritte unternehmen, lassen sie sich das Projekt im Rahmen des firmeninternen Prozesses freigeben. Sie sorgen auch dafür,
+dass das Pflichtenheft bei allfälligen Änderungen oder Anpassungen aktuell gehalten wird."
+"a2", "Ideen, Konzepte und Lösungen für elektronische Hard- oder Softwareproblemstellungen entwickeln", "Elektronikerinnen und Elektroniker entwickeln Ideen, Konzepte oder Lösungen für elektronische Hardware- und Software Problemstellungen. In einem ersten Schritt sammeln sie mit Hilfe von
+Kreativitätsmethoden Ideen und formen daraus verschiedene Konzepte und Lösungen, welche sie in den Entwicklungsunterlagen dokumentieren. Die verschiedenen Varianten von Konzepten
+und Lösungen bewerten sie mit einer geeigneten Entscheidungstechnik im Team. Sie begründen die gewählte Lösung und halten sie schriftlich fest. Bei der Erarbeitung von Ideen, Konzepten
+oder Lösungen berücksichtigen sie Faktoren wie Kosten, Langlebigkeit, Reparierbarkeit, Recyclierbarkeit, Energieeffizienz (Ecodesign). So wählen sie zum Beispiel geeignete Komponenten
+und Produktions- oder Fertigungs Mittel und -Prozesse. Allenfalls muss noch eine grundsätzliche Makeorbuy Entscheidung getroffen werden, welche sie im Team erarbeiten. Bei herausfordernden
+Entwicklungsaufgaben ist vieles unbekannt und oft fehlt Elektronikerinnen und Elektronikern spezifisches Fachwissen. Aus diesem Grund ist es wichtig, dass sie punktuell mit internen
+oder externen Fachpersonen zusammenarbeiten. Durch geschicktes Fragen holen sie proaktiv die nötigen Informationen ab und delegieren wo nötig und sinnvoll Aufgaben."
+"a3", "Die Machbarkeit von Ideen oder Aufträgen für elektronische Hard- oder Softwarelösungen abklären", "Elektronikerinnen und Elektroniker erhalten von einer Entwicklerin oder einem Entwickler Ideen Skizzen für relevante Teilfunktionen, für welche sie die Machbarkeit abzuklären haben. Die
+Entwicklerin oder der Entwickler erklärt ihnen das Funktionsprinzip und gibt weitere wichtige Informationen. Sie überlegen, wie sie die Ideen oder Konzepte anhand von Versuchsanordnungen
+überprüfen können. Sie führen diese Versuche durch und dokumentieren die Resultate und Erkenntnisse, welche sie mit den Entwicklerinnen / dem Entwickler besprechen, um das weitere
+Vorgehen festzulegen. Dazu gehören auch Abklärungen, ob auf dem Markt schon Lösungen in Form von integrierten Schaltungen oder Software-Komponenten angeboten werden. Zu diesem
+Zweck studieren sie die meist englischsprachigen Internetseiten von Herstellern oder entsprechende Datenblätter. Des Weiteren sind erste grobe Abschätzungen zu machen, ob die
+Anforderungen aus dem Pflichtenheft erfüllt werden können."
+"b1", "Elektronische Schaltungen dimensionieren und das Schema entwickeln", "Elektronikerinnen und Elektroniker dimensionieren und evaluieren Komponenten entsprechend den Anforderungen an die Schaltung und zeichnen dazu ein übersichtliches Schema in einem
+CAD-Tool mit den normgerechten Symbolen und Bezeichnungen. Sie erhalten von der Entwicklerin / vom Entwickler den Entwurf für eine elektronische Schaltung, zusammen mit den entsprechenden
+Anforderungen. Sie berechnen die nötigen Werte der analogen oder digitalen Komponenten, um die Anforderungen an die Funktion, die Stromstärke, die Wärmeentwicklung
+oder andere Parameter zu erfüllen. Auf Grund der Berechnungen wählen sie im Markt erhältliche Komponenten aus. Sind alle Bauteile bestimmt, zeichnen sie mit Hilfe eines CAD-Tool ein
+übersichtliches Schema. Dabei beachten sie die Einhaltung der geltenden Normen und internen Richtlinien. Wenn nötig teilen sie das Schema nach Funktionen in verschiedene Untergruppen
+und stellen es übersichtlich dar. Leitungen und Signale werden korrekt und möglichst selbsterklärend beschriftet. Die Symbole entnehmen sie der internen Bibliothek oder erstellen diese bei
+Bedarf neu und integrieren sie in die Bibliothek. Bei Fragen oder Problemen wenden sie sich mit konkreten und fachlich korrekt formulierten Anliegen an die zuständige Entwicklerin / den
+zuständigen Entwickler. Mit ihr / ihm zusammen suchen sie nach Lösungen und nehmen wo nötig Anpassungen vor und dokumentieren diese."
+"b2", "Das Layout für Leiterplatten entwickeln und die Fertigungsunterlagen erstellen", "Elektronikerinnen und Elektroniker erstellen aus einem gegebenen oder selbst entwickelten Schema das Layout für eine Leiterplatte. Dabei sorgen sie dafür, dass die Projekt Anforderungen
+eingehalten und auch wirtschaftliche Überlegungen berücksichtigt werden. Sie zeichnen auf Grund des von der Entwicklerin / dem Entwickler freigegebenen Schemas mit einem CAD-Tool die
+Leiterplatte. Die Komponenten platzieren sie so, dass die mechanischen Anforderungen erfüllt und auch die elektronischen Eigenheiten beachtet sind. Dazu müssen sie auch Angaben aus
+den jeweiligen, meist in englischer Sprache verfassten Datenblättern berücksichtigen. Sie verbinden die Bauteile, indem sie die Leiterbahnen mit dem CAD-Tool zeichnen und dabei zum
+Beispiel die zu erwartenden Ströme, gegenseitige Beeinflussungen der Signale beachten. Die mechanischen Bauteileigenschaften entnehmen sie der internen Bibliothek oder erstellen diese
+bei Bedarf neu und integrieren sie in die Bibliothek. Beim Erstellen des Layouts halten sie Design Regeln ein und berücksichtigen die relevanten Rahmenbedingungen der Hersteller der
+Leiterplatte, der Bauteile und der Funktion der Schaltung. Fragen oder Probleme diskutieren sie offen mit der Entwicklerin / dem Entwickler und suchen gemeinsam nach Lösungen. Sind
+Änderungen nötig, setzen sie diese um und halten die Dokumentation auf dem aktuellsten Stand. Abschliessend generieren sie mit dem CAD-Tool die Produktionsdaten unter Einhaltung der
+Vorgaben des Herstellers und legen diese am dafür vorgesehenen Ort ab."
+"b3", "Leiterplatten und Baugruppen fertigen", "Elektronikerinnen und Elektroniker bestücken Leiterplatten für Einzelstücke oder Kleinstserien, montieren diese gemäss Auftrag in die dafür vorgesehene Baugruppe und nehmen die elektrischen
+Verbindungen vor. Zuerst beschaffen sie die Komponenten wie Leiterplatten oder Bauteile gemäss der Stückliste selbst, über den internen Einkauf, oder auch ab internem Lager. Bei
+der Planung der Arbeiten berücksichtigen sie die Lieferzeiten der Komponenten. Komponenten von Einzelstücken oder sehr kleinen Serien löten sie von Hand auf die Leiterplatte. Sie arbeiten
+stets konzentriert und präzise, setzen Hilfsmittel gezielt für die zum Teil nur wenige Millimeter grossen Bauteile ein. Sie achten darauf, die Leiterplatte oder Komponenten nicht zu beschädigen
+und schützen auch sich selbst durch geeignete Massnahmen vor den Lötdämpfen. Mit den Arbeits- und Hilfsmitteln gehen sie sorgfältig um. Müssen beim Fertigen von Leiterplatten Anpassungen
+vorgenommen werden, führen sie diese nach Rücksprache mit dem zuständigen Auftraggeber aus und dokumentieren die Änderungen in den Unterlagen. Nach Abschluss der Arbeit
+führen sie eine optische Kontrolle der Lötarbeit durch und verlassen den Arbeitsplatz aufgeräumt und sauber. Gefertigte Leiterplatten oder Baugruppen lagern sie fachgerecht. Abfälle führen
+sie einer Wiederverwertung zu oder entsorgen sie umweltgerecht."
+"b4", "Schaltungen in Betrieb nehmen, ausmessen und Fehler beheben", "Um die Funktion einer Schaltung zu dokumentieren oder Fehler einzugrenzen respektive finden zu können, führen Elektronikerinnen und Elektroniker systematische Messungen mit geeigneten
+Messmitteln durch. Um die Messungen machen zu können, muss die Schaltung in Betrieb genommen werden. Dabei achten sie auf die Arbeitssicherheit und den Schutz der Schaltung.
+Bei neu aufgebauten Prototypen einer elektronischen Schaltung muss das Einhalten der Vorgaben gemäss Pflichtenheft dokumentiert werden. Für die Planung der Messungen nehmen
+Elektronikerinnen und Elektroniker das Schema sowie weitere Unterlagen der Schaltung zur Hand und legen die Messpunkte fest. Sie machen sich Überlegungen zum erwarteten Messresultat
+und erstellen eine Messmittelliste. Als Messmittel dienen u.a. Geräte wie das Multimeter oder das Oszilloskop. Durch die richtige Wahl der Messmittel und Messpunkte stellen sie sicher,
+dass weder die Schaltung beschädigt noch das Resultat verfälscht wird und die Messung in der geforderten Genauigkeit durchgeführt werden kann. Sie dokumentieren alle Messungen und
+Resultate. Stellen sie im Laufe der Messungen Fehler fest, gehen sie diesen systematisch und geduldig auf den Grund. Haben sie die Ursachen gefunden, beheben sie die Fehler, das allenfalls
+nach Rücksprache mit der zuständigen Entwicklerin / dem zuständigen Entwickler. Dann wiederholen sie die Messungen und führen alle Änderungen in den Entwicklungsunterlagen
+nach." 
+"b5", "Die Anforderungen an die Schaltung überprüfen", "Elektronikerinnen und Elektroniker überprüfen die Entwicklungsergebnisse bei den einzelnen Teilschritten laufend und halten die Resultate schriftlich fest. Dabei beachten sie das Pflichtenheft
+mit den Anforderungen und Spezifikationen zur Funktion einer neuen Schaltung. So führen Elektronikerinnen und Elektroniker im Laufe der Entwicklung einer Schaltung immer wieder
+Messungen und Kontrollen durch und dokumentieren diese. Damit stellen sie sicher, dass sich Messergebnisse mit den Anforderungen im Pflichtenheft decken. Ist das nicht der Fall, halten
+sie Rücksprache mit der Entwicklerin / dem Entwickler und präsentieren überlegte Lösungsansätze. Das Beschlossene wird in den Entwicklungsunterlagen schriftlich festgehalten. Am Ende
+des Entwicklungsprozesses führen sie nochmals alle nötigen Messungen und Versuche durch. Die Resultate halten sie als Nachweis in den Entwicklungsunterlagen fest."
+"b6", "Elektronische Baugruppen in Betrieb nehmen", "Elektronikerinnen und Elektroniker nehmen Baugruppen und Geräte unter Einhaltung der Sicherheitsvorschriften in Betrieb. Dazu studieren sie vorgängig die Unterlagen und befolgen die
+entsprechenden Vorgaben oder sie bestimmen selbständig ein sinnvolles schrittweises Vorgehen. In beiden Fällen erstellen sie ein Inbetriebnahme Protokoll, mit dem alle Schritte der Inbetriebnahme
+nachvollzogen werden können. Stellen sie im Laufe der Inbetriebnahme Abweichungen zwischen Soll und Ist fest, benennen sie erste Vermutungen zur Ursache des Problems
+und unterbreiten Vorschläge zu dessen Behebung. Bei der Inbetriebnahme führen sie die gemäss Inbetriebnahme Protokoll verlangten Parametrierungen, Manipulationen und Messungen
+durch, deren Resultate fortlaufend im Protokoll festgehalten werden. Für eine sichere und aussagekräftige Inbetriebnahme halten sie die Schritte genau ein und arbeiten sorgfältig. Elektronikerinnen
+und Elektroniker klären vorgängig ihre Kompetenzen und holen sich wo nötig Unterstützung bei der zuständigen Fachperson. Sie beenden die Inbetriebnahme, indem sie das Inbetriebnahme
+Protokoll gemäss den internen Vorgaben abschliessen und den Auftraggebenden sachlich über das Resultat der Inbetriebnahme und allfälliger weiterer Schritte informieren."
+"b7", "Frontplatten, Gehäuse oder einfache mechanische Bauteile mechanisch bearbeiten oder fertigen", "Elektronikerinnen und Elektroniker stellen für Prototypen oder Kleinstserien einfache Bauteile wie Gehäuse, Frontplatten, Bedienelemente oder Befestigungen her oder bearbeiten diese
+gemäss Zeichnung unter Einhaltung aller firmenspezifischen Sicherheitsmassnahmen. Werden sie beauftragt, einen Prototyp für ein neues Produkt zu fertigen, greifen sie auf ein käufliches
+Standardgehäuse zurück. Sie führen gemäss den Fertigungszeichnungen in den Unterlagen des Prototyps unter Berücksichtigung der Arbeitssicherheit einfache Bearbeitungsschritte wie
+Bohren oder Sägen durch. Dies beispielsweise für Löcher, damit Anzeige- oder Bedienelemente montiert werden können. Sie verlassen den Arbeitsplatz sauber aufgeräumt und entsorgen die
+Abfälle umweltgerecht. Nach der Bearbeitung kontrollieren sie dessen Qualität, indem sie die Kontrollmasse mit dem Auftrag vergleichen. Sie verlassen die Fertigungsanlage und den Arbeitsplatz
+aufgeräumt und retabliert. Kann ein Auftrag nicht gemäss Zeichnung umgesetzt werden, überlegen und skizzieren sie von Hand mögliche Lösungen und präsentieren diese der zuständigen
+Entwicklerin / dem zuständigen Entwickler, um gemeinsam das weitere Vorgehen zu beschliessen. Änderungen und Anpassungen werden in den Fertigungsunterlagen sauber und
+gemäss internen Richtlinien nachgetragen."
+"c1", "Mikrocontroller- Programme entwickeln", "Elektronikerinnen und Elektroniker entwickeln und realisieren Programme, welche die Flexibilität und Funktionalität von Schaltungen erhöhen. Diese nehmen sie auch in Betrieb und dokumentieren
+den Prozess. Auf Grund des Pflichtenheftes entwickeln sie eine Software-Architektur, definieren die Schnittstellen und erstellen eine Hardwarebeschreibung der Komponenten.
+Anschliessend realisieren sie mit einer modernen Entwicklungsumgebung schrittweise die Software in der geforderten Programmiersprache und halten sich an die Codier-Richtlinie. Bei der
+Konfiguration der Hardware und der Realisierung des Programms achten sie sowohl auf eine schonende Nutzung der Prozessor Ressourcen als auch auf die Nutzung von Energiesparoptionen.
+Sie sichern den Verlauf der Entwicklung mit einer Versionsverwaltung. Während der schrittweisen Entwicklung der Software überprüfen Elektronikerinnen und Elektroniker den realisierten
+Code immer wieder auf seine korrekte Funktion. Treten Fehler auf, sind sie in der Lage, diese mit einem geeigneten Werkzeug einzugrenzen und zu finden sowie anschliessend auch zu
+beheben. Sie entwickeln skalierbare Softwarelösungen mit dem Fokus auf die Endanwendung. Sie suchen Fehler und erweitern bestehenden Code."
+"c2", "Die Anforderungen an die Software überprüfen", "Elektronikerinnen und Elektroniker überprüfen die Entwicklungsergebnisse sowie Teilschritte laufend und halten die Resultate schriftlich fest. Dabei beachten sie das Pflichtenheft mit den
+Kundenanforderungen und Spezifikationen zur Funktion einer neuen Software. Elektronikerinnen und Elektroniker führen nach der Entwicklung einer Software-Tests und Kontrollen durch und
+dokumentieren diese. Sie arbeiten sorgfältig und stellen sicher, dass sich die Testergebnisse mit den Anforderungen im Pflichtenheft decken. Ist dies nicht der Fall halten sie Rücksprache mit
+der Entwicklerin / dem Entwickler."
+"c3", "Intelligente Komponenten und Dienste in einem Netz oder einer Cloud einbinden", "Elektronikerinnen und Elektroniker binden intelligente Komponenten und entsprechende Dienste (Services) in ein Netz oder eine Cloud ein. Zur Prüfung der Machbarkeit führen sie eventuell
+eine Vorstudie durch. Sie studieren den Prozess, wählen die benötigten Daten zu den physikalischen Variablen und erstellen bei Bedarf einen Prototyp-Testaufbau. Damit überprüfen sie das
+Zusammenspiel von Sensoren, Gateway, Kabel, Verteiler und Aktoren. Elektronikerinnen und Elektroniker kommunizieren selbstständig mit den anderen Beteiligten, klären offene Fragen,
+machen Vorschläge für Verbesserungen und holen aktiv die Kundenbedürfnisse ab. Sie überlegen sich, wie die Energieeffizienz verbessert und überwacht werden kann. Sie parametrieren
+die Komponenten mit der entsprechenden Software, stellen benötigte Gerätebeschreibungsdateien bereit und importieren diese unter Berücksichtigung diverser Einflussfaktoren. Dabei
+beachten sie die Vorschriften, Stückzahlen, Wiederverwendbarkeit, externe Einflussfaktoren, Umgebungsbedingungen, Wartbarkeit, Erweiterbarkeit und den Preis. Sie dokumentieren sämtliche
+Schritte, erstellen einen Netzplan, planen die Cloud Verbindung und die Inbetriebnahme. Sie überwachen den Zeitaufwand, halten die Qualitätsvorgeben des Betriebes und des Kunden
+ein und beachten stets sämtliche Sicherheitsanforderungen."
+"c4", "Applikationen zum Ansteuern von Hardware entwickeln", "Elektronikerinnen und Elektroniker entwickeln Applikationen zur Ansteuerung von externer Hardware über eine Schnittstelle. Als Arbeitsgrundlage dienen ihnen die in einem Pflichtenheft
+festgehaltenen Anforderungen und Rahmenbedingungen. Die Eigenschaften der externen Hardware und das Protokoll für die Kommunikation entnehmen sie der Beschreibung oder dem
+Datenblatt der anzusteuernden Komponente, welche oft in Englisch verfasst sind. Auf Grund dieser Angaben entwickeln sie eine Software-Architektur. Anschliessend realisieren sie die Software
+schrittweise mit einer modernen Entwicklungsumgebung in der geforderten Programmiersprache und beachten die Codier-Richtlinie. Sie sichern den Fortschritt der Entwicklung laufend
+mit einer Versionsverwaltung. Während der schrittweisen Entwicklung der Software überprüfen Elektronikerinnen und Elektroniker den realisierten Code immer wieder auf seine korrekte
+Funktion. Treten Fehler auf, sind sie in der Lage, diese mit einem geeigneten Tool einzuschränken, zu finden und anschliessend auch zu beheben. Für diese Entwicklungsarbeit ist auf Grund
+der verschiedenen Faktoren (Betriebssystem, Schnittstelle, externe Hardware) anfangs vieles unbekannt. Wissenslücken, Fragen oder Unklarheiten klären sie direkt mit den Auftraggebenden
+oder auch mit internen oder externen Lieferanten."
+"c5", "Logikschaltungen in komplexen Logikbausteinen programmieren", "Elektronikerinnen und Elektroniker entwickeln Lösungen mit komplexen Logikbausteinen, die sie konzipieren und mit Hilfe einer Hardware-Beschreibungssprache realisieren. Sie entwickeln
+auf Grund der im vorhergehenden Projekt Schritt in einem Pflichtenheft festgehaltenen Anforderungen und Rahmenbedingungen ein Konzept und definieren die Schnittstellen. Mit Hilfe geeigneter
+Methoden analysieren sie die Aufgabenstellung, um zu einer Lösung zu kommen und diese mittels Logik Verknüpfungen realisieren zu können. Sie arbeiten in einer Entwicklungsumgebung,
+kontrollieren die einzelnen Lösungsschritte immer wieder durch Validierung und beheben allfällige Fehler. Die Entwicklungsschritte sowie getroffene Entscheidungen dokumentieren sie
+in den Entwicklungsunterlagen. Dabei nutzen sie ein Versionen Verwaltungstool zur Ablage des Projekts. Nach Abschluss der Arbeiten in der Entwicklungsumgebung laden sie das Projekt auf
+einen komplexen programmierbaren Logikbaustein. Sie führen mit Sorgfalt die nötigen Tests durch, realisieren die Inbetriebnahme und dokumentieren diese."
+"d1", "Projektorientierte Aufträge im Elektronikbereich der MEMIndustrie planen", "Elektronikerinnen und Elektroniker planen im Rahmen von Kundenaufträgen projektorientierte Aufträge im technischen Umfeld. Sie erstellen eine Auftragsplanung, worin die einzelnen Arbeitsphasen
+ersichtlich sind. Die Freigabe der Planung erfolgt gemäss den Unternehmensrichtlinien. Sie machen sich mit den Inhalten, Rahmenbedingungen und Abgrenzungen des Kundenauftrages
+vertraut und sorgen für eine optimale Auslastung der Betriebsmittel. Sie disponieren den Einsatz der Mitarbeitenden. Zudem stellen sie sicher, dass für das Abwickeln des Auftrages
+die Ressourcen bedarfs- und zeitgerecht zur Verfügung stehen."
+"d2", "Verläufe von projektorientierten Aufträgen im Elektronikbereich der MEMIndustrie kontrollieren", "Elektronikerinnen und Elektroniker verantworten in den einzelnen projektorientierten Auftragsphasen ein entsprechendes Controlling, sodass die Erwartungen bzw. Anforderungen bezüglich
+Qualität, Quantität, Terminen, Verantwortlichkeiten und Kosten erfüllt werden. Sie machen sich mit den Inhalten, Rahmenbedingungen und Abgrenzungen des Kundenauftrages vertraut. Sie
+begleiten die einzelnen Arbeitsschritte oder Meilensteine bis hin zu ganzen Projekten. Dabei tragen sie Zahlen, Daten und Fakten zusammen. Sie dokumentieren und bewerten diese nachvollziehbar
+gemäss den Unternehmensrichtlinien. Bei Bedarf nehmen sie mit Beteiligten direkt Kontakt auf. Sie ergreifen mit ihnen zusammen Massnahmen und sorgen für eine bedarfsgerechte
+Aktualisierung der Auftragsplanung. Im Weiteren stellen sie die Nachverfolgung der Änderungen sicher. Terminverschiebungen kommunizieren sie frühzeitig."
+"d3", "Ergebnisse aus projektorientierten Aufträgen im Elektronikbereich der MEM-Industrie auswerten", "Elektronikerinnen und Elektroniker sammeln mit jeder projektorientierten Arbeit wertvolle Erfahrungen und werten diese systematisch aus. Sie analysieren und bewerten sowohl die Resultate
+wie auch die Prozesse. Dabei fokussieren sie sich auf quantitative und qualitative Daten, beachten aber auch ökologische und ökonomische Aspekte. Die Auswertung erfolgt gemäss den
+Unternehmensrichtlinien. Bei der Bewertung der Auftragserfüllung nehmen sie vor allem die Auftragsziele zum Massstab. Den Prozess beurteilen sie nach Kriterien wie dem Vorgehen, der
+Organisation, den Methoden, sowie der Zusammenarbeit und Kommunikation, aber auch dem Umgang im Team. Sie dokumentieren die daraus resultierenden Erkenntnisse, welche dem
+Zuwachs an Kompetenzen dienen und das weitere Handeln beeinflussen."
+"d4", "Kundinnen und Kunden im Umgang mit Produkten der MEM-Industrie ausbilden", "Elektronikerinnen und Elektroniker bilden Kundinnen und Kunden sowie Mitarbeitende in der Bedienung, Nutzung oder auch Wartung von Produkten aus oder führen Ausbildungssequenzen
+durch. Im Vorfeld der Schulung setzen sie sich mit den Ansprüchen und dem Ausbildungsbedarf des Zielpublikums und den Vorgaben des Auftraggebenden auseinander. Danach planen sie
+die Schulung und erstellen die Schulungsunterlagen. Sie berücksichtigen die Richtlinien zur Arbeitssicherheit, insbesondere an den entsprechenden Gefahrenstellen. Elektronikerinnen und
+Elektroniker strukturieren die Schulung mit einem Drehbuch und bereiten sich mit der Bereitstellung der nötigen Medien vor. Sie sprechen mögliche Schulungstermine, Ausbildungsorte sowie
+die Ausbildungsdauer mit den Kundinnen und Kunden ab. Sie organisieren die für die Schulung nötigen Hilfsmittel und Infrastruktur. In der Schulung achten sie auf eine gezielte, fachlich
+korrekte Ausdrucksweise und gestalten die Schulung entlang eines geplanten Lernprozesses. Über eine abschliessende Teilnehmerumfrage und eine selbstkritische Reflexion ermitteln sie
+die Qualität sowie das allfällige Verbesserungspotential der Schulung."
+"d5", "Serienfertigungsaufträge in der Elektronik abwickeln", "In Betrieben, die über eine Elektronikfertigung verfügen, arbeiten Elektronikerinnen und Elektroniker im ganzen Prozess vom Einkauf, über die AVOR, die Herstellung bis hin zur Endkontrolle
+und Verpackung mit, oder übernehmen Prozess Verantwortung. Je nachdem, in welchem Teil Prozess innerhalb der Elektronikfertigung sie tätig sind, ergeben sich verschiedene Schnittstellen
+zu den vor- oder nachgelagerten Prozessverantwortlichen. Mit diesen kommunizieren sie zielgerichtet und lösungsorientiert, um diese in der Gewährleistung einer effizienten Produktion zu
+unterstützen. Ein wichtiges Arbeitsmittel ist das ERP-System der Firma, dem sie Produktionsdaten entnehmen oder auch aktuelle Daten einpflegen können. Bei Problemen wie Lieferverzögerungen
+oder Maschinen-/Personal Ausfall informieren sie die involvierten Stellen zeitnah. Sie engagieren sich für eine schnelle Lösung, ohne dabei geltende Normen, Prozesse oder Richtlinien
+zu verletzen. Bei der Mitarbeit in der Produktion halten sie sich an die Sicherheitsvorschriften und führen Abfallmaterial dem Recycling zu. Die Endkontrolle führen sie korrekt durch und
+halten sich genau an die vorgegebenen Abläufe und Testverfahren. Sie dokumentieren alle Auffälligkeiten, lösen Probleme, wenn immer möglich selbständig oder besprechen sie mit der /
+dem Vorgesetzten."
+"d6", "Produktions- oder Arbeitsmittel mit elektronischen Bauteilen instand halten", "Elektronikerinnen und Elektroniker sorgen durch regelmässige Wartungsarbeiten, Kalibrierungen oder Reparaturen von Produktions- oder Arbeitsmittel dafür, dass diese jederzeit einsatzbereit
+sind und korrekt funktionieren. Sie beachten die Termine der im Rahmen des Qualitätssicherungsprozesses periodisch fälligen Wartungsarbeiten oder Kalibrierungen der Produktionsoder
+Arbeitsmittel. Ist eine interne Wartung oder Kalibrierung vorgesehen, führen sie die nötigen Schritte gemäss Anweisungen in den Unterlagen durch. Sie hinterfragen die Resultate, vergleichen
+die vorliegenden mit den verlangten Messwerten und dokumentieren diese. Im Falle eines Defektes eines Produktions- oder Arbeitsmittels machen sie erste Abklärungen zur Reparatur.
+Sie informieren den Auftraggebenden über Umfang und Zeitdauer der Arbeiten. Je nach Komplexität und Verfügbarkeit von Unterlagen reparieren sie das Gerät selbst oder nehmen
+Abklärungen vor, um es von einer externen Stelle instand stellen zu lassen. Nach Abschluss der Reparatur stellen sie die korrekte Funktion sicher."
+"d7", "Prozessdaten von automatisierten Anlagen überwachen und Massnahmen einleiten", "Elektronikerinnen und Elektroniker überwachen die Prozessdaten von automatisierten Anlagen und leiten notwendige Massnahmen ein. Wenn der automatische Prozess z.B. einer Bestückungslinie
+visualisiert und optimiert werden soll, überprüfen sie in einem ersten Schritt ob die Dokumente mit den Anforderungen vollständig vorliegen. Bei Bedarf holen sie zusätzliche
+Informationen ein. Elektronikerinnen und Elektroniker verbinden sich mit einer geeigneten Software an den Kundenanlagen lesen die Daten aus und stellen diese mit einem firmeneigenen
+Tool grafisch dar. Sie beurteilen die Diagramme und erkennen mögliche Schwachstellen oder Ursachen von Fehlern und schlagen selbstständig Lösungsvarianten zur Optimierung vor.
+Zusammen mit den Verantwortlichen und Anwendenden leiten sie die nötigen Massnahmen zur Prozessoptimierung ein, koordinieren gegebenenfalls eine reibungslose Wissensübermittlung
+und erstellen dazu eine Dokumentation."
+"d8", "Funktionen von Geräten prüfen", "Elektronikerinnen und Elektroniker prüfen die Funktion von mobilen oder festverbauten Geräten im industriellen Umfeld. In Betrieben mit mobilen oder fest installierten elektronischen Geräten
+stellen sie durch Überprüfungen sicher, dass diese einwandfrei funktionieren. Dazu müssen sie die entsprechenden Unterlagen beschaffen und in der Lage sein, auch ältere Schemata zu
+lesen und zu verstehen. Des Weiteren ist es wichtig, dass sie die Gesamtanlage und deren Einbindung in den Prozess verstehen, um sowohl ihre eigene Sicherheit zu gewährleisten als auch
+Schäden zu vermeiden. Für die Gewährleistung eines reibungslosen Ablaufs planen sie den Prüfeinsatz zusammen mit der verantwortlichen Person (z.B. Produktionsleiterin oder Produktionsleiter).
+Sie halten sich anschliessend genau an den Plan und kommunizieren umgehend allfällige Verzögerungen. Werden bei der Überprüfung Mängel oder Probleme festgestellt, besprechen
+sie mögliche Massnahmen wie Wartung oder Ersatz mit der verantwortlichen Person. Mit dem Prüfauftrag kommen sie mit ihnen eventuell unbekannten Geräten oder Anlagen in Kontakt. Die
+Einarbeitung erfordert ein genaues Studium von möglicherweise alten oder auf Englisch verfassten Unterlagen. Es bietet sich zudem die Möglichkeit, in Gesprächen mit z.B. Anlagenführenden
+weitere Details zu erfahren. Abschliessend erstellen sie einen Bericht über die getätigten Messungen, die daraus gewonnenen Erkenntnisse und abgeleiteten Massnahmen. Diesen
+übergeben sie dem Auftraggebenden."
+"d9", "Technische Systeme mit elektronischen Komponenten aufbauen, konfigurieren und in Betrieb nehmen", "Mit dem Einsatz von geeigneten Komponenten sowie deren Konfiguration und Vernetzung, bauen Elektronikerinnen und Elektroniker technische Systeme auf und nehmen diese in Betrieb.
+Für eine gegebene Problemstellung klären sie ab, inwieweit geeignete Komponenten im Betrieb zur Verfügung stehen oder auf dem Markt beschafft werden müssen. Liegen die passenden
+Komponenten vor, gilt es zu definieren, wie diese zu verbinden resp. zu vernetzen sind, um die Funktion zu erfüllen. Zu diesem Zweck studieren sie die ev. auf Englisch verfassten Handbücher
+der noch nicht bekannten Komponenten. Sie nehmen die passenden Konfigurationen vor um beispielsweise die vorhandenen Energiesparoptionen gezielt einzusetzen. Während dem
+Aufbau arbeiten sie nach Möglichkeit spannungslos oder mit den entsprechenden Schutzmassnahmen und achten bei der Inbetriebnahme darauf, dass bei einer unbeabsichtigten Reaktion
+des Systems niemand und nichts zu Schaden kommt. Elektronikerinnen und Elektroniker dokumentieren die eingestellten Konfigurationen und das Blockschema. Vor der Inbetriebnahme
+erstellen sie ein Inbetriebnahme Protokoll mit den erwarteten Reaktionen des Systems. Sie halten die einzelnen Schritte während der Inbetriebnahme und deren Resultate im Protokoll fest
+und vergleichen sie mit den Vorgaben. Ergeben sich Abweichungen, wird diesen systematisch auf den Grund gegangen, bis sie behoben sind."
