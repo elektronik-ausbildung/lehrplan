@@ -350,3 +350,19 @@ h1 {
   background: #fff176;
   font-weight: 600
 }
+
+.toggle-all-btn {
+  padding: 4px 10px;
+  font-size: .8rem;
+  border: 1px solid #388e3c;
+  color: #388e3c;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  transition: all .15s
+}
+
+.toggle-all-btn:hover {
+  background: #388e3c;
+  color: #fff
+}

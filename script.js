@@ -36,7 +36,10 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     wahlPflicht: new Set(),
     lernorte: new Set(),
     niveaus: new Set(),
+    collapsed: false,
   };
+
+  const toggleAllBtn = document.getElementById('toggle-all');
 
   function checkFilter(set, value) {
     return set.size === 0 || set.has(value);
@@ -106,10 +109,11 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
 
       const subjDiv = document.createElement('div');
       const subjHeader = document.createElement('div');
-      subjHeader.className = 'subject-header open';
+      const openClass = state.collapsed ? '' : ' open';
+      subjHeader.className = 'subject-header' + openClass;
       subjHeader.innerHTML = `<span class="arrow">▶</span><span class="code">${subj.code.toUpperCase()}</span><span class="name">${subj.name}</span>`;
       const subjContent = document.createElement('div');
-      subjContent.className = 'subject-content open';
+      subjContent.className = 'subject-content' + openClass;
 
       subjHeader.addEventListener('click', () => {
         subjHeader.classList.toggle('open');
@@ -122,10 +126,10 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
         if (goalsForComp.length === 0) continue;
 
         const compHeader = document.createElement('div');
-        compHeader.className = 'competence-header open';
+        compHeader.className = 'competence-header' + openClass;
         compHeader.innerHTML = `<span class="arrow">▶</span><span class="code">${comp.code}</span><span class="name">${comp.name}</span>`;
         const compContent = document.createElement('div');
-        compContent.className = 'competence-content open';
+        compContent.className = 'competence-content' + openClass;
 
         compHeader.addEventListener('click', () => {
           compHeader.classList.toggle('open');
@@ -282,6 +286,12 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
 
   document.getElementById('search').addEventListener('input', e => {
     state.search = e.target.value.trim();
+    render();
+  });
+
+  toggleAllBtn.addEventListener('click', () => {
+    state.collapsed = !state.collapsed;
+    toggleAllBtn.textContent = state.collapsed ? 'Alle ausklappen' : 'Alle einklappen';
     render();
   });
 
