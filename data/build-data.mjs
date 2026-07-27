@@ -43,12 +43,12 @@ function parseCSV(text) {
   return rows;
 }
 
-const subjectsRaw = parseCSV(readFileSync('faecher-elo.csv', 'utf-8'));
-const competencesRaw = parseCSV(readFileSync('handlungskompetenzen-elo.csv', 'utf-8'));
-const goalsRaw = parseCSV(readFileSync('lernziele-elo.csv', 'utf-8'));
+const subjectsRaw = parseCSV(readFileSync('data/faecher-elo.csv', 'utf-8'));
+const competencesRaw = parseCSV(readFileSync('data/handlungskompetenzen-elo.csv', 'utf-8'));
+const goalsRaw = parseCSV(readFileSync('data/lernziele-elo.csv', 'utf-8'));
 
 const subjects = subjectsRaw.slice(1).map(r => ({ code: r[0], name: r[1] }));
-const competences = competencesRaw.slice(1).map(r => ({ code: r[0], name: r[1] }));
+const competences = competencesRaw.slice(1).map(r => ({ code: r[0], name: r[1], detail: r[2] }));
 const goals = goalsRaw.slice(1).map(r => ({
   code: r[0],
   wahlPflicht: r[1],
@@ -57,4 +57,4 @@ const goals = goalsRaw.slice(1).map(r => ({
   niveau: r[4],
 }));
 
-writeFileSync('data.json', JSON.stringify({ subjects, competences, goals }, null, 2));
+writeFileSync('data/data.json', JSON.stringify({ subjects, competences, goals }, null, 2));
