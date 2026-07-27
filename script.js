@@ -5,19 +5,29 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
   const res = await fetch("data/data.json");
   DATA = await res.json();
 
-  fuse = new Fuse(DATA.goals, {
+  subjects = DATA.subjects;
+  competences = DATA.competences;
+  goals = DATA.goals;
+
+  const compDetailMap = {};
+  for (const c of competences) {
+    compDetailMap[c.code] = c.detail || '';
+  }
+  for (const g of goals) {
+    const compCode = g.code.slice(0, g.code.lastIndexOf('.'));
+    g._detail = compDetailMap[compCode] || '';
+  }
+
+  fuse = new Fuse(goals, {
     keys: [
       { name: 'code', weight: 3 },
       { name: 'kriterium', weight: 1 },
+      { name: '_detail', weight: 0.5 },
     ],
     threshold: 0.3,
     ignoreLocation: true,
     minMatchCharLength: 3,
   });
-
-  subjects = DATA.subjects;
-  competences = DATA.competences;
-  goals = DATA.goals;
 
   compBySubject = {};
   for (const c of competences) {
@@ -37,6 +47,7 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     lernorte: new Set(),
     niveaus: new Set(),
     collapsed: false,
+    showDesc: true,
   };
 
   const toggleAllBtn = document.getElementById('toggle-all');
@@ -111,7 +122,7 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
       const subjHeader = document.createElement('div');
       const openClass = state.collapsed ? '' : ' open';
       subjHeader.className = 'subject-header' + openClass;
-      subjHeader.innerHTML = `<span class="arrow">▶</span><span class="code">${subj.code.toUpperCase()}</span><span class="name">${subj.name}</span>`;
+      subjHeader.innerHTML = `<span class="arrow">▶</span><span class="code">${subj.code.toUpperCase()}</span><span class="name">${highlight(subj.name)}</span>`;
       const subjContent = document.createElement('div');
       subjContent.className = 'subject-content' + openClass;
 
@@ -127,9 +138,16 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
 
         const compHeader = document.createElement('div');
         compHeader.className = 'competence-header' + openClass;
-        compHeader.innerHTML = `<span class="arrow">▶</span><span class="code">${comp.code}</span><span class="name">${comp.name}</span>`;
+        compHeader.innerHTML = `<span class="arrow">▶</span><span class="code">${comp.code}</span><span class="name">${highlight(comp.name)}</span>`;
         const compContent = document.createElement('div');
         compContent.className = 'competence-content' + openClass;
+
+        if (state.showDesc) {
+          const compDesc = document.createElement('div');
+          compDesc.className = 'competence-desc';
+          compDesc.innerHTML = highlight(comp.detail);
+          compContent.appendChild(compDesc);
+        }
 
         compHeader.addEventListener('click', () => {
           compHeader.classList.toggle('open');
@@ -234,6 +252,21 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
 
       container.appendChild(group);
     }
+
+    const descGroup = document.createElement('div');
+    descGroup.className = 'filter-group';
+    descGroup.innerHTML = '<label>Beschreibung</label><div class="options"></div>';
+    const descBtn = document.createElement('button');
+    descBtn.className = 'active';
+    descBtn.textContent = 'An';
+    descBtn.addEventListener('click', () => {
+      state.showDesc = !state.showDesc;
+      descBtn.textContent = state.showDesc ? 'An' : 'Aus';
+      descBtn.classList.toggle('active', state.showDesc);
+      render();
+    });
+    descGroup.querySelector('.options').appendChild(descBtn);
+    container.appendChild(descGroup);
 
     const clearBtn = document.createElement('button');
     clearBtn.className = 'clear-btn';
