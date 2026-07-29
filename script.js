@@ -1,53 +1,97 @@
-let DATA, fuse, subjects, competences, goals, compBySubject, uniqueNiveaus, uniqueLernorte;
+let DATA, fuse, flatLZs;
+let uniqueHkbs, uniqueLernorte, uniqueSemesters;
+let hksByHkb = {};
+let totalLzCount = 0, totalLkCount = 0;
+
 document.getElementById("subtitle").textContent = "Lade Daten...";
 
 (async () => {
-  const res = await fetch("data/data.json");
+  const res = await fetch("data2/lehrplan.json");
   DATA = await res.json();
+  const et = DATA.ET;
 
-  subjects = DATA.subjects;
-  competences = DATA.competences;
-  goals = DATA.goals;
-
-  const compDetailMap = {};
-  for (const c of competences) {
-    compDetailMap[c.code] = c.detail || '';
+  et.handlungskompetenzbereiche.sort((a, b) => a["ID HKB"].localeCompare(b["ID HKB"]));
+  for (const hkb of et.handlungskompetenzbereiche) {
+    hkb.handlungskompetenzen.sort((a, b) => a["ID HK"].localeCompare(b["ID HK"]));
+    for (const hk of hkb.handlungskompetenzen) {
+      hk.lernkriterien.sort((a, b) => a["ID LK"].localeCompare(b["ID LK"]));
+      for (const lk of hk.lernkriterien) {
+        lk.lernziele.sort((a, b) => a["ID LZ"].localeCompare(b["ID LZ"]));
+      }
+    }
   }
-  for (const g of goals) {
-    const compCode = g.code.slice(0, g.code.lastIndexOf('.'));
-    g._detail = compDetailMap[compCode] || '';
-  }
 
-  fuse = new Fuse(goals, {
+  flatLZs = [];
+  const lernorteSet = new Set();
+  for (const hkb of et.handlungskompetenzbereiche) {
+    for (const hk of hkb.handlungskompetenzen) {
+      for (const lk of hk.lernkriterien) {
+        lernorteSet.add(lk["Lernort"]);
+        for (const lz of lk.lernziele) {
+          flatLZs.push({ lz, lk, hk, hkb });
+        }
+      }
+    }
+  }
+  totalLzCount = flatLZs.length;
+  totalLkCount = et.handlungskompetenzbereiche.reduce((s, hkb) =>
+    s + hkb.handlungskompetenzen.reduce((s2, hk) => s2 + hk.lernkriterien.length, 0), 0);
+
+  fuse = new Fuse(flatLZs, {
     keys: [
-      { name: 'code', weight: 3 },
-      { name: 'kriterium', weight: 1 },
-      { name: '_detail', weight: 0.5 },
+      { name: 'lz.ID LZ', weight: 3 },
+      { name: 'lz.Beschreibung LZ', weight: 1 },
+      { name: 'lk.Beschreibung LK', weight: 0.5 },
+      { name: 'hk.Name', weight: 0.3 },
+      { name: 'hk.Beschreibung', weight: 0.3 },
+      { name: 'hkb.Name', weight: 0.3 },
+      { name: 'lz.Semester', weight: 0.2 },
+      { name: 'lz.Taxonomie LZ', weight: 0.2 },
     ],
     threshold: 0.3,
     ignoreLocation: true,
     minMatchCharLength: 3,
   });
 
-  compBySubject = {};
-  for (const c of competences) {
-    const s = c.code[0];
-    if (!compBySubject[s]) compBySubject[s] = [];
-    compBySubject[s].push(c);
+  uniqueHkbs = et.handlungskompetenzbereiche.map(h => ({
+    value: h["ID HKB"],
+    label: h["ID HKB"].split(' ').pop(),
+  }));
+
+  hksByHkb = {};
+  for (const hkb of et.handlungskompetenzbereiche) {
+    hksByHkb[hkb["ID HKB"]] = hkb.handlungskompetenzen.map(hk => hk["ID HK"]);
   }
 
-  uniqueNiveaus = [...new Set(goals.map(g => g.niveau))].sort();
-  uniqueLernorte = [...new Set(goals.map(g => g.lernort))].sort();
+  uniqueLernorte = [...lernorteSet].sort();
+
+  const semesterSet = new Set();
+  for (const hkb of et.handlungskompetenzbereiche) {
+    for (const hk of hkb.handlungskompetenzen) {
+      for (const lk of hk.lernkriterien) {
+        const lkSems = lk["Semester"];
+        if (Array.isArray(lkSems)) lkSems.forEach(s => semesterSet.add(s));
+        for (const lz of lk.lernziele) {
+          semesterSet.add(lz["Semester"]);
+        }
+      }
+    }
+  }
+  uniqueSemesters = [...semesterSet].sort((a, b) => Number(a) - Number(b)).map(s => ({
+    value: s,
+    label: s,
+  }));
 
   let state = {
     search: '',
-    subjects: new Set(),
-    competences: new Set(),
+    hkbs: new Set(),
+    hks: new Set(),
     wahlPflicht: new Set(),
     lernorte: new Set(),
-    niveaus: new Set(),
+    semesters: new Set(),
     collapsed: false,
     showDesc: true,
+    showLz: true,
   };
 
   const toggleAllBtn = document.getElementById('toggle-all');
@@ -56,145 +100,206 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     return set.size === 0 || set.has(value);
   }
 
-  function getCompCode(code) {
-    return code.slice(0, code.lastIndexOf('.'));
-  }
-
-  function getFilteredGoals() {
-    if (state.search) {
-      const words = state.search.trim().split(/\s+/);
-      const allResults = [];
-      const seen = new Set();
-      for (const word of words) {
-        if (word.length < 2) continue;
-        const result = fuse.search(word);
-        for (const r of result) {
-          if (!seen.has(r.item)) {
-            seen.add(r.item);
-            allResults.push(r.item);
-          }
-        }
-      }
-      return allResults.filter(g => {
-        const s = g.code[0];
-        const compCode = getCompCode(g.code);
-        return checkFilter(state.subjects, s)
-          && checkFilter(state.competences, compCode)
-          && checkFilter(state.wahlPflicht, g.wahlPflicht)
-          && checkFilter(state.lernorte, g.lernort)
-          && checkFilter(state.niveaus, g.niveau);
-      });
-    }
-
-    return goals.filter(g => {
-      const s = g.code[0];
-      const compCode = getCompCode(g.code);
-      return checkFilter(state.subjects, s)
-        && checkFilter(state.competences, compCode)
-        && checkFilter(state.wahlPflicht, g.wahlPflicht)
-        && checkFilter(state.lernorte, g.lernort)
-        && checkFilter(state.niveaus, g.niveau);
-    });
+  function lzMatchesFilters(item) {
+    return checkFilter(state.hkbs, item.hkb["ID HKB"])
+      && checkFilter(state.hks, item.hk["ID HK"])
+      && checkFilter(state.wahlPflicht, item.hk["P/W"])
+      && checkFilter(state.lernorte, item.lk["Lernort"])
+      && checkFilter(state.semesters, item.lz["Semester"]);
   }
 
   function render() {
-    const filtered = getFilteredGoals();
-
-    document.getElementById('count').textContent = `${filtered.length} von ${goals.length}`;
-
     const results = document.getElementById('results');
     results.innerHTML = '';
+    const openClass = state.collapsed ? '' : ' open';
 
-    if (filtered.length === 0) {
-      results.innerHTML = '<div class="no-results"><strong>Keine Lernziele gefunden</strong><br>Versuche andere Suchbegriffe oder filtere weniger streng.</div>';
-      return;
-    }
+    let visibleCount = 0;
 
-    for (const subj of subjects) {
-      if (!checkFilter(state.subjects, subj.code)) continue;
-      const comps = compBySubject[subj.code] || [];
-      const hasVisible = comps.some(c => {
-        return filtered.some(g => g.code.startsWith(c.code + '.'));
-      });
-      if (!hasVisible) continue;
-
-      const subjDiv = document.createElement('div');
-      const subjHeader = document.createElement('div');
-      const openClass = state.collapsed ? '' : ' open';
-      subjHeader.className = 'subject-header' + openClass;
-      subjHeader.innerHTML = `<span class="arrow">▶</span><span class="code">${subj.code.toUpperCase()}</span><span class="name">${highlight(subj.name)}</span>`;
-      const subjContent = document.createElement('div');
-      subjContent.className = 'subject-content' + openClass;
-
-      subjHeader.addEventListener('click', () => {
-        subjHeader.classList.toggle('open');
-        subjContent.classList.toggle('open');
-      });
-
-      for (const comp of comps) {
-        if (!checkFilter(state.competences, comp.code)) continue;
-        const goalsForComp = filtered.filter(g => g.code.startsWith(comp.code + '.'));
-        if (goalsForComp.length === 0) continue;
-
-        const compHeader = document.createElement('div');
-        compHeader.className = 'competence-header' + openClass;
-        compHeader.innerHTML = `<span class="arrow">▶</span><span class="code">${comp.code}</span><span class="name">${highlight(comp.name)}</span>`;
-        const compContent = document.createElement('div');
-        compContent.className = 'competence-content' + openClass;
-
-        if (state.showDesc) {
-          const compDesc = document.createElement('div');
-          compDesc.className = 'competence-desc';
-          compDesc.innerHTML = highlight(comp.detail);
-          compContent.appendChild(compDesc);
-        }
-
-        compHeader.addEventListener('click', () => {
-          compHeader.classList.toggle('open');
-          compContent.classList.toggle('open');
-        });
-
-        if (state.search) {
-          for (const r of goalsForComp) {
-            const div = document.createElement('div');
-            div.className = 'goal-group';
-            const wahl = r.wahlPflicht;
-            const wahlClass = wahl === 'Wahl' ? 'optional' : 'mandatory';
-            const lc = r.lernort === 'üK' ? 'ük' : r.lernort;
-            div.innerHTML = `<div class="goal-code"><span class="code-text">${highlight(r.code)}</span><span class="wahl-badge ${wahlClass}">${wahl}</span></div><div class="goal-rows"><div class="goal-row"><span class="lernort-badge lernort-${lc}">${r.lernort}</span><span class="kriterium">${highlight(r.kriterium)}</span><span class="niveau-badge">${r.niveau}</span></div></div>`;
-            compContent.appendChild(div);
-          }
-        } else {
-          const grouped = {};
-          for (const g of goalsForComp) {
-            if (!grouped[g.code]) grouped[g.code] = [];
-            grouped[g.code].push(g);
-          }
-
-          for (const [code, rows] of Object.entries(grouped)) {
-            const div = document.createElement('div');
-            div.className = 'goal-group';
-            const wahl = rows[0].wahlPflicht;
-            const wahlClass = wahl === 'Wahl' ? 'optional' : 'mandatory';
-            let html = `<div class="goal-code"><span class="code-text">${highlight(code)}</span><span class="wahl-badge ${wahlClass}">${wahl}</span></div><div class="goal-rows">`;
-            for (const r of rows) {
-              const lc = r.lernort === 'üK' ? 'ük' : r.lernort;
-              html += `<div class="goal-row"><span class="lernort-badge lernort-${lc}">${r.lernort}</span><span class="kriterium">${highlight(r.kriterium)}</span><span class="niveau-badge">${r.niveau}</span></div>`;
-            }
-            html += '</div>';
-            div.innerHTML = html;
-            compContent.appendChild(div);
+    if (state.search) {
+      const words = state.search.trim().split(/\s+/).filter(w => w.length >= 2);
+      const searchSet = new Set();
+      if (words.length > 0) {
+        for (const word of words) {
+          for (const r of fuse.search(word)) {
+            searchSet.add(r.item);
           }
         }
-
-        subjContent.appendChild(compHeader);
-        subjContent.appendChild(compContent);
       }
+      const searchResults = [...searchSet];
 
-      subjDiv.appendChild(subjHeader);
-      subjDiv.appendChild(subjContent);
-      results.appendChild(subjDiv);
+      for (const hkb of DATA.ET.handlungskompetenzbereiche) {
+        if (!checkFilter(state.hkbs, hkb["ID HKB"])) continue;
+        const hkbMatches = searchResults.filter(x => x.hkb["ID HKB"] === hkb["ID HKB"] && lzMatchesFilters(x));
+        if (hkbMatches.length === 0) continue;
+
+        const hkbDiv = createSection('subject', hkb, null, openClass);
+        const hkbContent = hkbDiv.querySelector('.subject-content');
+
+        for (const hk of hkb.handlungskompetenzen) {
+          if (!checkFilter(state.hks, hk["ID HK"])) continue;
+          if (!checkFilter(state.wahlPflicht, hk["P/W"])) continue;
+          const hkMatches = hkbMatches.filter(x => x.hk["ID HK"] === hk["ID HK"]);
+          if (hkMatches.length === 0) continue;
+
+          const hkDiv = createSection('competence', null, hk, openClass);
+          const hkContent = hkDiv.querySelector('.competence-content');
+
+          if (state.showDesc && hk["Beschreibung"]) {
+            const desc = document.createElement('div');
+            desc.className = 'competence-desc';
+            desc.textContent = hk["Beschreibung"];
+            hkContent.appendChild(desc);
+          }
+
+          for (const lk of hk.lernkriterien) {
+            if (!checkFilter(state.lernorte, lk["Lernort"])) continue;
+            const lkMatches = hkMatches.filter(x => x.lk["ID LK"] === lk["ID LK"]);
+            if (lkMatches.length === 0) continue;
+
+            renderLk(lk, lkMatches, hkContent, openClass);
+            if (!state.showLz) visibleCount++;
+          }
+
+          hkbContent.appendChild(hkDiv);
+        }
+
+        results.appendChild(hkbDiv);
+        if (state.showLz) visibleCount += hkbMatches.length;
+      }
+    } else {
+      for (const hkb of DATA.ET.handlungskompetenzbereiche) {
+        if (!checkFilter(state.hkbs, hkb["ID HKB"])) continue;
+        let hasVisibleHk = false;
+        const hkbDiv = createSection('subject', hkb, null, openClass);
+        const hkbContent = hkbDiv.querySelector('.subject-content');
+
+        for (const hk of hkb.handlungskompetenzen) {
+          if (!checkFilter(state.hks, hk["ID HK"])) continue;
+          if (!checkFilter(state.wahlPflicht, hk["P/W"])) continue;
+          let hasVisibleLk = false;
+          const hkDiv = createSection('competence', null, hk, openClass);
+          const hkContent = hkDiv.querySelector('.competence-content');
+
+          if (state.showDesc && hk["Beschreibung"]) {
+            const desc = document.createElement('div');
+            desc.className = 'competence-desc';
+            desc.textContent = hk["Beschreibung"];
+            hkContent.appendChild(desc);
+          }
+
+          for (const lk of hk.lernkriterien) {
+            if (!checkFilter(state.lernorte, lk["Lernort"])) continue;
+            const matchingLzs = flatLZs.filter(x =>
+              x.lk["ID LK"] === lk["ID LK"]
+              && x.hk["ID HK"] === hk["ID HK"]
+              && checkFilter(state.semesters, x.lz["Semester"])
+            );
+            const hasLzs = lk.lernziele.length > 0;
+            if (state.semesters.size > 0) {
+              if (state.showLz && hasLzs) {
+                if (matchingLzs.length === 0) continue;
+              } else {
+                const lkSems = lk["Semester"] || [];
+                if (!lkSems.some(s => state.semesters.has(s))) continue;
+              }
+            }
+            renderLk(lk, matchingLzs, hkContent, openClass);
+            hasVisibleLk = true;
+            visibleCount += state.showLz ? matchingLzs.length : 1;
+          }
+
+          if (hasVisibleLk) {
+            hkbContent.appendChild(hkDiv);
+            hasVisibleHk = true;
+          }
+        }
+
+        if (hasVisibleHk) {
+          results.appendChild(hkbDiv);
+        }
+      }
     }
+
+    const totalCount = state.showLz ? totalLzCount : totalLkCount;
+    document.getElementById('count').textContent = `${visibleCount} von ${totalCount}`;
+
+    if (results.children.length === 0) {
+      results.innerHTML = '<div class="no-results"><strong>Keine Lernziele gefunden</strong><br>Versuche andere Suchbegriffe oder filtere weniger streng.</div>';
+    }
+  }
+
+  function createSection(type, hkb, hk, openClass) {
+    const div = document.createElement('div');
+    const header = document.createElement('div');
+    const content = document.createElement('div');
+
+    if (type === 'subject') {
+      header.className = 'subject-header' + openClass;
+      const letter = hkb["ID HKB"].split(' ').pop();
+      header.innerHTML = `<span class="arrow">▶</span><span class="code">${letter.toUpperCase()}</span><span class="name">${highlight(hkb["Name"])}</span>`;
+      content.className = 'subject-content' + openClass;
+    } else {
+      header.className = 'competence-header' + openClass;
+      const pwClass = hk["P/W"] === 'W' ? 'optional' : 'mandatory';
+            const pwLabel = hk["P/W"] === 'W' ? 'Wahl' : 'Pflicht';
+      header.innerHTML = `<span class="arrow">▶</span><span class="code">${hk["ID HK"]}</span><span class="name">${highlight(hk["Name"])}</span><span class="hk-pw-badge ${pwClass}">${pwLabel}</span>`;
+      content.className = 'competence-content' + openClass;
+    }
+
+    header.addEventListener('click', () => {
+      header.classList.toggle('open');
+      content.classList.toggle('open');
+    });
+
+    div.appendChild(header);
+    div.appendChild(content);
+    return div;
+  }
+
+  function formatSemesters(arr) {
+    if (!arr || arr.length === 0) return '';
+    const nums = arr.map(Number).sort((a, b) => a - b);
+    const ranges = [];
+    let start = nums[0], end = nums[0];
+    for (let i = 1; i < nums.length; i++) {
+      if (nums[i] === end + 1) { end = nums[i]; }
+      else { ranges.push(start === end ? `${start}` : `${start}-${end}`); start = end = nums[i]; }
+    }
+    ranges.push(start === end ? `${start}` : `${start}-${end}`);
+    return ranges.join(', ');
+  }
+
+  function renderLk(lk, lzItems, parentEl, openClass) {
+    const lkHeader = document.createElement('div');
+    lkHeader.className = 'lk-header' + openClass;
+    const lc = lk["Lernort"] === 'üK' ? 'ük' : lk["Lernort"];
+    lkHeader.innerHTML = `<span class="arrow">▶</span><span class="lk-code">${lk["ID LK"]}</span><span class="lk-desc">${highlight(lk["Beschreibung LK"])}</span>`;
+    lkHeader.innerHTML += `<span class="lernort-badge lernort-${lc}">${lk["Lernort"]}</span>`;
+    const lkSems = lk["Semester"];
+    if (Array.isArray(lkSems) && lkSems.length > 0) {
+      lkHeader.innerHTML += `<span class="semester-range">${formatSemesters(lkSems)}</span>`;
+    }
+
+    const lkContent = document.createElement('div');
+    lkContent.className = 'lk-content' + openClass;
+
+    lkHeader.addEventListener('click', () => {
+      lkHeader.classList.toggle('open');
+      lkContent.classList.toggle('open');
+    });
+
+    if (state.showLz) {
+      for (const item of lzItems) {
+        const lz = item.lz;
+        const row = document.createElement('div');
+        row.className = 'lernziel-row';
+        row.innerHTML = `<span class="lz-id">${highlight(lz["ID LZ"])}</span><span class="lz-desc">${highlight(lz["Beschreibung LZ"])}</span><span class="semester-badge">${lz["Semester"]}</span>`;
+        lkContent.appendChild(row);
+      }
+    }
+
+    parentEl.appendChild(lkHeader);
+    parentEl.appendChild(lkContent);
   }
 
   function highlight(text) {
@@ -217,14 +322,14 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
 
   function initFilters() {
     const container = document.getElementById('filters');
-    const filters = [
-      { id: 'subjects', label: 'Fach', items: subjects.map(s => ({ value: s.code, label: s.code.toUpperCase() })) },
-      { id: 'wahlPflicht', label: 'Typ', items: ['Pflicht', 'Wahl'].map(v => ({ value: v, label: v })) },
+    const filterConfigs = [
+      { id: 'hkbs', label: 'Bereich', items: uniqueHkbs.map(h => ({ value: h.value, label: h.label.toUpperCase() })) },
+      { id: 'wahlPflicht', label: 'Typ', items: [{ value: 'P', label: 'Pflicht' }, { value: 'W', label: 'Wahl' }] },
       { id: 'lernorte', label: 'Lernort', items: uniqueLernorte.map(v => ({ value: v, label: v })) },
-      { id: 'niveaus', label: 'Niveau', items: uniqueNiveaus.map(v => ({ value: v, label: v })) },
+      { id: 'semesters', label: 'Semester', items: uniqueSemesters },
     ];
 
-    for (const f of filters) {
+    for (const f of filterConfigs) {
       const group = document.createElement('div');
       group.className = 'filter-group';
       group.innerHTML = `<label>${f.label}</label><div class="options"></div>`;
@@ -243,15 +348,29 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
           } else {
             set.add(item.value);
           }
-          if (f.id === 'subjects') updateCompetenceFilter();
+          if (f.id === 'hkbs') updateHkFilter();
           updateFilterButtons(f.id);
           render();
         });
         opts.appendChild(btn);
       }
-
       container.appendChild(group);
     }
+
+    const lzGroup = document.createElement('div');
+    lzGroup.className = 'filter-group';
+    lzGroup.innerHTML = '<label>Lernziele</label><div class="options"></div>';
+    const lzBtn = document.createElement('button');
+    lzBtn.className = 'active';
+    lzBtn.textContent = 'An';
+    lzBtn.addEventListener('click', () => {
+      state.showLz = !state.showLz;
+      lzBtn.textContent = state.showLz ? 'An' : 'Aus';
+      lzBtn.classList.toggle('active', state.showLz);
+      render();
+    });
+    lzGroup.querySelector('.options').appendChild(lzBtn);
+    container.appendChild(lzGroup);
 
     const descGroup = document.createElement('div');
     descGroup.className = 'filter-group';
@@ -274,11 +393,11 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     clearBtn.addEventListener('click', () => {
       state.search = '';
       document.getElementById('search').value = '';
-      state.subjects = new Set();
-      state.competences = new Set();
+      state.hkbs = new Set();
+      state.hks = new Set();
       state.wahlPflicht = new Set();
       state.lernorte = new Set();
-      state.niveaus = new Set();
+      state.semesters = new Set();
       updateAllFilterButtons();
       render();
     });
@@ -298,23 +417,23 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
   }
 
   function updateAllFilterButtons() {
-    for (const id of ['subjects', 'wahlPflicht', 'lernorte', 'niveaus']) {
+    for (const id of ['hkbs', 'wahlPflicht', 'lernorte', 'semesters']) {
       updateFilterButtons(id);
     }
   }
 
-  function updateCompetenceFilter() {
-    if (state.subjects.size === 0) {
-      state.competences = new Set();
+  function updateHkFilter() {
+    if (state.hkbs.size === 0) {
+      state.hks = new Set();
       return;
     }
     const visible = [];
-    for (const s of state.subjects) {
-      for (const c of compBySubject[s] || []) {
-        visible.push(c.code);
+    for (const hkbId of state.hkbs) {
+      for (const hkId of hksByHkb[hkbId] || []) {
+        visible.push(hkId);
       }
     }
-    state.competences = new Set(visible);
+    state.hks = new Set(visible);
   }
 
   document.getElementById('search').addEventListener('input', e => {
@@ -328,8 +447,19 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     render();
   });
 
-  document.getElementById("subtitle").textContent = goals.length + " Lernziele in " + subjects.length + " Fächern und " + competences.length + " Handlungskompetenzen";
+  const hkbCount = DATA.ET.handlungskompetenzbereiche.length;
+  const hkCount = DATA.ET.handlungskompetenzbereiche.reduce((s, h) => s + h.handlungskompetenzen.length, 0);
+  const lkCount = DATA.ET.handlungskompetenzbereiche.reduce((s, h) => s + h.handlungskompetenzen.reduce((s2, hk) => s2 + hk.lernkriterien.length, 0), 0);
+  document.getElementById("subtitle").textContent = flatLZs.length + " Lernziele, " + lkCount + " Leistungskriterien in " + hkbCount + " Handlungskompetenzbereichen und " + hkCount + " Handlungskompetenzen";
+
+  const infoToggle = document.getElementById('infoToggle');
+  const infoContent = document.getElementById('infoContent');
+  infoToggle.addEventListener('click', () => {
+    infoToggle.classList.toggle('open');
+    infoContent.classList.toggle('open');
+  });
+
   initFilters();
-  updateCompetenceFilter();
+  updateHkFilter();
   render();
 })();
