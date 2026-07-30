@@ -6,17 +6,25 @@ let totalLzCount = 0, totalLkCount = 0;
 document.getElementById("subtitle").textContent = "Lade Daten...";
 
 (async () => {
-  const res = await fetch("data2/lehrplan.json");
+  const res = await fetch("data/lehrplan.json");
   DATA = await res.json();
   const et = DATA.ET;
 
   et.handlungskompetenzbereiche.sort((a, b) => a["ID HKB"].localeCompare(b["ID HKB"]));
+  const minSem = (obj) => {
+    const s = obj["Semester"];
+    return Math.min(...(Array.isArray(s) ? s : [s]).map(Number));
+  };
+
   for (const hkb of et.handlungskompetenzbereiche) {
     hkb.handlungskompetenzen.sort((a, b) => a["ID HK"].localeCompare(b["ID HK"]));
     for (const hk of hkb.handlungskompetenzen) {
-      hk.lernkriterien.sort((a, b) => a["ID LK"].localeCompare(b["ID LK"]));
+      hk.lernkriterien.sort((a, b) => {
+        const diff = minSem(a) - minSem(b);
+        return diff !== 0 ? diff : a["ID LK"].localeCompare(b["ID LK"]);
+      });
       for (const lk of hk.lernkriterien) {
-        lk.lernziele.sort((a, b) => a["ID LZ"].localeCompare(b["ID LZ"]));
+        lk.lernziele.sort((a, b) => minSem(a) - minSem(b));
       }
     }
   }

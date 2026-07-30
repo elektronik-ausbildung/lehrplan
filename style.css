@@ -249,8 +249,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 10px;
-  transition: background .15s;
-  user-select: none
+  transition: background .15s
 }
 
 .subject-header:hover {
@@ -304,8 +303,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 10px;
-  transition: background .15s;
-  user-select: none
+  transition: background .15s
 }
 
 .competence-header:hover {
@@ -368,8 +366,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 8px;
-  transition: background .15s;
-  user-select: none
+  transition: background .15s
 }
 
 .lk-header:hover {
