@@ -2,6 +2,8 @@
 
 Interaktive Übersicht über den Bildungsplan für Elektronikerinnen und Elektroniker EFZ. Die Lernziele werden aus den offiziellen Daten von [skills.futuremem.swiss](https://skills.futuremem.swiss/) aufbereitet und in einer durchsuchbaren, filterbaren Hierarchie dargestellt.
 
+👉 **Live:** https://chrigu.github.io/lehrplan-elektroniker/
+
 Dieses Tool richtet sich an Lernende, Berufsbildnerinnen, Lehrpersonen und alle, die sich einen schnellen, strukturierten Überblick über die Lerninhalte der Elektroniker-Grundbildung verschaffen wollen.
 
 ## Hierarchie
@@ -16,7 +18,7 @@ Die Gliederung folgt dem kompetenzorientierten Bildungsplan (BPL) der Berufsbild
 - **Bildungsplan** – becc.admin.ch (BECC)
 - **Berufsverordnung** – SBFI
 
-### Features
+## Features
 
 - **Suche** über alle LZ, LK, HK und HKB (Fuzzy-Suche via Fuse.js)
 - **Filter** nach Bereich, Typ (Pflicht/Wahl), Lernort (BFS/üK/BE) und Semester
@@ -24,9 +26,13 @@ Die Gliederung folgt dem kompetenzorientierten Bildungsplan (BPL) der Berufsbild
 - **Highlight** – `?highlight=lk-MEM_08_02` in der URL springt direkt zu einem bestimmten LK
 - **Alle einklappen/ausklappen** für schnelle Navigation
 
+## Deployment
+
+Die Seite wird via **GitHub Pages** gehostet. Einfach den `main`-Branch pushen – alle Änderungen an `index.html`, `script.js`, `style.css` und `data/lehrplan.json` werden automatisch veröffentlicht.
+
 ## Datenaktualisierung
 
-Die Skripte in `data/` laden die aktuellen Excel-Daten von skills.futuremem.swiss und bereiten sie auf. Das Ergbnis ist eine date `lehrplan.json` welche die gnazen Zeiel hierarchisch gliedert.
+Die Skripte in `data/` laden die aktuellen Excel-Daten von skills.futuremem.swiss und bereiten sie auf. Das Ergebnis ist `data/lehrplan.json`, die hierarchisch gegliederte Zieldatei für die Webseite.
 
 ```bash
 # 1. Excel-Dateien herunterladen
