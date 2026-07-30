@@ -2,7 +2,7 @@
 
 Interaktive Übersicht über den Bildungsplan für Elektronikerinnen und Elektroniker EFZ. Die Lernziele werden aus den offiziellen Daten von [skills.futuremem.swiss](https://skills.futuremem.swiss/) aufbereitet und in einer durchsuchbaren, filterbaren Hierarchie dargestellt.
 
-👉 **Live:** https://chrigu.github.io/lehrplan-elektroniker/
+👉 **Live:** https://elektronik-ausbildung.github.io/lehrplan/
 
 Dieses Tool richtet sich an Lernende, Berufsbildnerinnen, Lehrpersonen und alle, die sich einen schnellen, strukturierten Überblick über die Lerninhalte der Elektroniker-Grundbildung verschaffen wollen.
 
