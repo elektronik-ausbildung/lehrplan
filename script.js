@@ -72,7 +72,9 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
         const lkSems = lk["Semester"];
         if (Array.isArray(lkSems)) lkSems.forEach(s => semesterSet.add(s));
         for (const lz of lk.lernziele) {
-          semesterSet.add(lz["Semester"]);
+          const sems = lz["Semester"];
+          if (Array.isArray(sems)) sems.forEach(s => semesterSet.add(s));
+          else semesterSet.add(sems);
         }
       }
     }
@@ -82,6 +84,7 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     label: s,
   }));
 
+  const urlParams = new URLSearchParams(location.search);
   let state = {
     search: '',
     hkbs: new Set(),
@@ -92,6 +95,8 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     collapsed: false,
     showDesc: true,
     showLz: true,
+    showRefs: false,
+    highlight: urlParams.get('highlight') || null,
   };
 
   const toggleAllBtn = document.getElementById('toggle-all');
@@ -100,12 +105,18 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     return set.size === 0 || set.has(value);
   }
 
+  function lzSemesterMatches(lzSem) {
+    if (state.semesters.size === 0) return true;
+    if (Array.isArray(lzSem)) return lzSem.some(s => state.semesters.has(s));
+    return state.semesters.has(lzSem);
+  }
+
   function lzMatchesFilters(item) {
     return checkFilter(state.hkbs, item.hkb["ID HKB"])
       && checkFilter(state.hks, item.hk["ID HK"])
       && checkFilter(state.wahlPflicht, item.hk["P/W"])
       && checkFilter(state.lernorte, item.lk["Lernort"])
-      && checkFilter(state.semesters, item.lz["Semester"]);
+      && lzSemesterMatches(item.lz["Semester"]);
   }
 
   function render() {
@@ -192,7 +203,7 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
             const matchingLzs = flatLZs.filter(x =>
               x.lk["ID LK"] === lk["ID LK"]
               && x.hk["ID HK"] === hk["ID HK"]
-              && checkFilter(state.semesters, x.lz["Semester"])
+              && lzSemesterMatches(x.lz["Semester"])
             );
             const hasLzs = lk.lernziele.length > 0;
             if (state.semesters.size > 0) {
@@ -240,6 +251,7 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
       content.className = 'subject-content' + openClass;
     } else {
       header.className = 'competence-header' + openClass;
+      header.id = 'hk-' + hk["ID HK"].replace(/[.\s]+/g, '_');
       const pwClass = hk["P/W"] === 'W' ? 'optional' : 'mandatory';
             const pwLabel = hk["P/W"] === 'W' ? 'Wahl' : 'Pflicht';
       header.innerHTML = `<span class="arrow">▶</span><span class="code">${hk["ID HK"]}</span><span class="name">${highlight(hk["Name"])}</span><span class="hk-pw-badge ${pwClass}">${pwLabel}</span>`;
@@ -280,6 +292,7 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
       lkHeader.innerHTML += `<span class="semester-range">${formatSemesters(lkSems)}</span>`;
     }
 
+    lkHeader.id = 'lk-' + lk["ID LK"].replace(/[.\s]+/g, '_');
     const lkContent = document.createElement('div');
     lkContent.className = 'lk-content' + openClass;
 
@@ -293,7 +306,17 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
         const lz = item.lz;
         const row = document.createElement('div');
         row.className = 'lernziel-row';
-        row.innerHTML = `<span class="lz-id">${highlight(lz["ID LZ"])}</span><span class="lz-desc">${highlight(lz["Beschreibung LZ"])}</span><span class="semester-badge">${lz["Semester"]}</span>`;
+        const semDisplay = Array.isArray(lz["Semester"]) ? lz["Semester"].join(', ') : lz["Semester"];
+        let descHtml = highlight(lz["Beschreibung LZ"]);
+        if (lz["duplicated"] && state.showRefs) {
+          const badges = lz["duplicated"].map(id => {
+            const sid = 'lk-' + id.replace(/[.\s]+/g, '_');
+            return `<a href="?highlight=${sid}" class="lk-code highlight-link">${escapeHtml(id)}</a>`;
+          }).join(' ');
+          descHtml += '<br>Dieses Lernziel gehört ebenfalls zum Leistungskriterium: ' + badges;
+        }
+        row.dataset.lzId = lz["ID LZ"];
+        row.innerHTML = `<span class="lz-id">${highlight(lz["ID LZ"])}</span><span class="lz-desc">${descHtml}</span><span class="semester-badge">${semDisplay}</span>`;
         lkContent.appendChild(row);
       }
     }
@@ -387,6 +410,20 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     descGroup.querySelector('.options').appendChild(descBtn);
     container.appendChild(descGroup);
 
+    const refsGroup = document.createElement('div');
+    refsGroup.className = 'filter-group';
+    refsGroup.innerHTML = '<label>Querverweise</label><div class="options"></div>';
+    const refsBtn = document.createElement('button');
+    refsBtn.textContent = 'Aus';
+    refsBtn.addEventListener('click', () => {
+      state.showRefs = !state.showRefs;
+      refsBtn.textContent = state.showRefs ? 'An' : 'Aus';
+      refsBtn.classList.toggle('active', state.showRefs);
+      render();
+    });
+    refsGroup.querySelector('.options').appendChild(refsBtn);
+    container.appendChild(refsGroup);
+
     const clearBtn = document.createElement('button');
     clearBtn.className = 'clear-btn';
     clearBtn.textContent = 'Filter zurücksetzen';
@@ -398,6 +435,8 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
       state.wahlPflicht = new Set();
       state.lernorte = new Set();
       state.semesters = new Set();
+      state.highlight = null;
+      history.replaceState({ highlight: null }, '', location.pathname);
       updateAllFilterButtons();
       render();
     });
@@ -459,7 +498,70 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     infoContent.classList.toggle('open');
   });
 
+  function applyHighlight() {
+    const hl = state.highlight;
+    if (!hl) return;
+
+    let el;
+    if (hl.startsWith('lk-')) {
+      el = document.getElementById(hl);
+    } else if (hl.startsWith('lz-')) {
+      el = document.querySelector(`[data-lz-id="${hl.slice(3)}"]`);
+    } else if (hl.startsWith('hk-')) {
+      el = document.getElementById(hl);
+    }
+    if (!el) return;
+
+    let current = el.parentElement;
+    while (current && current.id !== 'results') {
+      if (current.classList.contains('lk-content') ||
+          current.classList.contains('competence-content') ||
+          current.classList.contains('subject-content')) {
+        const header = current.previousElementSibling;
+        if (header && !header.classList.contains('open')) {
+          header.classList.add('open');
+          current.classList.add('open');
+        }
+      }
+      current = current.parentElement;
+    }
+
+    if (el.classList.contains('lk-header') && !el.classList.contains('open')) {
+      el.classList.add('open');
+      if (el.nextElementSibling && el.nextElementSibling.classList.contains('lk-content')) {
+        el.nextElementSibling.classList.add('open');
+      }
+    }
+
+    el.classList.add('highlighted');
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  function setHighlight(value) {
+    state.highlight = value;
+    const url = value ? `?highlight=${value}` : location.pathname;
+    history.pushState({ highlight: value }, '', url);
+    render();
+    applyHighlight();
+  }
+
   initFilters();
   updateHkFilter();
   render();
+  applyHighlight();
+
+  document.getElementById('results').addEventListener('click', (e) => {
+    const link = e.target.closest('.highlight-link');
+    if (!link) return;
+    e.preventDefault();
+    const value = link.getAttribute('href').replace('?highlight=', '');
+    setHighlight(value);
+  });
+
+  window.addEventListener('popstate', (e) => {
+    const params = new URLSearchParams(location.search);
+    state.highlight = params.get('highlight') || null;
+    render();
+    applyHighlight();
+  });
 })();
