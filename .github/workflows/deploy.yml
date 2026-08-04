@@ -23,12 +23,13 @@ jobs:
       - uses: actions/checkout@v7
       - name: Prepare files for Pages
         run: |
-          mkdir -p _site/data _site/img
+          mkdir -p _site/data _site/img _site/pdf/output
           cp index.html _site/
           cp script.js _site/
           cp style.css _site/
           cp data/lehrplan.json _site/data/
           cp img/* _site/img/
+          cp pdf/output/*.pdf _site/pdf/output/
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site

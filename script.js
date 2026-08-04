@@ -506,6 +506,19 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     infoContent.classList.toggle('open');
   });
 
+  const pdfToggleBtn = document.getElementById('pdfToggleBtn');
+  const pdfDropdownMenu = document.getElementById('pdfDropdownMenu');
+  pdfToggleBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    pdfDropdownMenu.classList.toggle('show');
+  });
+  document.addEventListener('click', () => {
+    pdfDropdownMenu.classList.remove('show');
+  });
+  pdfDropdownMenu.addEventListener('click', (e) => {
+    e.stopPropagation();
+  });
+
   function applyHighlight() {
     const hl = state.highlight;
     if (!hl) return;

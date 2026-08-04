@@ -32,6 +32,77 @@ h1 {
   margin-bottom: 20px
 }
 
+.pdf-dropdown {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 1000
+}
+
+.pdf-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: #388e3c;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: .9rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(56, 142, 60, .3);
+  transition: all .15s
+}
+
+.pdf-toggle-btn:hover {
+  background: #2e7d32;
+  transform: translateY(-2px)
+}
+
+.pdf-toggle-btn .dropdown-arrow {
+  font-size: .7rem
+}
+
+.pdf-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+  overflow: hidden;
+  min-width: 180px
+}
+
+.pdf-dropdown-menu.show {
+  display: block
+}
+
+.pdf-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  color: #333;
+  text-decoration: none;
+  font-size: .85rem;
+  transition: background .15s
+}
+
+.pdf-item:hover {
+  background: #e8f5e9
+}
+
+.pdf-item .pdf-icon-small {
+  font-size: 1rem
+}
+
+.pdf-item .pdf-item-name {
+  flex: 1
+}
+
 .info-box {
   background: #fff;
   border-radius: 10px;
