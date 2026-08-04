@@ -1,0 +1,81 @@
+#set page(paper: "a4", margin: (top: 22mm, right: 15mm, bottom: 25mm, left: 15mm))
+#set page(numbering: none)
+#set document(title: {{ doc_title | tstr }})
+#set text(size: 9.5pt, lang: "de", font: "Ubuntu Sans")
+#set par(justify: true, leading: 0.95em)
+#show table: set par(justify: true, leading: 0.5em)
+
+{#
+============================================================
+DESIGN — Farben, Schriften, Abstände
+Hier lässt sich die komplette Optik anpassen.
+============================================================
+#}
+#let accent = rgb("#16213e")
+#let accent-soft = rgb("#e9edf5")
+#let muted = rgb("#5b6474")
+#let faint = rgb("#8a93a6")
+#let border-color = rgb("#d3d9e4")
+
+#show heading: set text(weight: "bold")
+#show heading.where(level: 1): set text(size: 15pt, fill: accent)
+#show heading.where(level: 2): set text(size: 12pt, fill: accent)
+#show heading.where(level: 3): set text(size: 10.5pt, fill: rgb("#22304a"))
+#show heading.where(level: 1): it => [#it #v(3pt) #line(length: 100%, stroke: 1.5pt + accent)]
+#show heading.where(level: 1): set block(above: 6pt, below: 8pt)
+#show heading.where(level: 2): set block(above: 14pt, below: 7pt)
+#show heading.where(level: 3): set block(above: 11pt, below: 9pt)
+
+#let sign = box([])
+
+{% include "title_page.typ.j2" %}
+{% include "toc.typ.j2" %}
+{% include "overview.typ.j2" %}
+
+{% from "table.typ.j2" import lk_table %}
+
+{% macro hkb_heading(hkb, level) %}
+#heading(level: {{ level }})[#text(fill: faint)[{{ hkb.id | typ }}]#h(3mm){{ hkb.name | typ }}]
+{% endmacro %}
+
+{% macro pw_tag(pw) %}{% if pw == "P" %}#box(inset: (x: 3.5pt, y: 1pt), radius: 2pt, fill: accent-soft)[#text(size: 8pt, weight: "bold", fill: accent)[Pflicht]]{% elif pw == "W" %}#box(inset: (x: 3.5pt, y: 1pt), radius: 2pt, fill: rgb("#e7e9ee"), baseline: top)[#text(size: 8pt, weight: "bold", fill: muted)[Wahl]]{% endif %}{% endmacro %}
+
+{% macro hk_heading(hk, level) %}
+#heading(level: {{ level }})[{% if hk.pw %}{{ pw_tag(hk.pw) }}#h(2.5mm){% endif %}#text(fill: faint)[{{ hk.hk_id | typ }}]#h(3mm){{ hk.name | typ }}]
+{% endmacro %}
+
+{% macro description(desc) %}
+#v(3mm)
+#text(size: 8.5pt, fill: muted)[{{ desc | typ }}]
+#v(3.5mm)
+{% endmacro %}
+
+{% if by_semester %}
+{% for chapter in chapters %}
+{% if not loop.first %}
+#pagebreak(weak: true)
+{% endif %}
+#heading(level: 1)[Semester {{ chapter.sem | typ }}]
+{% for hkb in chapter["items"] %}
+{{ hkb_heading(hkb, 2) }}
+{% for hk in hkb.hks %}
+{{ hk_heading(hk, 3) }}
+{% if show_desc and hk.desc %}
+{{ description(hk.desc) }}
+{% endif %}
+{{ lk_table(hk.lks, signature, has_lz, hk.pw) }}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% else %}
+{% for hkb in tree %}
+{{ hkb_heading(hkb, 1) }}
+{% for hk in hkb.hks %}
+{{ hk_heading(hk, 2) }}
+{% if show_desc and hk.desc %}
+{{ description(hk.desc) }}
+{% endif %}
+{{ lk_table(hk.lks, signature, has_lz, hk.pw) }}
+{% endfor %}
+{% endfor %}
+{% endif %}

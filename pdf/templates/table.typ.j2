@@ -1,0 +1,42 @@
+{#- Makros für die Leistungskriterium-/Lernziel-Tabellen -#}
+
+{#- LK-Zeile: als Gruppen-Kopfzeile hervorgehoben, sobald Lernziele folgen -#}
+{% macro lk_row(lk, signature, col4) %}
+{% set f = "accent-soft" if lk.lzs else "white" %}
+table.cell(fill: {{ f }})[#text(weight: "bold")[{{ lk.lk_id | typ }}]], table.cell(fill: {{ f }})[{{ lk.desc | typ }}], table.cell(fill: {{ f }})[#text(size: 8.5pt, fill: muted)[{{ lk.sem | typ }}]]{% if col4 %}, table.cell(fill: {{ f }})[{% if signature in ("both", "lk") %}#sign{% endif %}]{% endif %},
+{% endmacro %}
+
+{#- LZ-Zeile: eingerückt und kleiner, klar dem LK untergeordnet -#}
+{% macro lz_row(lz, signature, col4) %}
+[#text(size: 8.5pt)[{{ lz.lz_id | typ }}]], [#block(width: 100%, inset: (left: 12mm))[#text(size: 8.5pt, fill: muted)[{{ lz.desc | typ }}]]], [#text(size: 8.5pt, fill: muted)[{{ lz.sem | typ }}]]{% if col4 %}, [{% if signature in ("both", "lz") %}#sign{% endif %}]{% endif %},
+{% endmacro %}
+
+{% macro lk_table(lks, signature, has_lz, pw) %}
+{% set col4 = signature != "none" %}
+{% set hdr = "accent" if pw == "P" else "muted" %}
+#table(
+  columns: (auto, 1fr, auto{% if col4 %}, 2.4cm{% endif %}),
+  inset: (x: 6pt, y: 6pt),
+  stroke: 0.35pt + border-color,
+  fill: (x, y) => if y == 0 { {{ hdr }} } else { white },
+  align: (left, left, center, center),
+  table.header(
+    [#text(weight: "bold", size: 10pt, fill: white)[ID]],
+    [#text(weight: "bold", size: 10pt, fill: white)[{% if has_lz %}Leistungskriterium / Lernziel{% else %}Leistungskriterium{% endif %}]],
+    [#text(weight: "bold", size: 10pt, fill: white)[Semester]],
+    {% if col4 %}
+    [#text(weight: "bold", size: 10pt, fill: white)[Visum]],
+    {% endif %}
+  ),
+{% for item in lks %}
+{% if item.lzs and not loop.first %}
+table.hline(stroke: 0.8pt + {{ hdr }}),
+{% endif %}
+{{ lk_row(item, signature, col4) }}
+{% for lz in item.lzs %}
+{{ lz_row(lz, signature, col4) }}
+{% endfor %}
+{% endfor %}
+)
+#v(3mm)
+{% endmacro %}

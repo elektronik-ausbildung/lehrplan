@@ -1,0 +1,28 @@
+{#- Titelseite: Titel, Untertitel, Karte mit Kopfzeilen-Feldern -#}
+#v(52mm)
+#align(center)[#text(size: 31pt, weight: "bold", fill: accent)[{{ title | typ }}]]
+#v(3mm)
+#align(center)[#text(size: 13pt, fill: muted)[{{ subtitle | typ }}]]
+#v(9mm)
+#align(center)[#line(length: 55mm, stroke: 2pt + accent)]
+#v(24mm)
+#align(center)[#block(
+  width: 140mm,
+  inset: (y: 10mm, x: 6mm),
+  radius: 4pt,
+  stroke: 0.6pt + border-color,
+  fill: accent-soft,
+  [#grid(
+    columns: (1fr, 1fr, 1fr),
+    gutter: 8mm,
+{% for field in fields %}
+    stack(
+      spacing: 8mm,
+      align(center)[#text(size: 9pt, weight: "bold", fill: muted)[{{ field.label | typ }}]],
+      align(center)[{% if field.value %}#text(size: 12pt, weight: "bold", fill: accent)[{{ field.value | typ }}]{% else %}#line(length: {{ field.length }}mm, stroke: 0.5pt + muted){% endif %}],
+    ){% if not loop.last %},{% endif %}
+{% endfor %}
+  )],
+)]
+#v(1fr)
+#align(center)[#text(size: 8.5pt, fill: faint)[Erstellt am {{ today | typ }} · {{ footer | typ }}]]

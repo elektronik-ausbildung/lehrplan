@@ -1,0 +1,25 @@
+{#- Inhaltsverzeichnis, danach beginnt die Seitennummerierung bei 1 -#}
+{#- Header/Footer ab der TOC-Seite: Titel links, Untertitel rechts; unten Bildungsplan-Notiz + Seitenzahl -#}
+#pagebreak()
+#context counter(page).update(1)
+#set page(numbering: none)
+#set page(
+  header: [
+    #text(size: 8.5pt, weight: "bold", fill: accent)[{{ title | typ }}]
+    #h(1fr)
+    #text(size: 8.5pt, fill: muted)[{{ subtitle | typ }}]
+    #v(2mm)
+    #line(length: 100%, stroke: 0.5pt + border-color)
+  ],
+  footer: [
+    #line(length: 100%, stroke: 0.5pt + border-color)
+    #v(2mm)
+    #text(size: 8pt, fill: faint)[Bildungsplan Elektroniker/in EFZ · Erstellt am {{ today | typ }}]
+    #h(1fr)
+    #text(size: 8pt, fill: faint)[Seite #context [#counter(page).display("1") / #counter(page).final().at(0)]]
+  ],
+)
+#text(size: 18pt, weight: "bold", fill: accent)[Inhaltsverzeichnis]
+#v(5mm)
+#outline(title: none, depth: 2, indent: auto)
+#pagebreak()
