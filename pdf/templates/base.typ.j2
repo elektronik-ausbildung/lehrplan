@@ -38,7 +38,7 @@ Hier lässt sich die komplette Optik anpassen.
 #heading(level: {{ level }})[#text(fill: faint)[{{ hkb.id | typ }}]#h(3mm){{ hkb.name | typ }}]
 {% endmacro %}
 
-{% macro pw_tag(pw) %}{% if pw == "P" %}#box(inset: (x: 3.5pt, y: 1pt), radius: 2pt, fill: accent-soft)[#text(size: 8pt, weight: "bold", fill: accent)[Pflicht]]{% elif pw == "W" %}#box(inset: (x: 3.5pt, y: 1pt), radius: 2pt, fill: rgb("#e7e9ee"), baseline: top)[#text(size: 8pt, weight: "bold", fill: muted)[Wahl]]{% endif %}{% endmacro %}
+{% macro pw_tag(pw) %}{% if pw == "P" %}#box(inset: (x: 3.5pt, y: 1pt), radius: 2pt, fill: accent-soft)[#text(size: 8pt, weight: "bold", fill: accent)[Pflicht]]{% elif pw == "W" %}#box(inset: (x: 3.5pt, y: 1pt), radius: 2pt, fill: rgb("#e7e9ee"))[#text(size: 8pt, weight: "bold", fill: muted)[Wahl]]{% endif %}{% endmacro %}
 
 {% macro hk_heading(hk, level) %}
 #heading(level: {{ level }})[{% if hk.pw %}{{ pw_tag(hk.pw) }}#h(2.5mm){% endif %}#text(fill: faint)[{{ hk.hk_id | typ }}]#h(3mm){{ hk.name | typ }}]
