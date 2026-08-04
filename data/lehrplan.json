@@ -17,7 +17,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie wenden bei der Bearbeitung technischer Problemstellungen mathematische Konzepte an.",
-                "Beschreibung": "Sie wenden bei der Bearbeitung technischer Problemstellungen mathematische Konzepte an.",
                 "Semester": [
                   "1",
                   "2",
@@ -659,7 +658,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie planen ihre Arbeit unter Einbezug der Werkstoff-, Fertigungs- und Maschinentechnik und führen sie aus.",
-                "Beschreibung": "Sie planen ihre Arbeit unter Einbezug der Werkstoff-, Fertigungs- und Maschinentechnik und führen sie aus.",
                 "Semester": [
                   "1",
                   "2",
@@ -807,7 +805,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie planen ihre Arbeit unter Einbezug naturwissenschaftlicher Aspekte und führen sie aus.",
-                "Beschreibung": "Sie planen ihre Arbeit unter Einbezug naturwissenschaftlicher Aspekte und führen sie aus.",
                 "Semester": [
                   "1",
                   "2",
@@ -1525,7 +1522,7 @@
                   },
                   {
                     "ID LZ": "LZ_9508",
-                    "Beschreibung LZ": "Sie stellen Temperatur-Zeit-Diagramme grafisch dar._x000D__x000D_",
+                    "Beschreibung LZ": "Sie stellen Temperatur-Zeit-Diagramme grafisch dar.",
                     "Taxonomie LZ": "K3",
                     "ID LFE": "LFB_Tg_wär_bas",
                     "Handlungsnotwendiges Wissen": "",
@@ -1630,7 +1627,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie setzen verschiedene graphischen Darstellungsarten an beispielhaften Lösungsansätzen ein.",
-                "Beschreibung": "Sie setzen verschiedene graphischen Darstellungsarten an beispielhaften Lösungsansätzen ein.",
                 "Semester": [
                   "4"
                 ],
@@ -1681,7 +1677,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie beurteilen ökologische Ansätze, sowie Technologien zur Ökologie und deren Anwendungsgebiete.",
-                "Beschreibung": "Sie beurteilen ökologische Ansätze, sowie Technologien zur Ökologie und deren Anwendungsgebiete.",
                 "Semester": [
                   "4"
                 ],
@@ -1748,7 +1743,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie unterscheiden Methoden zur Lösungssuche und wenden diese an beispielhaften Situationen an.",
-                "Beschreibung": "Sie unterscheiden Methoden zur Lösungssuche und wenden diese an beispielhaften Situationen an.",
                 "Semester": [
                   "2"
                 ],
@@ -1792,7 +1786,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie unterscheiden Methoden zur Entscheidungsfindung und wenden diese an beispielhaften Situationen an.",
-                "Beschreibung": "Sie unterscheiden Methoden zur Entscheidungsfindung und wenden diese an beispielhaften Situationen an.",
                 "Semester": [
                   "2"
                 ],
@@ -1836,7 +1829,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erstellen für unterschiedliche Methoden zur Entscheidungsfindung eine entsprechende technische Dokumentation.",
-                "Beschreibung": "Sie erstellen für unterschiedliche Methoden zur Entscheidungsfindung eine entsprechende technische Dokumentation.",
                 "Semester": [
                   "5"
                 ],
@@ -1893,7 +1885,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erstellen für unterschiedliche Methoden zur Lösungssuche eine entsprechende technische Dokumentation.",
-                "Beschreibung": "Sie erstellen für unterschiedliche Methoden zur Lösungssuche eine entsprechende technische Dokumentation.",
                 "Semester": [
                   "5"
                 ],
@@ -1950,7 +1941,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie definieren anhand vorgegebener Lösungsansätze Funktionsblöcke.",
-                "Beschreibung": "Sie definieren anhand vorgegebener Lösungsansätze Funktionsblöcke.",
                 "Semester": [
                   "3",
                   "4"
@@ -1991,7 +1981,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie interpretieren typische Lösungsansätze und setzen diese zu einer Gesamtlösung zusammen.",
-                "Beschreibung": "Sie interpretieren typische Lösungsansätze und setzen diese zu einer Gesamtlösung zusammen.",
                 "Semester": [
                   "3",
                   "4"
@@ -2032,7 +2021,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren die Lösungssuche.",
-                "Beschreibung": "Sie dokumentieren die Lösungssuche.",
                 "Semester": [
                   "1",
                   "2",
@@ -2046,7 +2034,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen Lösungsansätze graphisch dar.",
-                "Beschreibung": "Sie stellen Lösungsansätze graphisch dar.",
                 "Semester": [
                   "1",
                   "2",
@@ -2060,7 +2047,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie recherchieren in der einschlägigen Literatur zu Hard- und Software nach möglichen Lösungsansätzen.",
-                "Beschreibung": "Sie recherchieren in der einschlägigen Literatur zu Hard- und Software nach möglichen Lösungsansätzen.",
                 "Semester": [
                   "1",
                   "2",
@@ -2074,7 +2060,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie unterteilen Lösungsansätze in sinnvolle Einheiten und definieren die Schnittstellen.",
-                "Beschreibung": "Sie unterteilen Lösungsansätze in sinnvolle Einheiten und definieren die Schnittstellen.",
                 "Semester": [
                   "3",
                   "4",
@@ -2088,7 +2073,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie konzipieren unter Anwendung geeigneter Methoden Lösungsvarianten für Produkte.",
-                "Beschreibung": "Sie konzipieren unter Anwendung geeigneter Methoden Lösungsvarianten für Produkte.",
                 "Semester": [
                   "5",
                   "6",
@@ -2102,7 +2086,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie suchen typische oder bestehende Lösungsansätze zur Lösung von Teilproblemen.",
-                "Beschreibung": "Sie suchen typische oder bestehende Lösungsansätze zur Lösung von Teilproblemen.",
                 "Semester": [
                   "5",
                   "6",
@@ -2116,7 +2099,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bewerten die ökologische Wertigkeit der einzelnen Lösungen.",
-                "Beschreibung": "Sie bewerten die ökologische Wertigkeit der einzelnen Lösungen.",
                 "Semester": [
                   "5",
                   "6",
@@ -2130,7 +2112,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen bei der Lösungsauswahl geeignete Methoden zur Entscheidungsfindung ein.",
-                "Beschreibung": "Sie setzen bei der Lösungsauswahl geeignete Methoden zur Entscheidungsfindung ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -2144,7 +2125,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren die Entscheidungsfindung.",
-                "Beschreibung": "Sie dokumentieren die Entscheidungsfindung.",
                 "Semester": [
                   "5",
                   "6",
@@ -2167,7 +2147,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie interpretieren technische Dokumentationen in englischer Sprache.",
-                "Beschreibung": "Sie interpretieren technische Dokumentationen in englischer Sprache.",
                 "Semester": [
                   "3",
                   "4"
@@ -2728,7 +2707,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie dokumentieren und archivieren ihre Arbeit laufend und lückenlos mit situativ geeigneten Hilfsmitteln unter Einhaltung der Vorgaben.",
-                "Beschreibung": "Sie dokumentieren und archivieren ihre Arbeit laufend und lückenlos mit situativ geeigneten Hilfsmitteln unter Einhaltung der Vorgaben.",
                 "Semester": [
                   "2"
                 ],
@@ -2766,7 +2744,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie schützen sich und ihr Umfeld gegen Cyberbedrohungen.",
-                "Beschreibung": "Sie schützen sich und ihr Umfeld gegen Cyberbedrohungen.",
                 "Semester": [
                   "1"
                 ],
@@ -2791,7 +2768,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie schätzen mögliche Auswirkungen von Cyberbedrohungen und Sicherheitslücken ab.",
-                "Beschreibung": "Sie schätzen mögliche Auswirkungen von Cyberbedrohungen und Sicherheitslücken ab.",
                 "Semester": [
                   "1"
                 ],
@@ -2842,7 +2818,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie identifizieren aktuelle Cyberbedrohungen und Gefahren.",
-                "Beschreibung": "Sie identifizieren aktuelle Cyberbedrohungen und Gefahren.",
                 "Semester": [
                   "1"
                 ],
@@ -2867,7 +2842,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erläutern Vor- und Nachteile von vernetzten Komponenten.",
-                "Beschreibung": "Sie erläutern Vor- und Nachteile von vernetzten Komponenten.",
                 "Semester": [
                   "2"
                 ],
@@ -2908,7 +2882,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie setzen einzelne Komponenten entsprechend ihrer Funktion ein, und konstruieren digitale Netzwerke.",
-                "Beschreibung": "Sie setzen einzelne Komponenten entsprechend ihrer Funktion ein, und konstruieren digitale Netzwerke.",
                 "Semester": [
                   "2"
                 ],
@@ -2959,7 +2932,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie vernetzen Komponenten zu Systemen, um Arbeitsprozesse zu unterstützen und kontinuierlich zu verbessern.",
-                "Beschreibung": "Sie vernetzen Komponenten zu Systemen, um Arbeitsprozesse zu unterstützen und kontinuierlich zu verbessern.",
                 "Semester": [
                   "2"
                 ],
@@ -3010,7 +2982,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie visualisieren Daten.",
-                "Beschreibung": "Sie visualisieren Daten.",
                 "Semester": [
                   "2",
                   "3",
@@ -3139,7 +3110,7 @@
                   },
                   {
                     "ID LZ": "LZ_9508",
-                    "Beschreibung LZ": "Sie stellen Temperatur-Zeit-Diagramme grafisch dar._x000D__x000D_",
+                    "Beschreibung LZ": "Sie stellen Temperatur-Zeit-Diagramme grafisch dar.",
                     "Taxonomie LZ": "K3",
                     "ID LFE": "LFB_Tg_wär_auf",
                     "Handlungsnotwendiges Wissen": "",
@@ -3205,7 +3176,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie erfassen, verarbeiten und visualisieren Daten und stellen diese zur Verfügung.",
-                "Beschreibung": "Sie erfassen, verarbeiten und visualisieren Daten und stellen diese zur Verfügung.",
                 "Semester": [
                   "3"
                 ],
@@ -3269,7 +3239,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie nutzen vernetzte Systeme bei ihren Tätigkeiten effizient. Sie gestalten ihr Handeln jederzeit optimal und sicher.",
-                "Beschreibung": "Sie nutzen vernetzte Systeme bei ihren Tätigkeiten effizient. Sie gestalten ihr Handeln jederzeit optimal und sicher.",
                 "Semester": [
                   "3"
                 ],
@@ -3307,7 +3276,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie bauen mit einfachen handwerklichen Mitteln Versuchsaufbauten auf.",
-                "Beschreibung": "Sie bauen mit einfachen handwerklichen Mitteln Versuchsaufbauten auf.",
                 "Semester": [
                   "2"
                 ],
@@ -3348,7 +3316,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen ausgewählte Standardapplikationen und industrieübliche Software effektiv und effizient ein.",
-                "Beschreibung": "Sie setzen ausgewählte Standardapplikationen und industrieübliche Software effektiv und effizient ein.",
                 "Semester": [
                   "4"
                 ],
@@ -3402,7 +3369,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen Massnahmen zur Verminderung und Verhinderung von Gefahren bei der Benutzung von digitalen Arbeitsmitteln um.",
-                "Beschreibung": "Sie setzen Massnahmen zur Verminderung und Verhinderung von Gefahren bei der Benutzung von digitalen Arbeitsmitteln um.",
                 "Semester": [
                   "4"
                 ],
@@ -3440,7 +3406,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bauen Versuchsanordnungen auf.",
-                "Beschreibung": "Sie bauen Versuchsanordnungen auf.",
                 "Semester": [
                   "1",
                   "2",
@@ -3454,7 +3419,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren die Messergebnisse aus den Versuchen.",
-                "Beschreibung": "Sie dokumentieren die Messergebnisse aus den Versuchen.",
                 "Semester": [
                   "1",
                   "2",
@@ -3468,7 +3432,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen Standardapplikationen und betriebliche Software in ihrer Arbeit effektiv und effizient ein.",
-                "Beschreibung": "Sie setzen Standardapplikationen und betriebliche Software in ihrer Arbeit effektiv und effizient ein.",
                 "Semester": [
                   "1",
                   "2",
@@ -3482,7 +3445,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erfassen, verarbeiten und visualisieren Daten und stellen diese zur Verfügung.",
-                "Beschreibung": "Sie erfassen, verarbeiten und visualisieren Daten und stellen diese zur Verfügung.",
                 "Semester": [
                   "1",
                   "2",
@@ -3496,7 +3458,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen Massnahmen zur Verminderung und Verhinderung von Gefahren bei der Benutzung von digitalen Arbeitsmitteln um.",
-                "Beschreibung": "Sie setzen Massnahmen zur Verminderung und Verhinderung von Gefahren bei der Benutzung von digitalen Arbeitsmitteln um.",
                 "Semester": [
                   "1",
                   "2",
@@ -3510,7 +3471,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen mit den Versuchsaufbauten die Machbarkeit.",
-                "Beschreibung": "Sie überprüfen mit den Versuchsaufbauten die Machbarkeit.",
                 "Semester": [
                   "3",
                   "4",
@@ -3524,7 +3484,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie schätzen die Erfüllbarkeit der Anforderungen durch die erstellten Konzepte ab.",
-                "Beschreibung": "Sie schätzen die Erfüllbarkeit der Anforderungen durch die erstellten Konzepte ab.",
                 "Semester": [
                   "3",
                   "4",
@@ -3538,7 +3497,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie recherchieren in der einschlägigen Literatur zu Hard- und Software nach möglichen Lösungsansätzen.",
-                "Beschreibung": "Sie recherchieren in der einschlägigen Literatur zu Hard- und Software nach möglichen Lösungsansätzen.",
                 "Semester": [
                   "3",
                   "4",
@@ -3552,7 +3510,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie entscheiden zusammen mit den Verantwortlichen auf Basis der Messergebnisse über das weitere Vorgehen.",
-                "Beschreibung": "Sie entscheiden zusammen mit den Verantwortlichen auf Basis der Messergebnisse über das weitere Vorgehen.",
                 "Semester": [
                   "3",
                   "4",
@@ -3566,7 +3523,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen gemäss den Anforderungen Versuchsanordnungen.",
-                "Beschreibung": "Sie planen gemäss den Anforderungen Versuchsanordnungen.",
                 "Semester": [
                   "5",
                   "6",
@@ -3580,7 +3536,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie nutzen vernetzte Systeme im betrieblichen Alltag effizient. Sie gestalten ihr Handeln jederzeit optimal und sicher.",
-                "Beschreibung": "Sie nutzen vernetzte Systeme im betrieblichen Alltag effizient. Sie gestalten ihr Handeln jederzeit optimal und sicher.",
                 "Semester": [
                   "5",
                   "6",
@@ -3594,7 +3549,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erkennen Cyberbedrohungen, die Schaden an der digitalen Infrastruktur anrichten, und setzen Massnahmen zur Schadensbegrenzung um.",
-                "Beschreibung": "Sie erkennen Cyberbedrohungen, die Schaden an der digitalen Infrastruktur anrichten, und setzen Massnahmen zur Schadensbegrenzung um.",
                 "Semester": [
                   "5",
                   "6",
@@ -3617,7 +3571,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erläutern die Unterschiede zwischen Lasten- und Pflichtenheft.",
-                "Beschreibung": "Sie erläutern die Unterschiede zwischen Lasten- und Pflichtenheft.",
                 "Semester": [
                   "4"
                 ],
@@ -3668,7 +3621,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erstellen beispielhafte Pflichtenhefte.",
-                "Beschreibung": "Sie erstellen beispielhafte Pflichtenhefte.",
                 "Semester": [
                   "4"
                 ],
@@ -3719,7 +3671,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie verwenden verschiedene graphische Darstellungsarten zur Darstellung von Kundenanforderungen.",
-                "Beschreibung": "Sie verwenden verschiedene graphische Darstellungsarten zur Darstellung von Kundenanforderungen.",
                 "Semester": [
                   "4"
                 ],
@@ -3770,7 +3721,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie formulieren technische Produkteigenschaften zielgruppengerecht.",
-                "Beschreibung": "Sie formulieren technische Produkteigenschaften zielgruppengerecht.",
                 "Semester": [
                   "4"
                 ],
@@ -3821,7 +3771,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie wählen geeignete Werkstoffe passend zur Einsatzumgebung und Zweck aus.",
-                "Beschreibung": "Sie wählen geeignete Werkstoffe passend zur Einsatzumgebung und Zweck aus.",
                 "Semester": [
                   "4"
                 ],
@@ -3885,7 +3834,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erstellen Kostenzusammenstellungen.",
-                "Beschreibung": "Sie erstellen Kostenzusammenstellungen.",
                 "Semester": [
                   "4"
                 ],
@@ -3936,7 +3884,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie interpretieren definierte Prozesse.",
-                "Beschreibung": "Sie interpretieren definierte Prozesse.",
                 "Semester": [
                   "2"
                 ],
@@ -3966,7 +3913,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erfassen relevante Informationen für neue Prozesse.",
-                "Beschreibung": "Sie erfassen relevante Informationen für neue Prozesse.",
                 "Semester": [
                   "2"
                 ],
@@ -3994,7 +3940,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie gestalten Prozessabläufe und erstellen geeignete Prozessdokumente.",
-                "Beschreibung": "Sie gestalten Prozessabläufe und erstellen geeignete Prozessdokumente.",
                 "Semester": [
                   "2"
                 ],
@@ -4022,7 +3967,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie interpretieren technische Dokumentationen.",
-                "Beschreibung": "Sie interpretieren technische Dokumentationen.",
                 "Semester": [
                   "3"
                 ],
@@ -4066,7 +4010,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erstellen technische Dokumentationen.",
-                "Beschreibung": "Sie erstellen technische Dokumentationen.",
                 "Semester": [
                   "3"
                 ],
@@ -4110,7 +4053,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie interpretieren technische Normen und Richtlinien anwendungsspezifisch.",
-                "Beschreibung": "Sie interpretieren technische Normen und Richtlinien anwendungsspezifisch.",
                 "Semester": [
                   "1",
                   "2",
@@ -4304,7 +4246,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie interpretieren ausgewählte definierte Prozesse und arbeiten diese korrekt ab.",
-                "Beschreibung": "Sie interpretieren ausgewählte definierte Prozesse und arbeiten diese korrekt ab.",
                 "Semester": [
                   "2",
                   "3"
@@ -4334,7 +4275,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie dokumentieren und archivieren ihre Arbeit beispielhaft nachvollziehbar mit festgelegten Hilfsmitteln nach Vorgaben.",
-                "Beschreibung": "Sie dokumentieren und archivieren ihre Arbeit beispielhaft nachvollziehbar mit festgelegten Hilfsmitteln nach Vorgaben.",
                 "Semester": [
                   "2"
                 ],
@@ -4363,7 +4303,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie gestalten beispielhafte Prozessabläufe und erstellen geeignete Prozessdokumente.",
-                "Beschreibung": "Sie gestalten beispielhafte Prozessabläufe und erstellen geeignete Prozessdokumente.",
                 "Semester": [
                   "2"
                 ],
@@ -4391,7 +4330,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen technische Normen und Richtlinien im Handeln anwendungsspezifisch um.",
-                "Beschreibung": "Sie setzen technische Normen und Richtlinien im Handeln anwendungsspezifisch um.",
                 "Semester": [
                   "1"
                 ],
@@ -4419,7 +4357,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen technische Normen und Richtlinien in der Planung anwendungsspezifisch ein.",
-                "Beschreibung": "Sie setzen technische Normen und Richtlinien in der Planung anwendungsspezifisch ein.",
                 "Semester": [
                   "1"
                 ],
@@ -4463,7 +4400,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen Informationen aus Normen und Richtlinien in technischen Dokumentationen um.",
-                "Beschreibung": "Sie setzen Informationen aus Normen und Richtlinien in technischen Dokumentationen um.",
                 "Semester": [
                   "1"
                 ],
@@ -4501,7 +4437,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie identifizieren Mess- und Prüfkriterien.",
-                "Beschreibung": "Sie identifizieren Mess- und Prüfkriterien.",
                 "Semester": [
                   "1",
                   "2",
@@ -4517,7 +4452,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren und archivieren ihre Arbeit nachvollziehbar mit festgelegten Hilfsmitteln nach betrieblichen Vorgaben.",
-                "Beschreibung": "Sie dokumentieren und archivieren ihre Arbeit nachvollziehbar mit festgelegten Hilfsmitteln nach betrieblichen Vorgaben.",
                 "Semester": [
                   "1",
                   "2",
@@ -4531,7 +4465,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren und archivieren ihre Arbeit nachvollziehbar laufend und lückenlos mit situativ geeigneten Hilfsmitteln unter Einhaltung betrieblicher Vorgaben.",
-                "Beschreibung": "Sie dokumentieren und archivieren ihre Arbeit nachvollziehbar laufend und lückenlos mit situativ geeigneten Hilfsmitteln unter Einhaltung betrieblicher Vorgaben.",
                 "Semester": [
                   "1",
                   "2",
@@ -4545,7 +4478,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen Informationen aus Normen und Richtlinien in technischen Dokumentationen um.",
-                "Beschreibung": "Sie setzen Informationen aus Normen und Richtlinien in technischen Dokumentationen um.",
                 "Semester": [
                   "1",
                   "2",
@@ -4559,7 +4491,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen technische Normen und Richtlinien in der Planung anwendungsspezifisch ein.",
-                "Beschreibung": "Sie setzen technische Normen und Richtlinien in der Planung anwendungsspezifisch ein.",
                 "Semester": [
                   "2",
                   "3",
@@ -4574,7 +4505,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen technische Normen und Richtlinien im Handeln anwendungsspezifisch um.",
-                "Beschreibung": "Sie setzen technische Normen und Richtlinien im Handeln anwendungsspezifisch um.",
                 "Semester": [
                   "2",
                   "3",
@@ -4589,7 +4519,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie interpretieren definierte betriebliche Prozesse und arbeiten diese korrekt ab.",
-                "Beschreibung": "Sie interpretieren definierte betriebliche Prozesse und arbeiten diese korrekt ab.",
                 "Semester": [
                   "3",
                   "4",
@@ -4603,7 +4532,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie identifizieren die nötigen Schnittstellen.",
-                "Beschreibung": "Sie identifizieren die nötigen Schnittstellen.",
                 "Semester": [
                   "4",
                   "5",
@@ -4618,7 +4546,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bestimmen den Kostenrahmen.",
-                "Beschreibung": "Sie bestimmen den Kostenrahmen.",
                 "Semester": [
                   "4",
                   "5",
@@ -4633,7 +4560,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie identifizieren die einzuhaltenden Normen.",
-                "Beschreibung": "Sie identifizieren die einzuhaltenden Normen.",
                 "Semester": [
                   "4",
                   "5",
@@ -4648,7 +4574,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie identifizieren das Einsatzgebiet.",
-                "Beschreibung": "Sie identifizieren das Einsatzgebiet.",
                 "Semester": [
                   "4",
                   "5",
@@ -4663,7 +4588,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen aus den gesammelten Informationen das Pflichtenheft.",
-                "Beschreibung": "Sie erstellen aus den gesammelten Informationen das Pflichtenheft.",
                 "Semester": [
                   "4",
                   "5",
@@ -4678,7 +4602,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen die Kundenanforderungen graphisch dar.",
-                "Beschreibung": "Sie stellen die Kundenanforderungen graphisch dar.",
                 "Semester": [
                   "4",
                   "5",
@@ -4693,7 +4616,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erfassen relevante Informationen für neue betriebliche Prozesse.",
-                "Beschreibung": "Sie erfassen relevante Informationen für neue betriebliche Prozesse.",
                 "Semester": [
                   "5",
                   "6",
@@ -4707,7 +4629,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie gestalten betriebliche Prozessabläufe und erstellen geeignete Prozessdokumente unter Einhaltung der betrieblichen Vorgaben.",
-                "Beschreibung": "Sie gestalten betriebliche Prozessabläufe und erstellen geeignete Prozessdokumente unter Einhaltung der betrieblichen Vorgaben.",
                 "Semester": [
                   "5",
                   "6",
@@ -4736,7 +4657,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erarbeiten klassische Grundschaltungen.",
-                "Beschreibung": "Sie erarbeiten klassische Grundschaltungen.",
                 "Semester": [
                   "1",
                   "2",
@@ -4965,7 +4885,7 @@
                   },
                   {
                     "ID LZ": "LZ_9045",
-                    "Beschreibung LZ": "Sie unterscheiden unterschiedliche Arten von Zählerbausteinen und setzen diese in digitalen Schaltungen ein._x000D_",
+                    "Beschreibung LZ": "Sie unterscheiden unterschiedliche Arten von Zählerbausteinen und setzen diese in digitalen Schaltungen ein.",
                     "Taxonomie LZ": "K3",
                     "ID LFE": "LFB_El_DT2",
                     "Handlungsnotwendiges Wissen": "",
@@ -5538,7 +5458,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie simulieren elektronische Schaltungen.",
-                "Beschreibung": "Sie simulieren elektronische Schaltungen.",
                 "Semester": [
                   "1",
                   "2",
@@ -5680,7 +5599,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie dimensionieren elektronische Komponenten.",
-                "Beschreibung": "Sie dimensionieren elektronische Komponenten.",
                 "Semester": [
                   "1",
                   "2",
@@ -6114,7 +6032,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erläutern die Prinzipien des Ecodesigns in Bezug auf material- und energieeffizientes Design.",
-                "Beschreibung": "Sie erläutern die Prinzipien des Ecodesigns in Bezug auf material- und energieeffizientes Design.",
                 "Semester": [
                   "4",
                   "8"
@@ -6192,7 +6109,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie zeichnen leserliche Schemas.",
-                "Beschreibung": "Sie zeichnen leserliche Schemas.",
                 "Semester": [
                   "2"
                 ],
@@ -6295,14 +6211,13 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie setzen für das Schema nach geltenden Normen die richtigen Symbole und Bezeichner ein.",
-                "Beschreibung": "Sie setzen für das Schema nach geltenden Normen die richtigen Symbole und Bezeichner ein.",
                 "Semester": [
                   "2"
                 ],
                 "lernziele": [
                   {
                     "ID LZ": "LZ_9078",
-                    "Beschreibung LZ": "Sie wenden die korrekten Kennbuchstaben der Betriebsmittel/Bauteile gemäss aktueller Norm an._x000D_",
+                    "Beschreibung LZ": "Sie wenden die korrekten Kennbuchstaben der Betriebsmittel/Bauteile gemäss aktueller Norm an.",
                     "Taxonomie LZ": "K3",
                     "ID LFE": "LFB_El_Sch",
                     "Handlungsnotwendiges Wissen": "Normen, Schaltzeichen, Wert, Toleranz, Typenbezeichnung, Anschlüsse, Pinnummerierung",
@@ -6375,7 +6290,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie entnehmen aus technischen Datenblättern die relevanten Eigenschaften von Bauteilen.",
-                "Beschreibung": "Sie entnehmen aus technischen Datenblättern die relevanten Eigenschaften von Bauteilen.",
                 "Semester": [
                   "2",
                   "3"
@@ -6405,7 +6319,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie wenden klassische Grundschaltungen an.",
-                "Beschreibung": "Sie wenden klassische Grundschaltungen an.",
                 "Semester": [
                   "2",
                   "3"
@@ -6444,7 +6357,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie messen die Eigenschaften der elektronischen Komponenten.",
-                "Beschreibung": "Sie messen die Eigenschaften der elektronischen Komponenten.",
                 "Semester": [
                   "2",
                   "3"
@@ -6519,7 +6431,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie überprüfen die Schaltung mit Messgeräten.",
-                "Beschreibung": "Sie überprüfen die Schaltung mit Messgeräten.",
                 "Semester": [
                   "3"
                 ],
@@ -6578,7 +6489,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen auf Grund des Schemas die prinzipielle Funktion von Schaltungsteilen.",
-                "Beschreibung": "Sie überprüfen auf Grund des Schemas die prinzipielle Funktion von Schaltungsteilen.",
                 "Semester": [
                   "3",
                   "4"
@@ -6590,7 +6500,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie evaluieren auf Grund von Anforderungen elektronische Komponenten.",
-                "Beschreibung": "Sie evaluieren auf Grund von Anforderungen elektronische Komponenten.",
                 "Semester": [
                   "2",
                   "3",
@@ -6607,7 +6516,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie entwickeln auf Grund des Konzepts die Schaltung.",
-                "Beschreibung": "Sie entwickeln auf Grund des Konzepts die Schaltung.",
                 "Semester": [
                   "2",
                   "3",
@@ -6624,7 +6532,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie zeichnen mit einem CAD-System nach Firmenvorgaben das Schema.",
-                "Beschreibung": "Sie zeichnen mit einem CAD-System nach Firmenvorgaben das Schema.",
                 "Semester": [
                   "2",
                   "3",
@@ -6639,7 +6546,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erfassen in Bauteilbibliotheken alle relevanten Daten.",
-                "Beschreibung": "Sie erfassen in Bauteilbibliotheken alle relevanten Daten.",
                 "Semester": [
                   "3",
                   "4",
@@ -6664,7 +6570,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie schätzen den Einfluss von Messgeräten auf Beispielschaltungen ab.",
-                "Beschreibung": "Sie schätzen den Einfluss von Messgeräten auf Beispielschaltungen ab.",
                 "Semester": [
                   "1"
                 ],
@@ -6728,7 +6633,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie stellen die Signalverläufe von klassischen Grundschaltungen grafisch dar.",
-                "Beschreibung": "Sie stellen die Signalverläufe von klassischen Grundschaltungen grafisch dar.",
                 "Semester": [
                   "3",
                   "4"
@@ -6884,7 +6788,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie beheben auf logische und strukturierte Weise Störungen an Schaltungen.",
-                "Beschreibung": "Sie beheben auf logische und strukturierte Weise Störungen an Schaltungen.",
                 "Semester": [
                   "3"
                 ],
@@ -6988,7 +6891,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie erstellen für ihre Inbetriebnahme übersichtliche Messschemas.",
-                "Beschreibung": "Sie erstellen für ihre Inbetriebnahme übersichtliche Messschemas.",
                 "Semester": [
                   "2",
                   "3"
@@ -7015,7 +6917,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie ermitteln die geeigneten Messgeräte und Hilfsmittel für die durchzuführenden Messungen.",
-                "Beschreibung": "Sie ermitteln die geeigneten Messgeräte und Hilfsmittel für die durchzuführenden Messungen.",
                 "Semester": [
                   "2",
                   "3"
@@ -7090,7 +6991,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie erarbeiten anhand von Beispielsituationen die notwendigen Schutzmaßnahmen für Mensch und Gerät.",
-                "Beschreibung": "Sie erarbeiten anhand von Beispielsituationen die notwendigen Schutzmaßnahmen für Mensch und Gerät.",
                 "Semester": [
                   "2"
                 ],
@@ -7137,7 +7037,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie messen Schaltungen und achten darauf, deren ursprünglichen Funktion nicht zu beeinflussen.",
-                "Beschreibung": "Sie messen Schaltungen und achten darauf, deren ursprünglichen Funktion nicht zu beeinflussen.",
                 "Semester": [
                   "2"
                 ],
@@ -7178,7 +7077,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie erarbeiten den Inhalt und die Struktur eines Messprotokolls.",
-                "Beschreibung": "Sie erarbeiten den Inhalt und die Struktur eines Messprotokolls.",
                 "Semester": [
                   "2"
                 ],
@@ -7203,7 +7101,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie halten während der Inbetriebnahme alle Schritte gemäss Protokoll in der richtigen Abfolge ein.",
-                "Beschreibung": "Sie halten während der Inbetriebnahme alle Schritte gemäss Protokoll in der richtigen Abfolge ein.",
                 "Semester": [
                   "2"
                 ],
@@ -7233,7 +7130,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie protokollieren bei Abweichungen vom Sollwert ihre Vermutungen.",
-                "Beschreibung": "Sie protokollieren bei Abweichungen vom Sollwert ihre Vermutungen.",
                 "Semester": [
                   "2"
                 ],
@@ -7261,7 +7157,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie ermitteln anhand typischer Beispiele die notwendigen Messpunkte.",
-                "Beschreibung": "Sie ermitteln anhand typischer Beispiele die notwendigen Messpunkte.",
                 "Semester": [
                   "3"
                 ],
@@ -7299,7 +7194,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie legen anhand des Schemas oder der Funktion die Messpunkte fest.",
-                "Beschreibung": "Sie legen anhand des Schemas oder der Funktion die Messpunkte fest.",
                 "Semester": [
                   "3",
                   "4"
@@ -7311,7 +7205,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bestimmen die Geräte und Hilfsmittel, welche für die durchzuführenden Messungen nötig sind.",
-                "Beschreibung": "Sie bestimmen die Geräte und Hilfsmittel, welche für die durchzuführenden Messungen nötig sind.",
                 "Semester": [
                   "2",
                   "3",
@@ -7324,7 +7217,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie treffen situationsgerechte Maßnahmen zum Schutz von Personen und Gerät.",
-                "Beschreibung": "Sie treffen situationsgerechte Maßnahmen zum Schutz von Personen und Gerät.",
                 "Semester": [
                   "2",
                   "3",
@@ -7337,7 +7229,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie messen Schaltungen und achten darauf, deren ursprünglichen Funktion nicht zu beeinflussen.",
-                "Beschreibung": "Sie messen Schaltungen und achten darauf, deren ursprünglichen Funktion nicht zu beeinflussen.",
                 "Semester": [
                   "2",
                   "3",
@@ -7350,7 +7241,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie notieren alle Messparameter und alle gemessenen Werte in einem Messprotokoll gemäss Firmenvorgaben.",
-                "Beschreibung": "Sie notieren alle Messparameter und alle gemessenen Werte in einem Messprotokoll gemäss Firmenvorgaben.",
                 "Semester": [
                   "2",
                   "3",
@@ -7363,7 +7253,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie sammeln für eine Störungsbehebung die nötigen Unterlagen und grenzen die Fehlfunktion der Schaltung systematisch ein.",
-                "Beschreibung": "Sie sammeln für eine Störungsbehebung die nötigen Unterlagen und grenzen die Fehlfunktion der Schaltung systematisch ein.",
                 "Semester": [
                   "3",
                   "4"
@@ -7375,7 +7264,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie validieren die gemachten Messungen gemäss dem Pflichtenheft.",
-                "Beschreibung": "Sie validieren die gemachten Messungen gemäss dem Pflichtenheft.",
                 "Semester": [
                   "3",
                   "4"
@@ -7387,7 +7275,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie halten während der Inbetriebnahme alle Schritte gemäss Protokoll in der richtigen Abfolge ein.",
-                "Beschreibung": "Sie halten während der Inbetriebnahme alle Schritte gemäss Protokoll in der richtigen Abfolge ein.",
                 "Semester": [
                   "3",
                   "4"
@@ -7399,7 +7286,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie protokollieren bei Abweichungen vom Sollwert ihre Vermutungen.",
-                "Beschreibung": "Sie protokollieren bei Abweichungen vom Sollwert ihre Vermutungen.",
                 "Semester": [
                   "3",
                   "4"
@@ -7420,7 +7306,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erläutern schädliche Einflüsse auf Leiterplatten oder Baugruppen.",
-                "Beschreibung": "Sie erläutern schädliche Einflüsse auf Leiterplatten oder Baugruppen.",
                 "Semester": [
                   "5"
                 ],
@@ -7487,7 +7372,6 @@
                 "LN": "LN 1",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erklären die Effekte der elektrostatischen Entladung (ESD).",
-                "Beschreibung": "Sie erklären die Effekte der elektrostatischen Entladung (ESD).",
                 "Semester": [
                   "5"
                 ],
@@ -7567,7 +7451,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie identifizieren in Datenblättern oder Inhaltsangaben problematische Stoffe und mögliche Gefahren bezüglich Arbeits- und Umweltschutz.",
-                "Beschreibung": "Sie identifizieren in Datenblättern oder Inhaltsangaben problematische Stoffe und mögliche Gefahren bezüglich Arbeits- und Umweltschutz.",
                 "Semester": [
                   "5"
                 ],
@@ -7631,7 +7514,6 @@
                 "LN": "LN 1",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie beschreiben die Eigenschaften von verschiedenen Leiter- und Steckertypen.",
-                "Beschreibung": "Sie beschreiben die Eigenschaften von verschiedenen Leiter- und Steckertypen.",
                 "Semester": [
                   "3"
                 ],
@@ -7711,7 +7593,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie identifizieren relevante Massnahmen und Verhaltensregeln zur Einhaltung von Arbeitssicherheit.",
-                "Beschreibung": "Sie identifizieren relevante Massnahmen und Verhaltensregeln zur Einhaltung von Arbeitssicherheit.",
                 "Semester": [
                   "1"
                 ],
@@ -7762,7 +7643,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie planen an Beispielen aus ihrem Arbeitsumfeld Massnahmen und Verhaltensvorgaben.",
-                "Beschreibung": "Sie planen an Beispielen aus ihrem Arbeitsumfeld Massnahmen und Verhaltensvorgaben.",
                 "Semester": [
                   "1"
                 ],
@@ -7808,7 +7688,6 @@
                 "LN": "LN 5",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie bestimmen den ökologischen Fussabdruck der eigenen betrieblichen Tätigkeit, reflektieren diesen und schlagen wo möglich Verbesserungen vor.",
-                "Beschreibung": "Sie bestimmen den ökologischen Fussabdruck der eigenen betrieblichen Tätigkeit, reflektieren diesen und schlagen wo möglich Verbesserungen vor.",
                 "Semester": [
                   "1",
                   "3"
@@ -7899,7 +7778,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erkennen die ökologischen Herausforderungen und deren Lösungsmöglichkeiten in ihrem Arbeitsbereich.",
-                "Beschreibung": "Sie erkennen die ökologischen Herausforderungen und deren Lösungsmöglichkeiten in ihrem Arbeitsbereich.",
                 "Semester": [
                   "3"
                 ],
@@ -7938,7 +7816,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen die Vorgaben zur Arbeitssicherheit in ihrer Arbeit um und stellen die Einhaltung in ihrem Umfeld sicher.",
-                "Beschreibung": "Sie setzen die Vorgaben zur Arbeitssicherheit in ihrer Arbeit um und stellen die Einhaltung in ihrem Umfeld sicher.",
                 "Semester": [
                   "1"
                 ],
@@ -8001,7 +7878,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie interpretieren Fertigungsunterlagen wie Zeichnungen, Stücklisten und Zusammenstellungszeichnungen.",
-                "Beschreibung": "Sie interpretieren Fertigungsunterlagen wie Zeichnungen, Stücklisten und Zusammenstellungszeichnungen.",
                 "Semester": [
                   "1"
                 ],
@@ -8057,7 +7933,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie stellen gemäss Fertigungsunterlagen das Material bereit.",
-                "Beschreibung": "Sie stellen gemäss Fertigungsunterlagen das Material bereit.",
                 "Semester": [
                   "1"
                 ],
@@ -8085,7 +7960,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie bewirtschaften auftragsbezogene Materialien, Ersatzteile, Waren oder Dienstleistungen und stellen diese bereit.",
-                "Beschreibung": "Sie bewirtschaften auftragsbezogene Materialien, Ersatzteile, Waren oder Dienstleistungen und stellen diese bereit.",
                 "Semester": [
                   "1"
                 ],
@@ -8110,7 +7984,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie kontrollieren das bereitgestellte Material.",
-                "Beschreibung": "Sie kontrollieren das bereitgestellte Material.",
                 "Semester": [
                   "1"
                 ],
@@ -8157,7 +8030,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie bestücken und löten beispielhafte Leiterplatten mit verschiedensten Bauarten von Bauteilen.",
-                "Beschreibung": "Sie bestücken und löten beispielhafte Leiterplatten mit verschiedensten Bauarten von Bauteilen.",
                 "Semester": [
                   "1"
                 ],
@@ -8404,7 +8276,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie stellen Kabel mit unterschiedlichen Steckertypen her.",
-                "Beschreibung": "Sie stellen Kabel mit unterschiedlichen Steckertypen her.",
                 "Semester": [
                   "1"
                 ],
@@ -8494,7 +8365,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen verschiedene mechanische Verbindungstechnologien ein.",
-                "Beschreibung": "Sie setzen verschiedene mechanische Verbindungstechnologien ein.",
                 "Semester": [
                   "1"
                 ],
@@ -8519,7 +8389,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie bewerten optisch nach vorgegebenen Kriterien Lötstellen, Bestückungen und Verbindungen.",
-                "Beschreibung": "Sie bewerten optisch nach vorgegebenen Kriterien Lötstellen, Bestückungen und Verbindungen.",
                 "Semester": [
                   "1"
                 ],
@@ -8594,7 +8463,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie korrigieren fehlende oder falsche Angaben in den Unterlagen.",
-                "Beschreibung": "Sie korrigieren fehlende oder falsche Angaben in den Unterlagen.",
                 "Semester": [
                   "1"
                 ],
@@ -8649,7 +8517,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie modifizieren Leiterplatten.",
-                "Beschreibung": "Sie modifizieren Leiterplatten.",
                 "Semester": [
                   "1"
                 ],
@@ -8690,7 +8557,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie halten im eigenen Arbeitsumfeld die gesetzlichen Vorschriften und betrieblichen Vorgaben zum Schutz der Umwelt ein.",
-                "Beschreibung": "Sie halten im eigenen Arbeitsumfeld die gesetzlichen Vorschriften und betrieblichen Vorgaben zum Schutz der Umwelt ein.",
                 "Semester": [
                   "1"
                 ],
@@ -8780,7 +8646,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie dokumentieren die Einhaltung von Arbeitssicherheit und Umweltschutz nach betrieblichen Vorgaben.",
-                "Beschreibung": "Sie dokumentieren die Einhaltung von Arbeitssicherheit und Umweltschutz nach betrieblichen Vorgaben.",
                 "Semester": [
                   "1"
                 ],
@@ -8805,7 +8670,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie dokumentieren deren Einhaltung nach betrieblichen Vorgaben.",
-                "Beschreibung": "Sie dokumentieren deren Einhaltung nach betrieblichen Vorgaben.",
                 "Semester": [
                   "1"
                 ],
@@ -8830,7 +8694,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie wählen die für ihre Arbeit benötigen Materialen, Hilfsstoffe und Arbeitsmittel aus und stellen diese bereit.",
-                "Beschreibung": "Sie wählen die für ihre Arbeit benötigen Materialen, Hilfsstoffe und Arbeitsmittel aus und stellen diese bereit.",
                 "Semester": [
                   "1"
                 ],
@@ -8923,7 +8786,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie lassen in ihrem Handeln und Entscheiden ökologische Aspekte einfliessen.",
-                "Beschreibung": "Sie lassen in ihrem Handeln und Entscheiden ökologische Aspekte einfliessen.",
                 "Semester": [
                   "1"
                 ],
@@ -8970,7 +8832,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie organisieren ihren Arbeitsplatz.",
-                "Beschreibung": "Sie organisieren ihren Arbeitsplatz.",
                 "Semester": [
                   "1"
                 ],
@@ -9028,7 +8889,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie gewährleisten die Pflege und den Unterhalt der Werkzeuge/Arbeitsgeräte und Verbrauchsgüter.",
-                "Beschreibung": "Sie gewährleisten die Pflege und den Unterhalt der Werkzeuge/Arbeitsgeräte und Verbrauchsgüter.",
                 "Semester": [
                   "1"
                 ],
@@ -9079,7 +8939,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen gemäss Fertigungsunterlagen das Material bereit.",
-                "Beschreibung": "Sie stellen gemäss Fertigungsunterlagen das Material bereit.",
                 "Semester": [
                   "1",
                   "4"
@@ -9091,7 +8950,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kontrollieren das bereitgestellte Material.",
-                "Beschreibung": "Sie kontrollieren das bereitgestellte Material.",
                 "Semester": [
                   "1",
                   "4"
@@ -9103,7 +8961,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie halten zum Schutz von Personen und Betriebsmittel die Sicherheitsmassnahmen ein.",
-                "Beschreibung": "Sie halten zum Schutz von Personen und Betriebsmittel die Sicherheitsmassnahmen ein.",
                 "Semester": [
                   "1",
                   "2",
@@ -9117,7 +8974,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen Kabel für elektrische Verbindungen her.",
-                "Beschreibung": "Sie stellen Kabel für elektrische Verbindungen her.",
                 "Semester": [
                   "1",
                   "2",
@@ -9130,7 +8986,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bestücken und löten Leiterplatten.",
-                "Beschreibung": "Sie bestücken und löten Leiterplatten.",
                 "Semester": [
                   "1",
                   "2",
@@ -9144,7 +8999,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie modifizieren bestehende Leiterplatten oder Baugruppen.",
-                "Beschreibung": "Sie modifizieren bestehende Leiterplatten oder Baugruppen.",
                 "Semester": [
                   "3",
                   "4"
@@ -9156,7 +9010,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie korrigieren fehlende oder falsche Angaben in den Unterlagen.",
-                "Beschreibung": "Sie korrigieren fehlende oder falsche Angaben in den Unterlagen.",
                 "Semester": [
                   "3",
                   "4"
@@ -9168,7 +9021,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie nehmen einfache mechanische Montagen vor.",
-                "Beschreibung": "Sie nehmen einfache mechanische Montagen vor.",
                 "Semester": [
                   "2",
                   "3",
@@ -9181,7 +9033,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kontrollieren optisch nach Prüfkriterien die Lötstellen, Bestückungen und Verbindungen.",
-                "Beschreibung": "Sie kontrollieren optisch nach Prüfkriterien die Lötstellen, Bestückungen und Verbindungen.",
                 "Semester": [
                   "1",
                   "2",
@@ -9194,7 +9045,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie schützen Leiterplatten oder Baugruppen vor möglichen Schadeinwirkungen.",
-                "Beschreibung": "Sie schützen Leiterplatten oder Baugruppen vor möglichen Schadeinwirkungen.",
                 "Semester": [
                   "1",
                   "2",
@@ -9207,7 +9057,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie schützen sich und Betriebsmittel vor Schäden und führen Abfälle einer Wiederverwertung zu oder entsorgen sie umweltgerecht.",
-                "Beschreibung": "Sie schützen sich und Betriebsmittel vor Schäden und führen Abfälle einer Wiederverwertung zu oder entsorgen sie umweltgerecht.",
                 "Semester": [
                   "1",
                   "2",
@@ -9220,7 +9069,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie organisieren ihren Arbeitsplatz.",
-                "Beschreibung": "Sie organisieren ihren Arbeitsplatz.",
                 "Semester": [
                   "1",
                   "2",
@@ -9233,7 +9081,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie wählen die für ihre Arbeit benötigen Materialen, Hilfsstoffe und Arbeitsmittel aus und stellen diese bereit.",
-                "Beschreibung": "Sie wählen die für ihre Arbeit benötigen Materialen, Hilfsstoffe und Arbeitsmittel aus und stellen diese bereit.",
                 "Semester": [
                   "1",
                   "2",
@@ -9247,7 +9094,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie lagern Material und Waren fachgerecht gemäss betrieblichen und rechtlichen Vorgaben/Anforderungen.",
-                "Beschreibung": "Sie lagern Material und Waren fachgerecht gemäss betrieblichen und rechtlichen Vorgaben/Anforderungen.",
                 "Semester": [
                   "1",
                   "2",
@@ -9260,7 +9106,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie gewährleisten die Pflege und den Unterhalt der Werkzeuge/Arbeitsgeräte und Verbrauchsgüter.",
-                "Beschreibung": "Sie gewährleisten die Pflege und den Unterhalt der Werkzeuge/Arbeitsgeräte und Verbrauchsgüter.",
                 "Semester": [
                   "1",
                   "2"
@@ -9272,7 +9117,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie beschaffen Material und Waren fachgerecht gemäss betrieblichen und rechtlichen Vorgaben/Anforderungen.",
-                "Beschreibung": "Sie beschaffen Material und Waren fachgerecht gemäss betrieblichen und rechtlichen Vorgaben/Anforderungen.",
                 "Semester": [
                   "1",
                   "2",
@@ -9286,7 +9130,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie halten im eigenen Arbeitsumfeld die gesetzlichen Vorschriften und betrieblichen Vorgaben zum Schutz der Umwelt ein.",
-                "Beschreibung": "Sie halten im eigenen Arbeitsumfeld die gesetzlichen Vorschriften und betrieblichen Vorgaben zum Schutz der Umwelt ein.",
                 "Semester": [
                   "1",
                   "2",
@@ -9300,7 +9143,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren deren Einhaltung nach betrieblichen Vorgaben.",
-                "Beschreibung": "Sie dokumentieren deren Einhaltung nach betrieblichen Vorgaben.",
                 "Semester": [
                   "1",
                   "2",
@@ -9314,7 +9156,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen je nach Verfügbarkeit des Materials oder anderer Ressourcen die Arbeiten.",
-                "Beschreibung": "Sie planen je nach Verfügbarkeit des Materials oder anderer Ressourcen die Arbeiten.",
                 "Semester": [
                   "2",
                   "3"
@@ -9326,7 +9167,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen die Vorgaben zur Arbeitssicherheit in ihrer Arbeit um und stellen die Einhaltung in ihrem Umfeld sicher.",
-                "Beschreibung": "Sie setzen die Vorgaben zur Arbeitssicherheit in ihrer Arbeit um und stellen die Einhaltung in ihrem Umfeld sicher.",
                 "Semester": [
                   "2",
                   "3",
@@ -9339,7 +9179,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren die Einhaltung von Arbeitssicherheit und Umweltschutz nach betrieblichen Vorgaben.",
-                "Beschreibung": "Sie dokumentieren die Einhaltung von Arbeitssicherheit und Umweltschutz nach betrieblichen Vorgaben.",
                 "Semester": [
                   "2",
                   "3",
@@ -9352,7 +9191,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bewirtschaften auftragsbezogenes Material, Ersatzteile, Waren oder Dienstleistungen und stellen diese bereit.",
-                "Beschreibung": "Sie bewirtschaften auftragsbezogenes Material, Ersatzteile, Waren oder Dienstleistungen und stellen diese bereit.",
                 "Semester": [
                   "3",
                   "4",
@@ -9366,7 +9204,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie lassen in ihrem Handeln und Entscheiden ökologische Aspekte einfliessen.",
-                "Beschreibung": "Sie lassen in ihrem Handeln und Entscheiden ökologische Aspekte einfliessen.",
                 "Semester": [
                   "3",
                   "4",
@@ -9380,7 +9217,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erkennen die ökologischen Gefahren in ihrem Arbeitsbereich und leiten zielführende Massnahmen zum Schutz von Umwelt und Mensch ein.",
-                "Beschreibung": "Sie erkennen die ökologischen Gefahren in ihrem Arbeitsbereich und leiten zielführende Massnahmen zum Schutz von Umwelt und Mensch ein.",
                 "Semester": [
                   "3",
                   "4",
@@ -9394,7 +9230,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie decken durch Kontrollen der Arbeitssicherheit Defizite auf und leiten korrigierende Massnahmen ein.",
-                "Beschreibung": "Sie decken durch Kontrollen der Arbeitssicherheit Defizite auf und leiten korrigierende Massnahmen ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -9408,7 +9243,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie leisten einen Beitrag zur laufenden Weiterentwicklung der Arbeitssicherheit.",
-                "Beschreibung": "Sie leisten einen Beitrag zur laufenden Weiterentwicklung der Arbeitssicherheit.",
                 "Semester": [
                   "5",
                   "6",
@@ -9431,7 +9265,6 @@
                 "LN": "LN 1",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erklären die grundlegenden Eigenschaften einer Leiterplatte.",
-                "Beschreibung": "Sie erklären die grundlegenden Eigenschaften einer Leiterplatte.",
                 "Semester": [
                   "3"
                 ],
@@ -9495,7 +9328,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie unterscheiden Komponenten Bauformen.",
-                "Beschreibung": "Sie unterscheiden Komponenten Bauformen.",
                 "Semester": [
                   "3"
                 ],
@@ -9536,7 +9368,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie entscheiden sich für genormte Darstellungs- und Spezifikationsarten und wenden diese den Funktionen entsprechend an.",
-                "Beschreibung": "Sie entscheiden sich für genormte Darstellungs- und Spezifikationsarten und wenden diese den Funktionen entsprechend an.",
                 "Semester": [
                   "3"
                 ],
@@ -9611,7 +9442,7 @@
                   },
                   {
                     "ID LZ": "LZ_9458",
-                    "Beschreibung LZ": "Sie beschreiben die Grundsätze der ISO 8015._x000D_",
+                    "Beschreibung LZ": "Sie beschreiben die Grundsätze der ISO 8015.",
                     "Taxonomie LZ": "K1",
                     "ID LFE": "LFB_El_Lay",
                     "Handlungsnotwendiges Wissen": "",
@@ -9624,7 +9455,7 @@
                   },
                   {
                     "ID LZ": "LZ_9011",
-                    "Beschreibung LZ": "Sie zeigen die Grundstruktur einer technischen Zeichnung auf._x000D_",
+                    "Beschreibung LZ": "Sie zeigen die Grundstruktur einer technischen Zeichnung auf.",
                     "Taxonomie LZ": "K2",
                     "ID LFE": "LFB_El_Lay",
                     "Handlungsnotwendiges Wissen": "",
@@ -9650,7 +9481,7 @@
                   },
                   {
                     "ID LZ": "LZ_9604_2",
-                    "Beschreibung LZ": "Sie unterscheiden normierte Linienarten._x000D__x000D_",
+                    "Beschreibung LZ": "Sie unterscheiden normierte Linienarten.",
                     "Taxonomie LZ": "K1",
                     "ID LFE": "LFB_El_Lay",
                     "Handlungsnotwendiges Wissen": "",
@@ -9772,7 +9603,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erstellen unter Berücksichtigung der physikalischen Begebenheiten das Layout von Leiterplatten.",
-                "Beschreibung": "Sie erstellen unter Berücksichtigung der physikalischen Begebenheiten das Layout von Leiterplatten.",
                 "Semester": [
                   "3"
                 ],
@@ -9868,7 +9698,6 @@
                 "LN": "LN 1",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erklären die Bedeutung der verschiedenen Produktionsdaten.",
-                "Beschreibung": "Sie erklären die Bedeutung der verschiedenen Produktionsdaten.",
                 "Semester": [
                   "3"
                 ],
@@ -9906,7 +9735,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen mit einem CAD-System nach Designregeln Layouts.",
-                "Beschreibung": "Sie erstellen mit einem CAD-System nach Designregeln Layouts.",
                 "Semester": [
                   "3",
                   "4",
@@ -9922,7 +9750,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie zeichnen die Leiterplatte gemäss dem mechanischen Konzept.",
-                "Beschreibung": "Sie zeichnen die Leiterplatte gemäss dem mechanischen Konzept.",
                 "Semester": [
                   "3",
                   "4",
@@ -9938,7 +9765,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erfassen in Bauteilbibliotheken alle relevanten Daten.",
-                "Beschreibung": "Sie erfassen in Bauteilbibliotheken alle relevanten Daten.",
                 "Semester": [
                   "3",
                   "4",
@@ -9954,7 +9780,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie generieren die notwendigen Dateien für die Herstellung und Bestückung der Leiterplatte.",
-                "Beschreibung": "Sie generieren die notwendigen Dateien für die Herstellung und Bestückung der Leiterplatte.",
                 "Semester": [
                   "4",
                   "5",
@@ -9969,7 +9794,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bestellen bei einem Hersteller Prototypen der Leiterplatte.",
-                "Beschreibung": "Sie bestellen bei einem Hersteller Prototypen der Leiterplatte.",
                 "Semester": [
                   "4",
                   "5",
@@ -9984,7 +9808,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie wenden die Designempfehlungen aus den Datenblättern in den Layouts an.",
-                "Beschreibung": "Sie wenden die Designempfehlungen aus den Datenblättern in den Layouts an.",
                 "Semester": [
                   "5",
                   "6",
@@ -10007,7 +9830,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie leiten aus einem beispielhaften Pflichtenheft die Prüfkriterien ab.",
-                "Beschreibung": "Sie leiten aus einem beispielhaften Pflichtenheft die Prüfkriterien ab.",
                 "Semester": [
                   "4"
                 ],
@@ -10085,7 +9907,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie ermitteln die geeigneten Messgeräte und Hilfsmittel für die durchzuführenden Messungen.",
-                "Beschreibung": "Sie ermitteln die geeigneten Messgeräte und Hilfsmittel für die durchzuführenden Messungen.",
                 "Semester": [
                   "3"
                 ],
@@ -10123,7 +9944,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie entwickeln für ein elektronisches Projekt ein Testkonzept.",
-                "Beschreibung": "Sie entwickeln für ein elektronisches Projekt ein Testkonzept.",
                 "Semester": [
                   "3"
                 ],
@@ -10174,7 +9994,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie erstellen für ein elektronisches Projekt ein Testprotokoll.",
-                "Beschreibung": "Sie erstellen für ein elektronisches Projekt ein Testprotokoll.",
                 "Semester": [
                   "3"
                 ],
@@ -10212,7 +10031,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie führen die Teilschritte gemäss Testkonzept durch.",
-                "Beschreibung": "Sie führen die Teilschritte gemäss Testkonzept durch.",
                 "Semester": [
                   "3",
                   "4",
@@ -10228,7 +10046,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie protokollieren die Testergebnisse vollständig.",
-                "Beschreibung": "Sie protokollieren die Testergebnisse vollständig.",
                 "Semester": [
                   "3",
                   "4",
@@ -10244,7 +10061,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie leiten aufgrund der Spezifikationen Prüfkriterien ab.",
-                "Beschreibung": "Sie leiten aufgrund der Spezifikationen Prüfkriterien ab.",
                 "Semester": [
                   "5",
                   "6",
@@ -10258,7 +10074,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie definieren für die Prüfung einer Schaltung sinnvolle Teilschritte und Testkonzepte.",
-                "Beschreibung": "Sie definieren für die Prüfung einer Schaltung sinnvolle Teilschritte und Testkonzepte.",
                 "Semester": [
                   "5",
                   "6",
@@ -10272,7 +10087,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Bei unbefriedigenden Testergebnissen initiieren sie nötige Änderungen.",
-                "Beschreibung": "Bei unbefriedigenden Testergebnissen initiieren sie nötige Änderungen.",
                 "Semester": [
                   "5",
                   "6",
@@ -10286,7 +10100,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen die Auswirkungen gemachter Änderungen auf die gesamte Schaltung.",
-                "Beschreibung": "Sie überprüfen die Auswirkungen gemachter Änderungen auf die gesamte Schaltung.",
                 "Semester": [
                   "5",
                   "6",
@@ -10309,7 +10122,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie klären ihre Kompetenzen und holen bei der zuständigen Fachperson Unterstützung ab.",
-                "Beschreibung": "Sie klären ihre Kompetenzen und holen bei der zuständigen Fachperson Unterstützung ab.",
                 "Semester": [
                   "5",
                   "6",
@@ -10323,7 +10135,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie halten die Personenschutzmassnahmen ein.",
-                "Beschreibung": "Sie halten die Personenschutzmassnahmen ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -10337,7 +10148,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie halten zum Schutz von Personen und Betriebsmittel die Sicherheitsmassnahmen ein.",
-                "Beschreibung": "Sie halten zum Schutz von Personen und Betriebsmittel die Sicherheitsmassnahmen ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -10351,7 +10161,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie halten während der Inbetriebnahme alle Schritte gemäss Protokoll in der richtigen Abfolge ein.",
-                "Beschreibung": "Sie halten während der Inbetriebnahme alle Schritte gemäss Protokoll in der richtigen Abfolge ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -10365,7 +10174,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie protokollieren bei Abweichungen vom Sollwert ihre Vermutungen.",
-                "Beschreibung": "Sie protokollieren bei Abweichungen vom Sollwert ihre Vermutungen.",
                 "Semester": [
                   "5",
                   "6",
@@ -10379,7 +10187,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie analysieren die Schaltung und zugehörige Unterlagen und leiten dabei das Soll Verhalten ab.",
-                "Beschreibung": "Sie analysieren die Schaltung und zugehörige Unterlagen und leiten dabei das Soll Verhalten ab.",
                 "Semester": [
                   "5",
                   "6",
@@ -10393,7 +10200,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie definieren für die Inbetriebnahme die dazu nötigen Mess- und Prüfmittel.",
-                "Beschreibung": "Sie definieren für die Inbetriebnahme die dazu nötigen Mess- und Prüfmittel.",
                 "Semester": [
                   "5",
                   "6",
@@ -10407,7 +10213,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen für ihre Inbetriebnahme übersichtliche Messschemas.",
-                "Beschreibung": "Sie erstellen für ihre Inbetriebnahme übersichtliche Messschemas.",
                 "Semester": [
                   "5",
                   "6",
@@ -10421,7 +10226,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen ein nachvollziehbares Inbetriebnahmeprotokoll für die elektronische Schaltung.",
-                "Beschreibung": "Sie erstellen ein nachvollziehbares Inbetriebnahmeprotokoll für die elektronische Schaltung.",
                 "Semester": [
                   "5",
                   "6",
@@ -10435,7 +10239,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie schliessen ihre Inbetriebnahme gemäss den internen Vorgaben ab.",
-                "Beschreibung": "Sie schliessen ihre Inbetriebnahme gemäss den internen Vorgaben ab.",
                 "Semester": [
                   "5",
                   "6",
@@ -10449,7 +10252,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie definieren nach der Analyse der Abweichungen, mögliche Lösungswege, um das Problem zu beheben.",
-                "Beschreibung": "Sie definieren nach der Analyse der Abweichungen, mögliche Lösungswege, um das Problem zu beheben.",
                 "Semester": [
                   "7",
                   "8"
@@ -10470,7 +10272,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen Skizzen von Hand.",
-                "Beschreibung": "Sie erstellen Skizzen von Hand.",
                 "Semester": [
                   "5",
                   "6"
@@ -10482,7 +10283,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen Skizzen für die Fertigung.",
-                "Beschreibung": "Sie erstellen Skizzen für die Fertigung.",
                 "Semester": [
                   "5",
                   "6"
@@ -10494,7 +10294,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie skizzieren für die technische Kommunikation Produkte zwei- und dreidimensional.",
-                "Beschreibung": "Sie skizzieren für die technische Kommunikation Produkte zwei- und dreidimensional.",
                 "Semester": [
                   "5",
                   "6"
@@ -10506,7 +10305,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen aufgrund der Auftragsdokumente und der Fertigungsunterlagen das Rohmaterial bereit.",
-                "Beschreibung": "Sie stellen aufgrund der Auftragsdokumente und der Fertigungsunterlagen das Rohmaterial bereit.",
                 "Semester": [
                   "5",
                   "6"
@@ -10518,7 +10316,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kontrollieren aufgrund der Auftragsdokumente und der Fertigungsunterlagen das Rohmaterial.",
-                "Beschreibung": "Sie kontrollieren aufgrund der Auftragsdokumente und der Fertigungsunterlagen das Rohmaterial.",
                 "Semester": [
                   "5",
                   "6"
@@ -10530,7 +10327,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen die Fertigung von Produkten und erstellen die Fertigungsunterlagen.",
-                "Beschreibung": "Sie planen die Fertigung von Produkten und erstellen die Fertigungsunterlagen.",
                 "Semester": [
                   "5",
                   "6"
@@ -10542,7 +10338,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bestimmen geeignete Handwerkzeuge oder handgeführte Maschinen für die Fertigung von Produkten.",
-                "Beschreibung": "Sie bestimmen geeignete Handwerkzeuge oder handgeführte Maschinen für die Fertigung von Produkten.",
                 "Semester": [
                   "5",
                   "6"
@@ -10554,7 +10349,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bestimmen geeignete Prüfmittel.",
-                "Beschreibung": "Sie bestimmen geeignete Prüfmittel.",
                 "Semester": [
                   "5",
                   "6"
@@ -10566,7 +10360,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie fertigen Produkte mit Handwerkzeugen oder handgeführten Maschinen.",
-                "Beschreibung": "Sie fertigen Produkte mit Handwerkzeugen oder handgeführten Maschinen.",
                 "Semester": [
                   "5",
                   "6"
@@ -10578,7 +10371,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kontrollieren das Produkt während des Produktionsprozesses.",
-                "Beschreibung": "Sie kontrollieren das Produkt während des Produktionsprozesses.",
                 "Semester": [
                   "5",
                   "6"
@@ -10590,7 +10382,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie modellieren für additive Verfahren Prototypen von einfachen mechanischen Bauteilen.",
-                "Beschreibung": "Sie modellieren für additive Verfahren Prototypen von einfachen mechanischen Bauteilen.",
                 "Semester": [
                   "5",
                   "6",
@@ -10604,7 +10395,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen Prototypen von einfachen mechanischen Bauteilen mit additiven Verfahren her.",
-                "Beschreibung": "Sie stellen Prototypen von einfachen mechanischen Bauteilen mit additiven Verfahren her.",
                 "Semester": [
                   "5",
                   "6",
@@ -10633,7 +10423,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie passen Inhalte von technischen Dokumenten in englischer Sprache an.",
-                "Beschreibung": "Sie passen Inhalte von technischen Dokumenten in englischer Sprache an.",
                 "Semester": [
                   "3",
                   "4"
@@ -11194,7 +10983,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie kommunizieren über technische Dokumentationen in englischer Sprache auf dem Niveau A2.",
-                "Beschreibung": "Sie kommunizieren über technische Dokumentationen in englischer Sprache auf dem Niveau A2.",
                 "Semester": [
                   "3",
                   "4"
@@ -11755,7 +11543,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie wenden die Grundkonzepte einer Programmiersprache an.",
-                "Beschreibung": "Sie wenden die Grundkonzepte einer Programmiersprache an.",
                 "Semester": [
                   "1",
                   "3",
@@ -11956,7 +11743,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie lösen mit verschiedenen Software-Architektur Ideen wie EVA-Prinzip oder Zustandsautomaten Problemstellungen.",
-                "Beschreibung": "Sie lösen mit verschiedenen Software-Architektur Ideen wie EVA-Prinzip oder Zustandsautomaten Problemstellungen.",
                 "Semester": [
                   "1",
                   "3",
@@ -12087,7 +11873,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie führen arithmetische und boolesche Operationen in verschiedenen Zahlensystemen durch.",
-                "Beschreibung": "Sie führen arithmetische und boolesche Operationen in verschiedenen Zahlensystemen durch.",
                 "Semester": [
                   "1"
                 ],
@@ -12222,7 +12007,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie interpretieren Datenblätter bezüglich Energiesparzuständen und legen die Konfiguration passend fest.",
-                "Beschreibung": "Sie interpretieren Datenblätter bezüglich Energiesparzuständen und legen die Konfiguration passend fest.",
                 "Semester": [
                   "6"
                 ],
@@ -12279,7 +12063,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie setzen verschiedene digitale oder analoge Schnittstellen an beispielhaften Aufgaben ein.",
-                "Beschreibung": "Sie setzen verschiedene digitale oder analoge Schnittstellen an beispielhaften Aufgaben ein.",
                 "Semester": [
                   "6"
                 ],
@@ -12406,7 +12189,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie stellen die Programmstruktur eines Programmes auf verschiedene Arten graphisch dar.",
-                "Beschreibung": "Sie stellen die Programmstruktur eines Programmes auf verschiedene Arten graphisch dar.",
                 "Semester": [
                   "1",
                   "3",
@@ -12540,7 +12322,6 @@
                 "LN": "LN 1",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erläutern die grundsätzliche Funktion einer Toolchain.",
-                "Beschreibung": "Sie erläutern die grundsätzliche Funktion einer Toolchain.",
                 "Semester": [
                   "3"
                 ],
@@ -12578,7 +12359,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erklären die Funktion von vorgegebenen Code Sequenzen.",
-                "Beschreibung": "Sie erklären die Funktion von vorgegebenen Code Sequenzen.",
                 "Semester": [
                   "1",
                   "4"
@@ -12700,7 +12480,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie unterscheiden verschiedene Arten von Versionsverwaltungen.",
-                "Beschreibung": "Sie unterscheiden verschiedene Arten von Versionsverwaltungen.",
                 "Semester": [
                   "3"
                 ],
@@ -12744,7 +12523,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie wählen für beispielhafte Anwendungen geeignete Mikrocontroller.",
-                "Beschreibung": "Sie wählen für beispielhafte Anwendungen geeignete Mikrocontroller.",
                 "Semester": [
                   "2"
                 ],
@@ -12860,7 +12638,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie realisieren in den Grundstrukturen eines Mikrocontrollers einfachste Programme.",
-                "Beschreibung": "Sie realisieren in den Grundstrukturen eines Mikrocontrollers einfachste Programme.",
                 "Semester": [
                   "4"
                 ],
@@ -12923,7 +12700,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen SW-Entwicklungsmethoden in beispielhaften Situationen ein.",
-                "Beschreibung": "Sie setzen SW-Entwicklungsmethoden in beispielhaften Situationen ein.",
                 "Semester": [
                   "4"
                 ],
@@ -12986,7 +12762,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie erstellen eine Hardwarestruktur inklusive der nötigen Schnittstellen und stellen diese graphisch dar.",
-                "Beschreibung": "Sie erstellen eine Hardwarestruktur inklusive der nötigen Schnittstellen und stellen diese graphisch dar.",
                 "Semester": [
                   "4"
                 ],
@@ -13037,7 +12812,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie finden und beheben mit Hilfe der Entwicklungsumgebung Fehler in der Software.",
-                "Beschreibung": "Sie finden und beheben mit Hilfe der Entwicklungsumgebung Fehler in der Software.",
                 "Semester": [
                   "4"
                 ],
@@ -13075,7 +12849,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie finden und beheben mittels einer Debugschnittstelle Fehler in der Software.",
-                "Beschreibung": "Sie finden und beheben mittels einer Debugschnittstelle Fehler in der Software.",
                 "Semester": [
                   "4"
                 ],
@@ -13126,7 +12899,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie steuern mit Software-Beispielen im Mikrocontroller integrierte Hardware an.",
-                "Beschreibung": "Sie steuern mit Software-Beispielen im Mikrocontroller integrierte Hardware an.",
                 "Semester": [
                   "4"
                 ],
@@ -13173,7 +12945,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen ein System für die Versionsverwaltung in der Software-Entwicklung ein.",
-                "Beschreibung": "Sie setzen ein System für die Versionsverwaltung in der Software-Entwicklung ein.",
                 "Semester": [
                   "4"
                 ],
@@ -13217,7 +12988,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie realisieren Projekte mit verschiedenen Energiesparoptionen für den Mikrocontroller und die umliegende Hardware.",
-                "Beschreibung": "Sie realisieren Projekte mit verschiedenen Energiesparoptionen für den Mikrocontroller und die umliegende Hardware.",
                 "Semester": [
                   "4"
                 ],
@@ -13277,7 +13047,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie erstellen basierend auf vorhandenen Frameworks eigene Programme.",
-                "Beschreibung": "Sie erstellen basierend auf vorhandenen Frameworks eigene Programme.",
                 "Semester": [
                   "4"
                 ],
@@ -13335,7 +13104,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie kommunizieren über im Mikrocontroller integrierten Schnittstellen mit externer Hardware.",
-                "Beschreibung": "Sie kommunizieren über im Mikrocontroller integrierten Schnittstellen mit externer Hardware.",
                 "Semester": [
                   "4"
                 ],
@@ -13379,7 +13147,6 @@
                 "LN": "LN 1",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie nutzen mit Software Beispielen Interrupts.",
-                "Beschreibung": "Sie nutzen mit Software Beispielen Interrupts.",
                 "Semester": [
                   "4"
                 ],
@@ -13439,7 +13206,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie variieren Compiler-Optionen in Bezug auf Energieoptimierung und Performance.",
-                "Beschreibung": "Sie variieren Compiler-Optionen in Bezug auf Energieoptimierung und Performance.",
                 "Semester": [
                   "4"
                 ],
@@ -13483,7 +13249,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie entwickeln eine Software Struktur gemäss dem Pflichtenheft und stellen diese graphisch dar.",
-                "Beschreibung": "Sie entwickeln eine Software Struktur gemäss dem Pflichtenheft und stellen diese graphisch dar.",
                 "Semester": [
                   "3",
                   "4",
@@ -13499,7 +13264,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie definieren die Schnittstellen zur verwendeten Hardware.",
-                "Beschreibung": "Sie definieren die Schnittstellen zur verwendeten Hardware.",
                 "Semester": [
                   "3",
                   "4",
@@ -13515,7 +13279,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie programmieren Mikrocontroller gemäss Software Struktur in einer Hochsprache.",
-                "Beschreibung": "Sie programmieren Mikrocontroller gemäss Software Struktur in einer Hochsprache.",
                 "Semester": [
                   "3",
                   "4",
@@ -13531,7 +13294,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie finden und beheben Fehler in der Software.",
-                "Beschreibung": "Sie finden und beheben Fehler in der Software.",
                 "Semester": [
                   "3",
                   "4",
@@ -13547,7 +13309,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kompilieren Software, laden diese auf das Zielsystem und nehmen das Programm in Betrieb.",
-                "Beschreibung": "Sie kompilieren Software, laden diese auf das Zielsystem und nehmen das Programm in Betrieb.",
                 "Semester": [
                   "3",
                   "4",
@@ -13563,7 +13324,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie sichern den Entwicklungsstand der Software nachvollziehbar laufend in einer Versionsverwaltung.",
-                "Beschreibung": "Sie sichern den Entwicklungsstand der Software nachvollziehbar laufend in einer Versionsverwaltung.",
                 "Semester": [
                   "3",
                   "4",
@@ -13579,7 +13339,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie konfigurieren unter Berücksichtigung möglicher Energiesparoptionen Mikrokontroller und die umliegende Hardware.",
-                "Beschreibung": "Sie konfigurieren unter Berücksichtigung möglicher Energiesparoptionen Mikrokontroller und die umliegende Hardware.",
                 "Semester": [
                   "5",
                   "6",
@@ -13593,7 +13352,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie steuern mittels Software über Schnittstellen interne und externe Hardware an.",
-                "Beschreibung": "Sie steuern mittels Software über Schnittstellen interne und externe Hardware an.",
                 "Semester": [
                   "5",
                   "6",
@@ -13607,7 +13365,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erweitern oder ändern bestehende Software oder suchen Fehler darin.",
-                "Beschreibung": "Sie erweitern oder ändern bestehende Software oder suchen Fehler darin.",
                 "Semester": [
                   "5",
                   "6",
@@ -13621,7 +13378,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie passen auftragsbezogene schriftliche Inhalte von technischen Dokumenten in englischer Sprache an.",
-                "Beschreibung": "Sie passen auftragsbezogene schriftliche Inhalte von technischen Dokumenten in englischer Sprache an.",
                 "Semester": [
                   "5",
                   "6",
@@ -13635,7 +13391,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kommunizieren über auftragsbezogene technische Dokumentationen in englischer Sprache auf dem Niveau A2.",
-                "Beschreibung": "Sie kommunizieren über auftragsbezogene technische Dokumentationen in englischer Sprache auf dem Niveau A2.",
                 "Semester": [
                   "5",
                   "6",
@@ -13649,7 +13404,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie interpretieren technische Dokumentation in englischer Sprache und setzen deren Inhalte am Arbeitsplatz um.",
-                "Beschreibung": "Sie interpretieren technische Dokumentation in englischer Sprache und setzen deren Inhalte am Arbeitsplatz um.",
                 "Semester": [
                   "5",
                   "6",
@@ -13672,7 +13426,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erklären die Vorzüge eines methodischen und strukturierten Durchführens der Überprüfung von Anforderungen.",
-                "Beschreibung": "Sie erklären die Vorzüge eines methodischen und strukturierten Durchführens der Überprüfung von Anforderungen.",
                 "Semester": [
                   "3",
                   "4"
@@ -13761,7 +13514,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erläutern die Prinzipien des Ecodesigns in Bezug auf material- und energieeffizientes Design.",
-                "Beschreibung": "Sie erläutern die Prinzipien des Ecodesigns in Bezug auf material- und energieeffizientes Design.",
                 "Semester": [
                   "3"
                 ],
@@ -13805,7 +13557,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie führen die Tests durch.",
-                "Beschreibung": "Sie führen die Tests durch.",
                 "Semester": [
                   "4"
                 ],
@@ -13846,7 +13597,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie dokumentieren die Testresultate.",
-                "Beschreibung": "Sie dokumentieren die Testresultate.",
                 "Semester": [
                   "4"
                 ],
@@ -13874,7 +13624,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie analysieren die Testresultate und machen Aussagen zu deren Qualität.",
-                "Beschreibung": "Sie analysieren die Testresultate und machen Aussagen zu deren Qualität.",
                 "Semester": [
                   "4"
                 ],
@@ -13902,7 +13651,6 @@
                 "LN": "LN 3",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie definieren Prüfkriterien für beispielhafte Aufgabenstellungen.",
-                "Beschreibung": "Sie definieren Prüfkriterien für beispielhafte Aufgabenstellungen.",
                 "Semester": [
                   "4"
                 ],
@@ -13946,7 +13694,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen laufend die Anforderungen während der Entwicklung.",
-                "Beschreibung": "Sie überprüfen laufend die Anforderungen während der Entwicklung.",
                 "Semester": [
                   "3",
                   "4",
@@ -13962,7 +13709,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie leiten aufgrund der Spezifikationen Prüfkriterien ab.",
-                "Beschreibung": "Sie leiten aufgrund der Spezifikationen Prüfkriterien ab.",
                 "Semester": [
                   "3",
                   "4",
@@ -13978,7 +13724,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen auf Grund der Prüfkriterien die Testfälle.",
-                "Beschreibung": "Sie erstellen auf Grund der Prüfkriterien die Testfälle.",
                 "Semester": [
                   "4",
                   "5",
@@ -13993,7 +13738,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie führen die Tests durch.",
-                "Beschreibung": "Sie führen die Tests durch.",
                 "Semester": [
                   "4",
                   "5",
@@ -14008,7 +13752,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren die Testresultate.",
-                "Beschreibung": "Sie dokumentieren die Testresultate.",
                 "Semester": [
                   "4",
                   "5",
@@ -14023,7 +13766,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie analysieren die Testresultate und bei unbefriedigenden Testresultaten initiieren sie passende Änderungen.",
-                "Beschreibung": "Sie analysieren die Testresultate und bei unbefriedigenden Testresultaten initiieren sie passende Änderungen.",
                 "Semester": [
                   "4",
                   "5",
@@ -14038,7 +13780,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie schlagen aufgrund der Testresultate Optimierungen vor.",
-                "Beschreibung": "Sie schlagen aufgrund der Testresultate Optimierungen vor.",
                 "Semester": [
                   "4",
                   "5",
@@ -14053,7 +13794,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen die Auswirkungen gemachter Änderungen auf die Software.",
-                "Beschreibung": "Sie überprüfen die Auswirkungen gemachter Änderungen auf die Software.",
                 "Semester": [
                   "4",
                   "5",
@@ -14077,7 +13817,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie integrieren Geräte, Sensoren oder Aktoren in einem Netzwerk oder Bussystem und konfigurieren diese, um die Kommunikation zu ermöglichen.",
-                "Beschreibung": "Sie integrieren Geräte, Sensoren oder Aktoren in einem Netzwerk oder Bussystem und konfigurieren diese, um die Kommunikation zu ermöglichen.",
                 "Semester": [
                   "5",
                   "6",
@@ -14091,7 +13830,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bestimmen Betriebsmittel, Sensoren oder Aktoren, welche den Kundenbedürfnissen entsprechen.",
-                "Beschreibung": "Sie bestimmen Betriebsmittel, Sensoren oder Aktoren, welche den Kundenbedürfnissen entsprechen.",
                 "Semester": [
                   "5",
                   "6",
@@ -14105,7 +13843,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie binden Geräte, Sensoren oder Aktoren in die Cloud ein.",
-                "Beschreibung": "Sie binden Geräte, Sensoren oder Aktoren in die Cloud ein.",
                 "Semester": [
                   "5",
                   "6"
@@ -14117,7 +13854,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen einen Prototypen Aufbau zum Testen des Zusammenspiels der verschiedenen Komponenten.",
-                "Beschreibung": "Sie erstellen einen Prototypen Aufbau zum Testen des Zusammenspiels der verschiedenen Komponenten.",
                 "Semester": [
                   "5",
                   "6",
@@ -14131,7 +13867,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren die Netz- oder Bustopologie zusammen mit den gemachten Konfigurationen in der Entwicklungsdokumentation.",
-                "Beschreibung": "Sie dokumentieren die Netz- oder Bustopologie zusammen mit den gemachten Konfigurationen in der Entwicklungsdokumentation.",
                 "Semester": [
                   "5",
                   "6"
@@ -14143,7 +13878,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie entwickeln netzwerkfähige elektronische Hardware.",
-                "Beschreibung": "Sie entwickeln netzwerkfähige elektronische Hardware.",
                 "Semester": [
                   "5",
                   "6",
@@ -14166,7 +13900,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie sichern den Entwicklungsstand der Software nachvollziehbar laufend in einer Versionsverwaltung.",
-                "Beschreibung": "Sie sichern den Entwicklungsstand der Software nachvollziehbar laufend in einer Versionsverwaltung.",
                 "Semester": [
                   "5",
                   "6"
@@ -14178,7 +13911,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren die relevanten Aspekte der Applikation.",
-                "Beschreibung": "Sie dokumentieren die relevanten Aspekte der Applikation.",
                 "Semester": [
                   "5",
                   "6"
@@ -14190,7 +13922,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie beschaffen die nötigen Informationen über anzusteuernde Hardware.",
-                "Beschreibung": "Sie beschaffen die nötigen Informationen über anzusteuernde Hardware.",
                 "Semester": [
                   "5",
                   "6"
@@ -14202,7 +13933,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen ein detailliertes Konzept aufgrund des Pflichtenheftes.",
-                "Beschreibung": "Sie erstellen ein detailliertes Konzept aufgrund des Pflichtenheftes.",
                 "Semester": [
                   "5",
                   "6",
@@ -14216,7 +13946,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie programmieren eine Applikation in einer Hochsprache.",
-                "Beschreibung": "Sie programmieren eine Applikation in einer Hochsprache.",
                 "Semester": [
                   "5",
                   "6",
@@ -14230,7 +13959,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie nehmen die Hardware und die Applikation in Betrieb.",
-                "Beschreibung": "Sie nehmen die Hardware und die Applikation in Betrieb.",
                 "Semester": [
                   "5",
                   "6"
@@ -14242,7 +13970,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erweitern oder verbessern bestehende Applikationen.",
-                "Beschreibung": "Sie erweitern oder verbessern bestehende Applikationen.",
                 "Semester": [
                   "6",
                   "7",
@@ -14255,7 +13982,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie optimieren die Applikation bezüglich Energieeffizienz und Langlebigkeit der eingesetzten Hardware.",
-                "Beschreibung": "Sie optimieren die Applikation bezüglich Energieeffizienz und Langlebigkeit der eingesetzten Hardware.",
                 "Semester": [
                   "7",
                   "8"
@@ -14276,7 +14002,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen für eine Lösung mit Logikschaltungen gemäss dem Pflichtenheft eine grafische Analyse der Problemstellung.",
-                "Beschreibung": "Sie erstellen für eine Lösung mit Logikschaltungen gemäss dem Pflichtenheft eine grafische Analyse der Problemstellung.",
                 "Semester": [
                   "5",
                   "6"
@@ -14288,7 +14013,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie definieren die Schnittstellen zur verwendeten Hardware.",
-                "Beschreibung": "Sie definieren die Schnittstellen zur verwendeten Hardware.",
                 "Semester": [
                   "5",
                   "6"
@@ -14300,7 +14024,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie sichern den Entwicklungsstand der Software nachvollziehbar laufend in einer Versionsverwaltung.",
-                "Beschreibung": "Sie sichern den Entwicklungsstand der Software nachvollziehbar laufend in einer Versionsverwaltung.",
                 "Semester": [
                   "5",
                   "6"
@@ -14312,7 +14035,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie entwickeln gemäss Pflichtenheft Logikschaltungen in einer Hardware-Beschreibungssprache oder mit grafischen Entwicklungswerkzeugen.",
-                "Beschreibung": "Sie entwickeln gemäss Pflichtenheft Logikschaltungen in einer Hardware-Beschreibungssprache oder mit grafischen Entwicklungswerkzeugen.",
                 "Semester": [
                   "5",
                   "6",
@@ -14326,7 +14048,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie finden und beheben Fehler in den Logikschaltungen.",
-                "Beschreibung": "Sie finden und beheben Fehler in den Logikschaltungen.",
                 "Semester": [
                   "6",
                   "7",
@@ -14339,7 +14060,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erweitern, ändern oder suchen Fehler in bestehenden Logikschaltungen.",
-                "Beschreibung": "Sie erweitern, ändern oder suchen Fehler in bestehenden Logikschaltungen.",
                 "Semester": [
                   "6",
                   "7",
@@ -14352,7 +14072,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie beschreiben unter Berücksichtigung möglicher Energiesparoptionen Logikschaltungen und die umliegende Hardware.",
-                "Beschreibung": "Sie beschreiben unter Berücksichtigung möglicher Energiesparoptionen Logikschaltungen und die umliegende Hardware.",
                 "Semester": [
                   "7",
                   "8"
@@ -14364,7 +14083,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie synthetisieren Logikschaltungen, laden diese auf das Zielsystem und nehmen die Schaltung in Betrieb.",
-                "Beschreibung": "Sie synthetisieren Logikschaltungen, laden diese auf das Zielsystem und nehmen die Schaltung in Betrieb.",
                 "Semester": [
                   "7",
                   "8"
@@ -14391,7 +14109,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie dokumentieren Informationen zu ihrer Arbeit.",
-                "Beschreibung": "Sie dokumentieren Informationen zu ihrer Arbeit.",
                 "Semester": [
                   "1",
                   "2"
@@ -14481,7 +14198,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie verwenden geeignete Werkzeuge zur Dokumentation ihrer Arbeit.",
-                "Beschreibung": "Sie verwenden geeignete Werkzeuge zur Dokumentation ihrer Arbeit.",
                 "Semester": [
                   "1",
                   "2"
@@ -14548,7 +14264,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie dokumentieren und archivieren ihre Arbeit nachvollziehbar mit festgelegten Hilfsmitteln nach Vorgaben.",
-                "Beschreibung": "Sie dokumentieren und archivieren ihre Arbeit nachvollziehbar mit festgelegten Hilfsmitteln nach Vorgaben.",
                 "Semester": [
                   "1",
                   "2"
@@ -14751,7 +14466,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie beschaffen sich gezielt Informationen aus dem Internet oder anderen Quellen mit Hilfe klarer Suchkriterien, und beurteilen sie kritisch.",
-                "Beschreibung": "Sie beschaffen sich gezielt Informationen aus dem Internet oder anderen Quellen mit Hilfe klarer Suchkriterien, und beurteilen sie kritisch.",
                 "Semester": [
                   "3"
                 ],
@@ -14781,7 +14495,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erkennen eigene Stärken und Schwächen und führen sich entsprechend.",
-                "Beschreibung": "Sie erkennen eigene Stärken und Schwächen und führen sich entsprechend.",
                 "Semester": [
                   "3"
                 ],
@@ -14811,7 +14524,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie entwickeln aufgrund von Kunden- und Marktbedürfnissen neue Ideen.",
-                "Beschreibung": "Sie entwickeln aufgrund von Kunden- und Marktbedürfnissen neue Ideen.",
                 "Semester": [
                   "3"
                 ],
@@ -14850,7 +14562,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie entwickeln Ideen unter Verwendung von Kreativitätstechniken und berücksichtigen Aspekte der Nachhaltigkeit.",
-                "Beschreibung": "Sie entwickeln Ideen unter Verwendung von Kreativitätstechniken und berücksichtigen Aspekte der Nachhaltigkeit.",
                 "Semester": [
                   "3"
                 ],
@@ -14889,7 +14600,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie untersuchen und dokumentieren Rahmenbedingungen und Erfolgsfaktoren zur Finanzierung und Rentabilität.",
-                "Beschreibung": "Sie untersuchen und dokumentieren Rahmenbedingungen und Erfolgsfaktoren zur Finanzierung und Rentabilität.",
                 "Semester": [
                   "3"
                 ],
@@ -14928,7 +14638,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie berücksichtigen die Prinzipien der Kreislaufwirtschaft (inkl. Herstellungs-, Verkaufs- und Wiederverwertung).",
-                "Beschreibung": "Sie berücksichtigen die Prinzipien der Kreislaufwirtschaft (inkl. Herstellungs-, Verkaufs- und Wiederverwertung).",
                 "Semester": [
                   "3"
                 ],
@@ -14960,7 +14669,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie zeigen die Bestandteile Leitbild, Ziele, Strategie und Organisation eines Unternehmens auf, und erklären deren Wechselwirkung.",
-                "Beschreibung": "Sie zeigen die Bestandteile Leitbild, Ziele, Strategie und Organisation eines Unternehmens auf, und erklären deren Wechselwirkung.",
                 "Semester": [
                   "3"
                 ],
@@ -15017,7 +14725,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie leiten eine Geschäftsidee und Alleinstellungsmerkmale ab (Vision und Mission).",
-                "Beschreibung": "Sie leiten eine Geschäftsidee und Alleinstellungsmerkmale ab (Vision und Mission).",
                 "Semester": [
                   "3"
                 ],
@@ -15049,7 +14756,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie planen die Projektkommunikation.",
-                "Beschreibung": "Sie planen die Projektkommunikation.",
                 "Semester": [
                   "3"
                 ],
@@ -15107,7 +14813,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erkennen, erläutern und beurteilen Rahmenbedingungen für ihre Arbeit.",
-                "Beschreibung": "Sie erkennen, erläutern und beurteilen Rahmenbedingungen für ihre Arbeit.",
                 "Semester": [
                   "3"
                 ],
@@ -15137,7 +14842,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie koordinieren mit den Projektmitarbeitern die Planung von Kundenaufträgen.",
-                "Beschreibung": "Sie koordinieren mit den Projektmitarbeitern die Planung von Kundenaufträgen.",
                 "Semester": [
                   "2",
                   "4",
@@ -15243,7 +14947,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie halten Kundentermine ein.",
-                "Beschreibung": "Sie halten Kundentermine ein.",
                 "Semester": [
                   "4",
                   "5",
@@ -15324,7 +15027,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie wenden Methoden zur Lösungsfindung in der Planung an.",
-                "Beschreibung": "Sie wenden Methoden zur Lösungsfindung in der Planung an.",
                 "Semester": [
                   "4"
                 ],
@@ -15401,7 +15103,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie verwenden verschiedene Werkzeuge für die Planung der Ressourcen (Betriebsmittel, Materialien, Mitarbeitenden etc.).",
-                "Beschreibung": "Sie verwenden verschiedene Werkzeuge für die Planung der Ressourcen (Betriebsmittel, Materialien, Mitarbeitenden etc.).",
                 "Semester": [
                   "4",
                   "5",
@@ -15496,7 +15197,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie hinterfragen die Projektplanung laufend während eines Projektes und reagieren entsprechend auf Abweichungen.",
-                "Beschreibung": "Sie hinterfragen die Projektplanung laufend während eines Projektes und reagieren entsprechend auf Abweichungen.",
                 "Semester": [
                   "2",
                   "4"
@@ -15548,7 +15248,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie wenden die Arbeitszeitreglemente und relevanten Gesetze an.",
-                "Beschreibung": "Sie wenden die Arbeitszeitreglemente und relevanten Gesetze an.",
                 "Semester": [
                   "4",
                   "5",
@@ -15604,7 +15303,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie reagieren auf Veränderungen im Projekt.",
-                "Beschreibung": "Sie reagieren auf Veränderungen im Projekt.",
                 "Semester": [
                   "4"
                 ],
@@ -15638,7 +15336,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie beschaffen und strukturieren Daten aus unterschiedlichen Quellen.",
-                "Beschreibung": "Sie beschaffen und strukturieren Daten aus unterschiedlichen Quellen.",
                 "Semester": [
                   "1"
                 ],
@@ -15679,7 +15376,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie formulieren Ziele, erstellen einen Zeitplan und legen die Vorgehensmethoden für ein Projekt fest.",
-                "Beschreibung": "Sie formulieren Ziele, erstellen einen Zeitplan und legen die Vorgehensmethoden für ein Projekt fest.",
                 "Semester": [
                   "1"
                 ],
@@ -15764,7 +15460,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie stellen Informationen mit Hilfe geeigneter Strukturtechniken übersichtlich dar und erkennen so mögliche Zusammenhänge.",
-                "Beschreibung": "Sie stellen Informationen mit Hilfe geeigneter Strukturtechniken übersichtlich dar und erkennen so mögliche Zusammenhänge.",
                 "Semester": [
                   "1"
                 ],
@@ -15792,7 +15487,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie dokumentieren und archivieren ihre Arbeit laufend und lückenlos mit situativ geeigneten Hilfsmitteln unter Einhaltung der Vorgaben.",
-                "Beschreibung": "Sie dokumentieren und archivieren ihre Arbeit laufend und lückenlos mit situativ geeigneten Hilfsmitteln unter Einhaltung der Vorgaben.",
                 "Semester": [
                   "1"
                 ],
@@ -15826,7 +15520,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erstellen Projektaufträge.",
-                "Beschreibung": "Sie erstellen Projektaufträge.",
                 "Semester": [
                   "2",
                   "5",
@@ -15921,7 +15614,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie informieren die Projektpartner über den Projektauftrag.",
-                "Beschreibung": "Sie informieren die Projektpartner über den Projektauftrag.",
                 "Semester": [
                   "2",
                   "5",
@@ -16037,7 +15729,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erstellen, strukturieren und formatieren Tabellen von Kundenaufträgen mit relevanten Daten in entsprechenden Computerprogrammen.",
-                "Beschreibung": "Sie erstellen, strukturieren und formatieren Tabellen von Kundenaufträgen mit relevanten Daten in entsprechenden Computerprogrammen.",
                 "Semester": [
                   "2",
                   "5",
@@ -16194,7 +15885,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie führen mit geeigneten Methoden in der Projektgruppe Entscheidungen herbei.",
-                "Beschreibung": "Sie führen mit geeigneten Methoden in der Projektgruppe Entscheidungen herbei.",
                 "Semester": [
                   "5",
                   "6",
@@ -16275,7 +15965,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie schätzen die Vor- und Nachteile technologischer Trends ein.",
-                "Beschreibung": "Sie schätzen die Vor- und Nachteile technologischer Trends ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -16307,7 +15996,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erläutern technologische Trends in ihrem Arbeitsbereich.",
-                "Beschreibung": "Sie erläutern technologische Trends in ihrem Arbeitsbereich.",
                 "Semester": [
                   "5",
                   "6",
@@ -16339,7 +16027,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie beschreiben präzise einen Vorgang und erklären diesen.",
-                "Beschreibung": "Sie beschreiben präzise einen Vorgang und erklären diesen.",
                 "Semester": [
                   "6"
                 ],
@@ -16369,7 +16056,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie erkennen Einflussfaktoren wie Lieferketten, Verfügbarkeiten und politische Faktoren auf ein Projekt.",
-                "Beschreibung": "Sie erkennen Einflussfaktoren wie Lieferketten, Verfügbarkeiten und politische Faktoren auf ein Projekt.",
                 "Semester": [
                   "6",
                   "7"
@@ -16396,7 +16082,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie unterscheiden zwischen Projekt, projektorientiertem Auftrag und Aufgabe.",
-                "Beschreibung": "Sie unterscheiden zwischen Projekt, projektorientiertem Auftrag und Aufgabe.",
                 "Semester": [
                   "2",
                   "3"
@@ -16408,7 +16093,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie nehmen Aufträge/Anliegen von Kunden oder Lieferanten entgegen und interpretieren die Auftragsdokumente.",
-                "Beschreibung": "Sie nehmen Aufträge/Anliegen von Kunden oder Lieferanten entgegen und interpretieren die Auftragsdokumente.",
                 "Semester": [
                   "2",
                   "3",
@@ -16421,7 +16105,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen aufgrund der Anliegen von Kunden und Lieferanten die Anforderungsliste für den Auftrag.",
-                "Beschreibung": "Sie erstellen aufgrund der Anliegen von Kunden und Lieferanten die Anforderungsliste für den Auftrag.",
                 "Semester": [
                   "2",
                   "3",
@@ -16436,7 +16119,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erläutern in der internen Kommunikation die technischen Begriffe anderen Beteiligten.",
-                "Beschreibung": "Sie erläutern in der internen Kommunikation die technischen Begriffe anderen Beteiligten.",
                 "Semester": [
                   "2",
                   "3",
@@ -16449,7 +16131,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen bei Aufträgen/Anliegen von Kunden oder Lieferanten aufgrund der Dokumentenanalyse relevante Fragen.",
-                "Beschreibung": "Sie stellen bei Aufträgen/Anliegen von Kunden oder Lieferanten aufgrund der Dokumentenanalyse relevante Fragen.",
                 "Semester": [
                   "3",
                   "4",
@@ -16462,7 +16143,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie recherchieren die relevanten technischen Informationen zum Auftrag und informieren entsprechend.",
-                "Beschreibung": "Sie recherchieren die relevanten technischen Informationen zum Auftrag und informieren entsprechend.",
                 "Semester": [
                   "3",
                   "4",
@@ -16475,7 +16155,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie validieren die erarbeitete Planung und treffen die Entscheidung über die weitere Vorgehensweise.",
-                "Beschreibung": "Sie validieren die erarbeitete Planung und treffen die Entscheidung über die weitere Vorgehensweise.",
                 "Semester": [
                   "3",
                   "4",
@@ -16489,7 +16168,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie entwickeln innovative Ideen.",
-                "Beschreibung": "Sie entwickeln innovative Ideen.",
                 "Semester": [
                   "3",
                   "4",
@@ -16505,7 +16183,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie nehmen Aufträge/Anliegen von Kunden oder Lieferanten entgegen und kommunizieren dabei aktiv.",
-                "Beschreibung": "Sie nehmen Aufträge/Anliegen von Kunden oder Lieferanten entgegen und kommunizieren dabei aktiv.",
                 "Semester": [
                   "4",
                   "5",
@@ -16519,7 +16196,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie definieren im projektorientierten Auftrag aufgrund der Anliegen von Kunden und Lieferanten die Abgrenzungen zu anderen Projekten und Aufträgen.",
-                "Beschreibung": "Sie definieren im projektorientierten Auftrag aufgrund der Anliegen von Kunden und Lieferanten die Abgrenzungen zu anderen Projekten und Aufträgen.",
                 "Semester": [
                   "4",
                   "5",
@@ -16532,7 +16208,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie ergänzen in der Anforderungsliste die relevanten technischen Informationen für den Auftrag.",
-                "Beschreibung": "Sie ergänzen in der Anforderungsliste die relevanten technischen Informationen für den Auftrag.",
                 "Semester": [
                   "4",
                   "5",
@@ -16545,7 +16220,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen in der internen Kommunikation die richtigen technischen Begriffe ein.",
-                "Beschreibung": "Sie setzen in der internen Kommunikation die richtigen technischen Begriffe ein.",
                 "Semester": [
                   "4",
                   "5",
@@ -16559,7 +16233,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie optimieren aufgrund von Rückmeldungen Auftragsplanungen.",
-                "Beschreibung": "Sie optimieren aufgrund von Rückmeldungen Auftragsplanungen.",
                 "Semester": [
                   "4",
                   "5",
@@ -16574,7 +16247,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen Kundentermine sowie den Einsatz von Mitarbeitenden sicher.",
-                "Beschreibung": "Sie stellen Kundentermine sowie den Einsatz von Mitarbeitenden sicher.",
                 "Semester": [
                   "4",
                   "5",
@@ -16587,7 +16259,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie nehmen ihre verschiedenen spezifischen Rollen im Arbeitsprozess wahr und handeln ihren Kompetenzen entsprechend.",
-                "Beschreibung": "Sie nehmen ihre verschiedenen spezifischen Rollen im Arbeitsprozess wahr und handeln ihren Kompetenzen entsprechend.",
                 "Semester": [
                   "4",
                   "5",
@@ -16602,7 +16273,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie nehmen Aufträge/Anliegen von Kunden oder Lieferanten entgegen und stellen aufgrund der Dokumentenanalyse die relevanten Fragen.",
-                "Beschreibung": "Sie nehmen Aufträge/Anliegen von Kunden oder Lieferanten entgegen und stellen aufgrund der Dokumentenanalyse die relevanten Fragen.",
                 "Semester": [
                   "4",
                   "5",
@@ -16617,7 +16287,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie definieren im projektorientierten Auftrag aufgrund der Anliegen von Kunden und Lieferanten die Rahmenbedingungen zum Projektauftrag.",
-                "Beschreibung": "Sie definieren im projektorientierten Auftrag aufgrund der Anliegen von Kunden und Lieferanten die Rahmenbedingungen zum Projektauftrag.",
                 "Semester": [
                   "5",
                   "6"
@@ -16629,7 +16298,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kommunizieren den Kunden und Lieferanten die relevanten Auftragsdaten (Sie pflegen den Informationsaustausch).",
-                "Beschreibung": "Sie kommunizieren den Kunden und Lieferanten die relevanten Auftragsdaten (Sie pflegen den Informationsaustausch).",
                 "Semester": [
                   "5",
                   "6",
@@ -16643,7 +16311,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie koordinieren im Auftrag Arbeitsabläufe und Termine.",
-                "Beschreibung": "Sie koordinieren im Auftrag Arbeitsabläufe und Termine.",
                 "Semester": [
                   "5",
                   "6",
@@ -16656,7 +16323,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen eine optimale Auslastung der Betriebsmittel und Materialien.",
-                "Beschreibung": "Sie planen eine optimale Auslastung der Betriebsmittel und Materialien.",
                 "Semester": [
                   "5",
                   "6",
@@ -16670,7 +16336,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie identifizieren sich gegenseitig beeinflussende Faktoren.",
-                "Beschreibung": "Sie identifizieren sich gegenseitig beeinflussende Faktoren.",
                 "Semester": [
                   "5",
                   "6",
@@ -16683,7 +16348,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen Methoden zur Planung adäquat ein.",
-                "Beschreibung": "Sie setzen Methoden zur Planung adäquat ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -16696,7 +16360,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie treiben innovative Ideen voran.",
-                "Beschreibung": "Sie treiben innovative Ideen voran.",
                 "Semester": [
                   "5",
                   "6",
@@ -16710,7 +16373,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen technologische Trends betriebsspezifisch in ihrem Arbeitsbereich um.",
-                "Beschreibung": "Sie setzen technologische Trends betriebsspezifisch in ihrem Arbeitsbereich um.",
                 "Semester": [
                   "5",
                   "6",
@@ -16724,7 +16386,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen die richtigen technischen Begriffe in der internen Kommunikation ein und erläutern diese anderen Beteiligten.",
-                "Beschreibung": "Sie setzen die richtigen technischen Begriffe in der internen Kommunikation ein und erläutern diese anderen Beteiligten.",
                 "Semester": [
                   "5",
                   "6",
@@ -16738,7 +16399,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen gemäss Kundenauftrag Auftragsplanungen.",
-                "Beschreibung": "Sie erstellen gemäss Kundenauftrag Auftragsplanungen.",
                 "Semester": [
                   "6",
                   "7",
@@ -16751,7 +16411,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie antizipieren mögliche unvorhersehbare Veränderungen.",
-                "Beschreibung": "Sie antizipieren mögliche unvorhersehbare Veränderungen.",
                 "Semester": [
                   "6",
                   "7",
@@ -16764,7 +16423,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie reflektieren gegenüber Mitarbeitern, Vorgesetzten und im Team ihre Rollenwahrnehmung.",
-                "Beschreibung": "Sie reflektieren gegenüber Mitarbeitern, Vorgesetzten und im Team ihre Rollenwahrnehmung.",
                 "Semester": [
                   "6",
                   "7",
@@ -16777,7 +16435,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie treiben erfolgsversprechende Veränderungen voran.",
-                "Beschreibung": "Sie treiben erfolgsversprechende Veränderungen voran.",
                 "Semester": [
                   "6",
                   "7",
@@ -16790,7 +16447,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kommunizieren in Verhandlungssituationen den Kunden und Lieferanten die relevanten Projektdaten (Sie pflegen den Informationsaustausch).",
-                "Beschreibung": "Sie kommunizieren in Verhandlungssituationen den Kunden und Lieferanten die relevanten Projektdaten (Sie pflegen den Informationsaustausch).",
                 "Semester": [
                   "6",
                   "7",
@@ -16803,7 +16459,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie unterstützen andere bei der Umsetzung innovativer Ideen und richten ihre Tätigkeiten an den Zielen und der Strategie des Unternehmens aus.",
-                "Beschreibung": "Sie unterstützen andere bei der Umsetzung innovativer Ideen und richten ihre Tätigkeiten an den Zielen und der Strategie des Unternehmens aus.",
                 "Semester": [
                   "7",
                   "8"
@@ -16815,7 +16470,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie nehmen eine Führungsrolle wahr.",
-                "Beschreibung": "Sie nehmen eine Führungsrolle wahr.",
                 "Semester": [
                   "7",
                   "8"
@@ -16836,7 +16490,6 @@
                 "LN": "LN 4",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie teilen Tätigkeiten in ihrem Arbeitsumfeld den verschiedenen Qualitätsstandards zu und begründen diese.",
-                "Beschreibung": "Sie teilen Tätigkeiten in ihrem Arbeitsumfeld den verschiedenen Qualitätsstandards zu und begründen diese.",
                 "Semester": [
                   "1",
                   "5"
@@ -16895,7 +16548,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie setzen die wesentlichen in der MEM-Industrie vorkommenden Qualitätsnormen in konkreten Aufgabenstellungen um.",
-                "Beschreibung": "Sie setzen die wesentlichen in der MEM-Industrie vorkommenden Qualitätsnormen in konkreten Aufgabenstellungen um.",
                 "Semester": [
                   "1"
                 ],
@@ -16972,7 +16624,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie unterscheiden verschiedene Formen des Änderungswesens und beurteilen deren Vor- und Nachteile.",
-                "Beschreibung": "Sie unterscheiden verschiedene Formen des Änderungswesens und beurteilen deren Vor- und Nachteile.",
                 "Semester": [
                   "1"
                 ],
@@ -16997,7 +16648,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie wählen dem Arbeitsprozess entsprechend geeignete Prüfmittel und Prüfverfahren aus.",
-                "Beschreibung": "Sie wählen dem Arbeitsprozess entsprechend geeignete Prüfmittel und Prüfverfahren aus.",
                 "Semester": [
                   "1"
                 ],
@@ -17061,7 +16711,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie setzen Methoden zur Projektkontrolle ein.",
-                "Beschreibung": "Sie setzen Methoden zur Projektkontrolle ein.",
                 "Semester": [
                   "2",
                   "4"
@@ -17101,7 +16750,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie überwachen die relevanten Projektdaten mit den passenden Tools.",
-                "Beschreibung": "Sie überwachen die relevanten Projektdaten mit den passenden Tools.",
                 "Semester": [
                   "4",
                   "5",
@@ -17202,7 +16850,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie dokumentieren Projektabweichungen mit den entsprechenden (digitalen) Tools.",
-                "Beschreibung": "Sie dokumentieren Projektabweichungen mit den entsprechenden (digitalen) Tools.",
                 "Semester": [
                   "2",
                   "4"
@@ -17254,7 +16901,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie ergreifen bei Projektabweichungen selbstständig Massnahmen für den Projekterfolg.",
-                "Beschreibung": "Sie ergreifen bei Projektabweichungen selbstständig Massnahmen für den Projekterfolg.",
                 "Semester": [
                   "6",
                   "7"
@@ -17301,7 +16947,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie überwachen die Projektkosten durch unternehmerisches Denken und Handeln.",
-                "Beschreibung": "Sie überwachen die Projektkosten durch unternehmerisches Denken und Handeln.",
                 "Semester": [
                   "6",
                   "7"
@@ -17358,7 +17003,6 @@
                 "LN": "LN 2",
                 "Lernort": "üK",
                 "Beschreibung LK": "Sie setzen bei der Arbeitsausführung die Vorgaben der Arbeitsprozesse, der Branchennormen und geforderten Qualitätsvorgaben um.",
-                "Beschreibung": "Sie setzen bei der Arbeitsausführung die Vorgaben der Arbeitsprozesse, der Branchennormen und geforderten Qualitätsvorgaben um.",
                 "Semester": [
                   "1"
                 ],
@@ -17421,7 +17065,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kommunizieren Auftragsabweichungen gegenüber den betroffenen Personen.",
-                "Beschreibung": "Sie kommunizieren Auftragsabweichungen gegenüber den betroffenen Personen.",
                 "Semester": [
                   "2",
                   "3",
@@ -17434,7 +17077,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen Methoden zur Kontrolle in einem projektorientierten Auftrag adäquat ein.",
-                "Beschreibung": "Sie setzen Methoden zur Kontrolle in einem projektorientierten Auftrag adäquat ein.",
                 "Semester": [
                   "3",
                   "4",
@@ -17447,7 +17089,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie ergreifen bei Auftragsabweichungen zielführende Massnahmen.",
-                "Beschreibung": "Sie ergreifen bei Auftragsabweichungen zielführende Massnahmen.",
                 "Semester": [
                   "3",
                   "4",
@@ -17460,7 +17101,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bewerten Auftragsänderungen.",
-                "Beschreibung": "Sie bewerten Auftragsänderungen.",
                 "Semester": [
                   "3",
                   "4",
@@ -17473,7 +17113,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen die Nachverfolgung von auftragsrelevanten Dokumenten sicher.",
-                "Beschreibung": "Sie stellen die Nachverfolgung von auftragsrelevanten Dokumenten sicher.",
                 "Semester": [
                   "4",
                   "5",
@@ -17486,7 +17125,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen, wenn nötig, nachvollziehbare Korrekturmassnahmen und setzen diese um.",
-                "Beschreibung": "Sie planen, wenn nötig, nachvollziehbare Korrekturmassnahmen und setzen diese um.",
                 "Semester": [
                   "4",
                   "5",
@@ -17499,7 +17137,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen laufend die Zielerreichung des projektorientierten Auftrages bezüglich der Termine (Meilensteine) und Kosten.",
-                "Beschreibung": "Sie überprüfen laufend die Zielerreichung des projektorientierten Auftrages bezüglich der Termine (Meilensteine) und Kosten.",
                 "Semester": [
                   "5",
                   "6"
@@ -17511,7 +17148,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen laufend die Zielerreichung des projektorientierten Auftrages bezüglich der Qualität, Quantität und Verantwortlichkeiten.",
-                "Beschreibung": "Sie überprüfen laufend die Zielerreichung des projektorientierten Auftrages bezüglich der Qualität, Quantität und Verantwortlichkeiten.",
                 "Semester": [
                   "5",
                   "6"
@@ -17523,7 +17159,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen bei der Arbeitsausführung die Vorgaben der Arbeitsprozesse, die Branchennormen und betrieblichen Qualitätsvorgaben um.",
-                "Beschreibung": "Sie setzen bei der Arbeitsausführung die Vorgaben der Arbeitsprozesse, die Branchennormen und betrieblichen Qualitätsvorgaben um.",
                 "Semester": [
                   "5",
                   "6",
@@ -17536,7 +17171,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen Arbeiten im Entstehungsprozess und führen entsprechende Kontrollen nach betrieblichen Vorgaben durch.",
-                "Beschreibung": "Sie überprüfen Arbeiten im Entstehungsprozess und führen entsprechende Kontrollen nach betrieblichen Vorgaben durch.",
                 "Semester": [
                   "6",
                   "7",
@@ -17558,7 +17192,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie wenden Methoden der Ideenfindung an konkreten Beispielen an.",
-                "Beschreibung": "Sie wenden Methoden der Ideenfindung an konkreten Beispielen an.",
                 "Semester": [
                   "3"
                 ],
@@ -17619,7 +17252,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie bestimmen Verbesserungen für zukünftige Projekte und Arbeiten.",
-                "Beschreibung": "Sie bestimmen Verbesserungen für zukünftige Projekte und Arbeiten.",
                 "Semester": [
                   "3"
                 ],
@@ -17657,7 +17289,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie analysieren und bewerten Projektdaten und -dokumente.",
-                "Beschreibung": "Sie analysieren und bewerten Projektdaten und -dokumente.",
                 "Semester": [
                   "2",
                   "4"
@@ -17757,7 +17388,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie setzen (geeignete) Auswertungsmethoden zur Bewertung des Projekterfolgs ein.",
-                "Beschreibung": "Sie setzen (geeignete) Auswertungsmethoden zur Bewertung des Projekterfolgs ein.",
                 "Semester": [
                   "2",
                   "4"
@@ -17813,7 +17443,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie stellen Resultate in geeigneter und ansprechender Form dar.",
-                "Beschreibung": "Sie stellen Resultate in geeigneter und ansprechender Form dar.",
                 "Semester": [
                   "2",
                   "4"
@@ -17855,7 +17484,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie dokumentieren den Projekterfolg mit den passenden digitalen Tools.",
-                "Beschreibung": "Sie dokumentieren den Projekterfolg mit den passenden digitalen Tools.",
                 "Semester": [
                   "6"
                 ],
@@ -17936,7 +17564,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie archivieren die relevanten Dokumente in digitaler Form.",
-                "Beschreibung": "Sie archivieren die relevanten Dokumente in digitaler Form.",
                 "Semester": [
                   "6",
                   "7"
@@ -18021,7 +17648,6 @@
                 "LN": "LN 2",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie dokumentieren und präsentieren ihren Zuwachs an Kompetenzen mit geeigneten Werkzeugen.",
-                "Beschreibung": "Sie dokumentieren und präsentieren ihren Zuwachs an Kompetenzen mit geeigneten Werkzeugen.",
                 "Semester": [
                   "6",
                   "7"
@@ -18051,7 +17677,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie bereiten technische Informationen übersichtlich und nachvollziehbar auf.",
-                "Beschreibung": "Sie bereiten technische Informationen übersichtlich und nachvollziehbar auf.",
                 "Semester": [
                   "6",
                   "7"
@@ -18119,7 +17744,6 @@
                 "LN": "LN 3",
                 "Lernort": "BFS",
                 "Beschreibung LK": "Sie entwickeln neue Ideen aufgrund bereits bestehender Lösungen.",
-                "Beschreibung": "Sie entwickeln neue Ideen aufgrund bereits bestehender Lösungen.",
                 "Semester": [
                   "6",
                   "7"
@@ -18163,7 +17787,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren die Auftragserfüllung auf Basis der Erreichung der Auftragsziele.",
-                "Beschreibung": "Sie dokumentieren die Auftragserfüllung auf Basis der Erreichung der Auftragsziele.",
                 "Semester": [
                   "1",
                   "2",
@@ -18176,7 +17799,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren ihre persönliche Entwicklung, in dem Sie mittels Selbstreflexion ihre Arbeit am Auftrag auswerten.",
-                "Beschreibung": "Sie dokumentieren ihre persönliche Entwicklung, in dem Sie mittels Selbstreflexion ihre Arbeit am Auftrag auswerten.",
                 "Semester": [
                   "1",
                   "2",
@@ -18190,7 +17812,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie analysieren den Auftragsablauf und die Auftragserfüllung.",
-                "Beschreibung": "Sie analysieren den Auftragsablauf und die Auftragserfüllung.",
                 "Semester": [
                   "2",
                   "3",
@@ -18203,7 +17824,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie werten den projektorientierten Auftrag aufgrund der Erreichung der Auftragsziele aus.",
-                "Beschreibung": "Sie werten den projektorientierten Auftrag aufgrund der Erreichung der Auftragsziele aus.",
                 "Semester": [
                   "3",
                   "4",
@@ -18216,7 +17836,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie reflektieren und dokumentieren ihre persönliche Entwicklung während des Auftrags.",
-                "Beschreibung": "Sie reflektieren und dokumentieren ihre persönliche Entwicklung während des Auftrags.",
                 "Semester": [
                   "3",
                   "4",
@@ -18232,7 +17851,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bewerten den Auftragsablauf und die Auftragserfüllung.",
-                "Beschreibung": "Sie bewerten den Auftragsablauf und die Auftragserfüllung.",
                 "Semester": [
                   "3",
                   "4",
@@ -18245,7 +17863,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie entwickeln neue Ideen für zukünftige projektorientierte Aufträge.",
-                "Beschreibung": "Sie entwickeln neue Ideen für zukünftige projektorientierte Aufträge.",
                 "Semester": [
                   "4",
                   "5",
@@ -18258,7 +17875,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie präsentieren die Auswertung des Auftrages den relevanten Personen in ihrem Betrieb.",
-                "Beschreibung": "Sie präsentieren die Auswertung des Auftrages den relevanten Personen in ihrem Betrieb.",
                 "Semester": [
                   "5",
                   "6",
@@ -18271,7 +17887,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie reflektieren ihr Verhalten, nehmen die zwischenmenschlichen Prozesse wahr und handeln entsprechend.",
-                "Beschreibung": "Sie reflektieren ihr Verhalten, nehmen die zwischenmenschlichen Prozesse wahr und handeln entsprechend.",
                 "Semester": [
                   "6",
                   "7",
@@ -18284,7 +17899,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie optimieren bestehende Auftragsprozesse aus der eigenen Arbeitserfahrung.",
-                "Beschreibung": "Sie optimieren bestehende Auftragsprozesse aus der eigenen Arbeitserfahrung.",
                 "Semester": [
                   "6",
                   "7",
@@ -18306,7 +17920,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bestimmen den Ausbildungsbedarf und formulieren die nötigen Lernziele.",
-                "Beschreibung": "Sie bestimmen den Ausbildungsbedarf und formulieren die nötigen Lernziele.",
                 "Semester": [
                   "5",
                   "6",
@@ -18319,7 +17932,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie klären den Stand der Vorkenntnisse und Vorerfahrungen der Kunden ab.",
-                "Beschreibung": "Sie klären den Stand der Vorkenntnisse und Vorerfahrungen der Kunden ab.",
                 "Semester": [
                   "5",
                   "6"
@@ -18331,7 +17943,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen lernzieladäquate Methoden ein.",
-                "Beschreibung": "Sie setzen lernzieladäquate Methoden ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -18344,7 +17955,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie setzen für den Lernprozess vorhandene Medien ein.",
-                "Beschreibung": "Sie setzen für den Lernprozess vorhandene Medien ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -18357,7 +17967,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie entwickeln zielgruppenadäquate Schulungsunterlagen.",
-                "Beschreibung": "Sie entwickeln zielgruppenadäquate Schulungsunterlagen.",
                 "Semester": [
                   "5",
                   "6"
@@ -18369,7 +17978,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie leiten unter Anwendung verschiedener Methoden Schulungen oder Ausbildungssequenzen.",
-                "Beschreibung": "Sie leiten unter Anwendung verschiedener Methoden Schulungen oder Ausbildungssequenzen.",
                 "Semester": [
                   "5",
                   "6",
@@ -18382,7 +17990,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen und organisieren Schulungsanlässe oder Ausbildungssequenzen.",
-                "Beschreibung": "Sie planen und organisieren Schulungsanlässe oder Ausbildungssequenzen.",
                 "Semester": [
                   "6",
                   "7",
@@ -18395,7 +18002,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie entwickeln ein Drehbuch für eine Schulung oder eine Ausbildungssequenz.",
-                "Beschreibung": "Sie entwickeln ein Drehbuch für eine Schulung oder eine Ausbildungssequenz.",
                 "Semester": [
                   "6",
                   "7",
@@ -18408,7 +18014,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen und instruieren je nach Gefahrenpotential Sicherheitsvorkehrungen und entsprechende Massnahmen.",
-                "Beschreibung": "Sie planen und instruieren je nach Gefahrenpotential Sicherheitsvorkehrungen und entsprechende Massnahmen.",
                 "Semester": [
                   "6",
                   "7",
@@ -18421,7 +18026,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen die Lernziele resp. die angestrebten Kompetenzen.",
-                "Beschreibung": "Sie überprüfen die Lernziele resp. die angestrebten Kompetenzen.",
                 "Semester": [
                   "6",
                   "7",
@@ -18434,7 +18038,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen eine Schulung oder eine Ausbildungssequenz zielgruppengerecht und entlang eines Lernprozesses.",
-                "Beschreibung": "Sie planen eine Schulung oder eine Ausbildungssequenz zielgruppengerecht und entlang eines Lernprozesses.",
                 "Semester": [
                   "7",
                   "8"
@@ -18446,7 +18049,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie führen eine abschliessende Teilnehmerumfrage und eine selbstkritische Reflexion durch.",
-                "Beschreibung": "Sie führen eine abschliessende Teilnehmerumfrage und eine selbstkritische Reflexion durch.",
                 "Semester": [
                   "7",
                   "8"
@@ -18467,7 +18069,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen und organisieren die Fertigung in der Elektronik.",
-                "Beschreibung": "Sie planen und organisieren die Fertigung in der Elektronik.",
                 "Semester": [
                   "5",
                   "6",
@@ -18481,7 +18082,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie beschaffen die nötigen Komponenten.",
-                "Beschreibung": "Sie beschaffen die nötigen Komponenten.",
                 "Semester": [
                   "5",
                   "6"
@@ -18493,7 +18093,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie organisieren die Produktionsunterlagen.",
-                "Beschreibung": "Sie organisieren die Produktionsunterlagen.",
                 "Semester": [
                   "5",
                   "6"
@@ -18505,7 +18104,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie organisieren die nötigen Betriebs- und Messmittel.",
-                "Beschreibung": "Sie organisieren die nötigen Betriebs- und Messmittel.",
                 "Semester": [
                   "5",
                   "6"
@@ -18517,7 +18115,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie halten zum Schutz von Personen und Betriebsmittel die Sicherheitsmassnahmen ein.",
-                "Beschreibung": "Sie halten zum Schutz von Personen und Betriebsmittel die Sicherheitsmassnahmen ein.",
                 "Semester": [
                   "5",
                   "6"
@@ -18529,7 +18126,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie arbeiten in verschiedenen Positionen innerhalb einer Fertigung für elektronische Produkte.",
-                "Beschreibung": "Sie arbeiten in verschiedenen Positionen innerhalb einer Fertigung für elektronische Produkte.",
                 "Semester": [
                   "5",
                   "6"
@@ -18541,7 +18137,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überwachen die Produktionsanlagen und treffen, wenn nötig, Massnahmen.",
-                "Beschreibung": "Sie überwachen die Produktionsanlagen und treffen, wenn nötig, Massnahmen.",
                 "Semester": [
                   "5",
                   "6",
@@ -18554,7 +18149,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie testen die Funktion der Produkte gemäss den Vorgaben.",
-                "Beschreibung": "Sie testen die Funktion der Produkte gemäss den Vorgaben.",
                 "Semester": [
                   "5",
                   "6",
@@ -18567,7 +18161,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie installieren Firmware in den Geräten.",
-                "Beschreibung": "Sie installieren Firmware in den Geräten.",
                 "Semester": [
                   "5",
                   "6"
@@ -18579,7 +18172,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie melden Unregelmässigkeiten beim Auftraggeber.",
-                "Beschreibung": "Sie melden Unregelmässigkeiten beim Auftraggeber.",
                 "Semester": [
                   "5",
                   "6"
@@ -18591,7 +18183,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bereinigen Fehler in Absprache mit dem Auftraggeber in den Unterlagen und der Betriebsmittel.",
-                "Beschreibung": "Sie bereinigen Fehler in Absprache mit dem Auftraggeber in den Unterlagen und der Betriebsmittel.",
                 "Semester": [
                   "5",
                   "6"
@@ -18603,7 +18194,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überprüfen die Produktionsunterlagen auf offensichtliche Fehler.",
-                "Beschreibung": "Sie überprüfen die Produktionsunterlagen auf offensichtliche Fehler.",
                 "Semester": [
                   "6",
                   "7",
@@ -18625,7 +18215,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen Defekte bei Produktions- und Arbeitsmitteln fest.",
-                "Beschreibung": "Sie stellen Defekte bei Produktions- und Arbeitsmitteln fest.",
                 "Semester": [
                   "5",
                   "6"
@@ -18637,7 +18226,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie führen die vorgeschriebenen Schritte gemäss Wartungsunterlagen durch.",
-                "Beschreibung": "Sie führen die vorgeschriebenen Schritte gemäss Wartungsunterlagen durch.",
                 "Semester": [
                   "5",
                   "6",
@@ -18650,7 +18238,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie dokumentieren die vorliegenden Messwerte im Bezug zum Soll-Wert.",
-                "Beschreibung": "Sie dokumentieren die vorliegenden Messwerte im Bezug zum Soll-Wert.",
                 "Semester": [
                   "5",
                   "6",
@@ -18663,7 +18250,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erfassen in der internen Datenbank den Zustand der Geräte.",
-                "Beschreibung": "Sie erfassen in der internen Datenbank den Zustand der Geräte.",
                 "Semester": [
                   "5",
                   "6"
@@ -18675,7 +18261,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie untersuchen systematisch eine Fehlfunktion eines Gerätes.",
-                "Beschreibung": "Sie untersuchen systematisch eine Fehlfunktion eines Gerätes.",
                 "Semester": [
                   "5",
                   "6",
@@ -18689,7 +18274,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie stellen mit Hilfe der Bedienungsanleitung ein Gerät gemäss den Anforderungen ein.",
-                "Beschreibung": "Sie stellen mit Hilfe der Bedienungsanleitung ein Gerät gemäss den Anforderungen ein.",
                 "Semester": [
                   "5",
                   "6"
@@ -18701,7 +18285,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie orientieren den Auftraggeber über Umfang und Zeitdauer der Instandhaltung.",
-                "Beschreibung": "Sie orientieren den Auftraggeber über Umfang und Zeitdauer der Instandhaltung.",
                 "Semester": [
                   "5",
                   "6",
@@ -18714,7 +18297,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie kennzeichnen die gewarteten Geräte.",
-                "Beschreibung": "Sie kennzeichnen die gewarteten Geräte.",
                 "Semester": [
                   "5",
                   "6"
@@ -18726,7 +18308,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie beheben im Rahmen ihrer Kompetenz die Fehlfunktion.",
-                "Beschreibung": "Sie beheben im Rahmen ihrer Kompetenz die Fehlfunktion.",
                 "Semester": [
                   "6",
                   "7",
@@ -18739,7 +18320,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie interpretieren Qualitätssicherungsmerkmale an Produktions- und Arbeitsmittel.",
-                "Beschreibung": "Sie interpretieren Qualitätssicherungsmerkmale an Produktions- und Arbeitsmittel.",
                 "Semester": [
                   "7",
                   "8"
@@ -18751,7 +18331,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie klären vorhandene Garantieansprüche ab.",
-                "Beschreibung": "Sie klären vorhandene Garantieansprüche ab.",
                 "Semester": [
                   "7",
                   "8"
@@ -18763,7 +18342,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie klären im Falle einer Beanstandung das weitere Vorgehen ab.",
-                "Beschreibung": "Sie klären im Falle einer Beanstandung das weitere Vorgehen ab.",
                 "Semester": [
                   "7",
                   "8"
@@ -18784,7 +18362,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie interpretieren die Fertigungsunterlagen einer automatisierten Anlage.",
-                "Beschreibung": "Sie interpretieren die Fertigungsunterlagen einer automatisierten Anlage.",
                 "Semester": [
                   "5",
                   "6",
@@ -18798,7 +18375,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie studieren die Fertigungsunterlagen und erkennen die Funktion der Anlage.",
-                "Beschreibung": "Sie studieren die Fertigungsunterlagen und erkennen die Funktion der Anlage.",
                 "Semester": [
                   "5",
                   "6",
@@ -18812,7 +18388,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie beschaffen sich selbständig Informationen zur Funktion einer automatisierten Anlage.",
-                "Beschreibung": "Sie beschaffen sich selbständig Informationen zur Funktion einer automatisierten Anlage.",
                 "Semester": [
                   "5",
                   "6",
@@ -18826,7 +18401,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen auf der Grundlage der Fertigungsunterlagen einen Arbeitsplan.",
-                "Beschreibung": "Sie erstellen auf der Grundlage der Fertigungsunterlagen einen Arbeitsplan.",
                 "Semester": [
                   "5",
                   "6",
@@ -18840,7 +18414,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie überwachen Prozessdaten in automatisierten Anlagen und leiten, wenn nötig Massnahmen ein.",
-                "Beschreibung": "Sie überwachen Prozessdaten in automatisierten Anlagen und leiten, wenn nötig Massnahmen ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -18854,7 +18427,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie binden zur Auswertung die Prozessdaten in eine Cloud ein.",
-                "Beschreibung": "Sie binden zur Auswertung die Prozessdaten in eine Cloud ein.",
                 "Semester": [
                   "5",
                   "6",
@@ -18868,7 +18440,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie lesen vorhandene Prozessdaten aus.",
-                "Beschreibung": "Sie lesen vorhandene Prozessdaten aus.",
                 "Semester": [
                   "5",
                   "6",
@@ -18882,7 +18453,6 @@
                 "LN": "LN 2",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie analysieren die ausgelesenen Prozessdaten und stellen Trendwerte grafisch dar.",
-                "Beschreibung": "Sie analysieren die ausgelesenen Prozessdaten und stellen Trendwerte grafisch dar.",
                 "Semester": [
                   "5",
                   "6",
@@ -18896,7 +18466,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie bestimmen aus den Prozessdaten mögliche Optimierungen.",
-                "Beschreibung": "Sie bestimmen aus den Prozessdaten mögliche Optimierungen.",
                 "Semester": [
                   "5",
                   "6",
@@ -18919,7 +18488,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie passen die Vorgehensweise der Gerätesituation an.",
-                "Beschreibung": "Sie passen die Vorgehensweise der Gerätesituation an.",
                 "Semester": [
                   "5",
                   "6",
@@ -18933,7 +18501,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie beschaffen die Dokumentationen für die Geräte bei den zuständigen Stellen.",
-                "Beschreibung": "Sie beschaffen die Dokumentationen für die Geräte bei den zuständigen Stellen.",
                 "Semester": [
                   "5",
                   "6",
@@ -18947,7 +18514,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie prüfen die Geräte unter Berücksichtigung derer Funktionen in der Gesamtanlage und im Gesamtprozess.",
-                "Beschreibung": "Sie prüfen die Geräte unter Berücksichtigung derer Funktionen in der Gesamtanlage und im Gesamtprozess.",
                 "Semester": [
                   "5",
                   "6",
@@ -18961,7 +18527,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie berücksichtigen in ihrem Vorgehen in der Gesamtanlage die Sicherheitsaspekte.",
-                "Beschreibung": "Sie berücksichtigen in ihrem Vorgehen in der Gesamtanlage die Sicherheitsaspekte.",
                 "Semester": [
                   "5",
                   "6",
@@ -18975,7 +18540,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie prüfen die Geräte unter Einhaltung der Richtlinien für den Personenschutz.",
-                "Beschreibung": "Sie prüfen die Geräte unter Einhaltung der Richtlinien für den Personenschutz.",
                 "Semester": [
                   "5",
                   "6",
@@ -18989,7 +18553,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie planen zusammen mit den verantwortlichen Personen den Prüfablauf.",
-                "Beschreibung": "Sie planen zusammen mit den verantwortlichen Personen den Prüfablauf.",
                 "Semester": [
                   "5",
                   "6",
@@ -19003,7 +18566,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie besprechen mit den zuständigen Personen auftretende Probleme und nötige Massnahmen bezüglich Wartung und Reparatur.",
-                "Beschreibung": "Sie besprechen mit den zuständigen Personen auftretende Probleme und nötige Massnahmen bezüglich Wartung und Reparatur.",
                 "Semester": [
                   "5",
                   "6",
@@ -19017,7 +18579,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie erstellen einen Prüfbericht mit den getätigten Messungen und Massnahmen.",
-                "Beschreibung": "Sie erstellen einen Prüfbericht mit den getätigten Messungen und Massnahmen.",
                 "Semester": [
                   "5",
                   "6",
@@ -19040,7 +18601,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie wählen auf Grund des Pflichtenhefts die geeignetsten Geräte.",
-                "Beschreibung": "Sie wählen auf Grund des Pflichtenhefts die geeignetsten Geräte.",
                 "Semester": [
                   "5",
                   "6",
@@ -19054,7 +18614,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie verbinden oder vernetzen zur Erfüllung der Anforderungen aus dem Pflichtenheft verschiedene Geräte.",
-                "Beschreibung": "Sie verbinden oder vernetzen zur Erfüllung der Anforderungen aus dem Pflichtenheft verschiedene Geräte.",
                 "Semester": [
                   "5",
                   "6",
@@ -19068,7 +18627,6 @@
                 "LN": "LN 5",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie konfigurieren zur Lösung der gestellten Aufgabe die Geräte.",
-                "Beschreibung": "Sie konfigurieren zur Lösung der gestellten Aufgabe die Geräte.",
                 "Semester": [
                   "5",
                   "6",
@@ -19082,7 +18640,6 @@
                 "LN": "LN 3",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie nehmen das technische System unter Berücksichtigung von Sicherheitsvorschriften in Betrieb und dokumentieren dies nachvollziehbar.",
-                "Beschreibung": "Sie nehmen das technische System unter Berücksichtigung von Sicherheitsvorschriften in Betrieb und dokumentieren dies nachvollziehbar.",
                 "Semester": [
                   "5",
                   "6"
@@ -19094,7 +18651,6 @@
                 "LN": "LN 4",
                 "Lernort": "BE",
                 "Beschreibung LK": "Sie beheben Fehler oder Probleme und dokumentieren gemachte Änderungen.",
-                "Beschreibung": "Sie beheben Fehler oder Probleme und dokumentieren gemachte Änderungen.",
                 "Semester": [
                   "5",
                   "6",

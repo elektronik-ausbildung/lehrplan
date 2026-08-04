@@ -36,7 +36,7 @@ with open(out_path, 'w', newline='') as fout:
 with open(out_path, 'r', newline='') as f:
     rows = list(csv.reader(f))
 
-cleaned = [[cell.replace('\n', ' ').replace('\r', ' ') for cell in row] for row in rows]
+cleaned = [[cell.replace('\n', ' ').replace('\r', ' ').replace('_x000D_', '') for cell in row] for row in rows]
 
 with open(out_path, 'w', newline='') as f:
     w = csv.writer(f)
