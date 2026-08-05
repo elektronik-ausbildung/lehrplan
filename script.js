@@ -47,7 +47,9 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
 
   fuse = new Fuse(flatLZs, {
     keys: [
-      { name: 'lz.ID LZ', weight: 3 },
+      { name: 'lz.ID LZ', weight: 5 },
+      { name: 'lk.ID LK', weight: 4 },
+      { name: 'hk.ID HK', weight: 4 },
       { name: 'lz.Beschreibung LZ', weight: 1 },
       { name: 'lk.Beschreibung LK', weight: 0.5 },
       { name: 'hk.Name', weight: 0.3 },
@@ -135,55 +137,151 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     let visibleCount = 0;
 
     if (state.search) {
-      const words = state.search.trim().split(/\s+/).filter(w => w.length >= 2);
-      const searchSet = new Set();
-      if (words.length > 0) {
-        for (const word of words) {
-          for (const r of fuse.search(word)) {
-            searchSet.add(r.item);
+      const query = state.search.trim();
+      const words = query.split(/\s+/).filter(w => w.length >= 2);
+      const q = query.toLowerCase();
+
+      const renderGrouped = (items) => {
+        const hkbOrder = new Map();
+        for (const item of items) {
+          if (!lzMatchesFilters(item)) continue;
+          const id = item.hkb["ID HKB"];
+          let entry = hkbOrder.get(id);
+          if (!entry) { entry = { hkb: item.hkb, items: [] }; hkbOrder.set(id, entry); }
+          entry.items.push(item);
+        }
+
+        for (const { hkb, items: hkbItems } of hkbOrder.values()) {
+          const hkbDiv = createSection('subject', hkb, null, openClass);
+          const hkbContent = hkbDiv.querySelector('.subject-content');
+
+          const hkOrder = new Map();
+          for (const item of hkbItems) {
+            const id = item.hk["ID HK"];
+            let entry = hkOrder.get(id);
+            if (!entry) { entry = { hk: item.hk, items: [] }; hkOrder.set(id, entry); }
+            entry.items.push(item);
           }
+
+          for (const { hk, items: hkItems } of hkOrder.values()) {
+            const hkDiv = createSection('competence', null, hk, openClass);
+            const hkContent = hkDiv.querySelector('.competence-content');
+
+            if (state.showDesc && hk["Beschreibung"]) {
+              const desc = document.createElement('div');
+              desc.className = 'competence-desc';
+              desc.textContent = hk["Beschreibung"];
+              hkContent.appendChild(desc);
+            }
+
+            const lkOrder = new Map();
+            for (const item of hkItems) {
+              const id = item.lk["ID LK"];
+              let entry = lkOrder.get(id);
+              if (!entry) { entry = { lk: item.lk, items: [] }; lkOrder.set(id, entry); }
+              entry.items.push(item);
+            }
+
+            for (const { lk, items: lkItems } of lkOrder.values()) {
+              renderLk(lk, lkItems, hkContent, openClass);
+              visibleCount += state.showLz ? lkItems.length : 1;
+            }
+
+            hkbContent.appendChild(hkDiv);
+          }
+
+          results.appendChild(hkbDiv);
+        }
+      };
+
+      const codeMatches = new Set();
+      if (q.length >= 2) {
+        for (const item of flatLZs) {
+          const codes = [item.lz["ID LZ"], item.lk["ID LK"], item.hk["ID HK"], item.hkb["ID HKB"]];
+          if (codes.some(c => c && c.toLowerCase().includes(q))) codeMatches.add(item);
         }
       }
-      const searchResults = [...searchSet];
 
-      for (const hkb of DATA.ET.handlungskompetenzbereiche) {
-        if (!checkFilter(state.hkbs, hkb["ID HKB"])) continue;
-        const hkbMatches = searchResults.filter(x => x.hkb["ID HKB"] === hkb["ID HKB"] && lzMatchesFilters(x));
-        if (hkbMatches.length === 0) continue;
+      if (codeMatches.size > 0) {
+        renderGrouped([...codeMatches]);
+      } else {
+        const qwords = words.map(w => w.toLowerCase());
+        const nodeMatch = (texts) => {
+          for (const w of qwords) {
+            let found = false;
+            for (const t of texts) {
+              if (t != null && String(t).toLowerCase().includes(w)) { found = true; break; }
+            }
+            if (!found) return false;
+          }
+          return true;
+        };
 
-        const hkbDiv = createSection('subject', hkb, null, openClass);
-        const hkbContent = hkbDiv.querySelector('.subject-content');
+        let renderedAny = false;
 
-        for (const hk of hkb.handlungskompetenzen) {
-          if (!checkFilter(state.hks, hk["ID HK"])) continue;
-          if (!checkFilter(state.wahlPflicht, hk["P/W"])) continue;
-          const hkMatches = hkbMatches.filter(x => x.hk["ID HK"] === hk["ID HK"]);
-          if (hkMatches.length === 0) continue;
+        for (const hkb of DATA.ET.handlungskompetenzbereiche) {
+          if (!checkFilter(state.hkbs, hkb["ID HKB"])) continue;
+          const hkbMatches = nodeMatch([hkb["ID HKB"], hkb["Name"]]);
+          let hasVisibleHk = false;
+          const hkbDiv = createSection('subject', hkb, null, openClass);
+          const hkbContent = hkbDiv.querySelector('.subject-content');
 
-          const hkDiv = createSection('competence', null, hk, openClass);
-          const hkContent = hkDiv.querySelector('.competence-content');
+          for (const hk of hkb.handlungskompetenzen) {
+            if (!checkFilter(state.hks, hk["ID HK"])) continue;
+            if (!checkFilter(state.wahlPflicht, hk["P/W"])) continue;
+            const hkMatches = nodeMatch([hk["ID HK"], hk["Name"], hk["Beschreibung"]]);
+            let hasVisibleLk = false;
+            const hkDiv = createSection('competence', null, hk, openClass);
+            const hkContent = hkDiv.querySelector('.competence-content');
 
-          if (state.showDesc && hk["Beschreibung"]) {
-            const desc = document.createElement('div');
-            desc.className = 'competence-desc';
-            desc.textContent = hk["Beschreibung"];
-            hkContent.appendChild(desc);
+            if (state.showDesc && hk["Beschreibung"]) {
+              const desc = document.createElement('div');
+              desc.className = 'competence-desc';
+              desc.textContent = hk["Beschreibung"];
+              hkContent.appendChild(desc);
+            }
+
+            for (const lk of hk.lernkriterien) {
+              if (!checkFilter(state.lernorte, lk["Lernort"])) continue;
+              const lkMatches = nodeMatch([lk["ID LK"], lk["Beschreibung LK"], lk["Lernort"]]);
+              const lkLzItems = flatLZs.filter(x =>
+                x.lk["ID LK"] === lk["ID LK"]
+                && x.hk["ID HK"] === hk["ID HK"]
+                && lzSemesterMatches(x.lz["Semester"])
+                && nodeMatch([x.lz["ID LZ"], x.lz["Beschreibung LZ"], x.lz["Semester"], x.lz["Taxonomie LZ"]])
+              );
+              if (!lkMatches && lkLzItems.length === 0) continue;
+              renderLk(lk, lkLzItems, hkContent, openClass);
+              hasVisibleLk = true;
+              visibleCount += state.showLz ? lkLzItems.length : 1;
+            }
+
+            if (hasVisibleLk || hkMatches) {
+              hkbContent.appendChild(hkDiv);
+              hasVisibleHk = true;
+            }
           }
 
-          for (const lk of hk.lernkriterien) {
-            if (!checkFilter(state.lernorte, lk["Lernort"])) continue;
-            const lkMatches = hkMatches.filter(x => x.lk["ID LK"] === lk["ID LK"]);
-            if (lkMatches.length === 0) continue;
-
-            renderLk(lk, lkMatches, hkContent, openClass);
-            if (!state.showLz) visibleCount++;
+          if (hasVisibleHk || hkbMatches) {
+            results.appendChild(hkbDiv);
+            renderedAny = true;
           }
-
-          hkbContent.appendChild(hkDiv);
         }
 
-        results.appendChild(hkbDiv);
-        if (state.showLz) visibleCount += hkbMatches.length;
+        if (!renderedAny && words.length > 0) {
+          const scoreMap = new Map();
+          const record = (res) => {
+            for (const r of res) {
+              const s = r.score ?? 0;
+              const prev = scoreMap.get(r.item);
+              if (prev === undefined || s < prev) scoreMap.set(r.item, s);
+            }
+          };
+          record(fuse.search(query));
+          for (const word of words) record(fuse.search(word));
+          const scoredItems = [...scoreMap.entries()].sort((a, b) => a[1] - b[1]).map(e => e[0]);
+          renderGrouped(scoredItems);
+        }
       }
     } else {
       for (const hkb of DATA.ET.handlungskompetenzbereiche) {
@@ -262,7 +360,7 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
       header.id = 'hk-' + hk["ID HK"].replace(/[.\s]+/g, '_');
       const pwClass = hk["P/W"] === 'W' ? 'optional' : 'mandatory';
             const pwLabel = hk["P/W"] === 'W' ? 'Wahl' : 'Pflicht';
-      header.innerHTML = `<span class="arrow">▶</span><span class="code">${hk["ID HK"]}</span><span class="name">${highlight(hk["Name"])}</span><span class="hk-pw-badge ${pwClass}">${pwLabel}</span>`;
+      header.innerHTML = `<span class="arrow">▶</span><span class="code">${highlight(hk["ID HK"])}</span><span class="name">${highlight(hk["Name"])}</span><span class="hk-pw-badge ${pwClass}">${pwLabel}</span>`;
       content.className = 'competence-content' + openClass;
     }
 
@@ -293,7 +391,7 @@ document.getElementById("subtitle").textContent = "Lade Daten...";
     const lkHeader = document.createElement('div');
     lkHeader.className = 'lk-header' + openClass;
     const lc = lk["Lernort"] === 'üK' ? 'ük' : lk["Lernort"];
-    lkHeader.innerHTML = `<span class="arrow">▶</span><span class="lk-code">${lk["ID LK"]}</span><span class="lk-desc">${highlight(lk["Beschreibung LK"])}</span>`;
+    lkHeader.innerHTML = `<span class="arrow">▶</span><span class="lk-code">${highlight(lk["ID LK"])}</span><span class="lk-desc">${highlight(lk["Beschreibung LK"])}</span>`;
     lkHeader.innerHTML += `<span class="lernort-badge lernort-${lc}">${lk["Lernort"]}</span>`;
     const lkSems = lk["Semester"];
     if (Array.isArray(lkSems) && lkSems.length > 0) {
