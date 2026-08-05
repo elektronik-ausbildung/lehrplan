@@ -191,35 +191,54 @@ def renderable_hkb(hkb):
     }
 
 
+def hk_code(hk_id):
+    """Derive the short code (e.g. '9999 a.01' -> 'a1') for an HK id.
+
+    The questionnaire overview transposes the HKB/HK list into a grid
+    (columns = HKB, rows = HK level), like the Qualifikationsprofil page.
+    Each HK cell is headed by its short code, followed by the full id."""
+    s = str(hk_id)
+    for token in s.split():
+        letters = "".join(c for c in token if c.isalpha())
+        digits = "".join(c for c in token if c.isdigit())
+        if letters and digits:
+            return f"{letters}{int(digits)}"
+    return s
+
+
 def build_overview(hkbs):
-    """All HKB/HK for the overview chapter, with Pflicht/Wahl status per HK."""
-    overview = []
+    """All HKB/HK for the overview chapter, rendered as a transposed grid.
+
+    Matches the Qualifikationsprofil table on skills.futuremem.swiss:
+    columns are the HKB, the first row names each HKB, then a full-width
+    'Handlungskompetenzen' subheader, and below one HK per row (the nth HK
+    of each HKB), padded with empty cells where a column runs out of HKs."""
+    cols = []
     for hkb in sorted(hkbs, key=lambda h: h.get("ID HKB", "")):
         hks = []
-        for hk in sorted(hkb.get("handlungskompetenzen", []), key=lambda h: h.get("ID HK", "")):
+        for hk in sorted(hkb.get("handlungskompetenzen", []),
+                         key=lambda h: h.get("ID HK", "")):
+            hk_id = hk.get("ID HK") or ""
             pw = hk.get("P/W", "")
             hks.append({
-                "id": hk.get("ID HK") or "",
+                "code": hk_code(hk_id),
+                "id": hk_id,
                 "name": hk.get("Name") or "",
                 "pw": pw,
+                "text": "Pflicht" if pw == "P" else ("Wahl" if pw == "W" else ""),
             })
-        n_p = sum(1 for h in hks if h["pw"] == "P")
-        n_w = sum(1 for h in hks if h["pw"] == "W")
-        if n_p and n_w:
-            status = f"{n_p} Pflicht \u00b7 {n_w} Wahl"
-        elif n_p:
-            status = "Pflicht"
-        elif n_w:
-            status = "Wahl"
-        else:
-            status = ""
-        overview.append({
+        cols.append({
             "id": hkb.get("ID HKB") or "",
             "name": hkb.get("Name") or "",
-            "status": status,
             "hks": hks,
         })
-    return overview
+
+    n_rows = max((len(c["hks"]) for c in cols), default=0)
+    rows = [
+        [c["hks"][i] if i < len(c["hks"]) else None for c in cols]
+        for i in range(n_rows)
+    ]
+    return {"cols": cols, "rows": rows, "n_rows": n_rows}
 
 
 def build_context(args):

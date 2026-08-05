@@ -22,32 +22,42 @@ Handlungskompetenzbereich (HKB) → Handlungskompetenz (HK) → Leistungskriteri
   table.cell(fill: accent-soft)[#text(weight: "bold")[LZ]], [#text(weight: "bold")[Lernziel]: Ein Lernziel unterteilt ein Leistungskriterium in konkrete, überprüfbare Teilziele. Es bildet die Grundlage für Unterricht und Selbstkontrolle. Für die Ausbildung im Betrieb sind keine Lernziele definiert, nur für Berufsschule und überbetriebliche Kurse.],
 )
 
-Die Handlungskompetenzbereiche, Handlungskompetenzen und Leistungskriterien sind im offiziellen Bildungsplan des SBFI (Staatssekretariat für Bildung, Forschung und Innovation) festgelegt. Lernziele und die Abkürzungen der Leistungskriterien sind auf [skills.futuremem.swiss](https://skills.futuremem.swiss/de/) vom Verband Swissmem festgelegt worden. Die Dategrundlage für diese Dokumente ist [skills.futuremem.swiss](https://skills.futuremem.swiss/de/).
+Die Handlungskompetenzbereiche, Handlungskompetenzen und Leistungskriterien sind im offiziellen Bildungsplan des SBFI (Staatssekretariat für Bildung, Forschung und Innovation) festgelegt. Lernziele und die Abkürzungen der Leistungskriterien sind auf #link("https://skills.futuremem.swiss/de/")[skills.futuremem.swiss] vom Verband Swissmem festgelegt worden. Die Dategrundlage für diese Dokumente ist #link("https://skills.futuremem.swiss/de/")[skills.futuremem.swiss].
 
-#heading(level: 2, numbering: none)[Übersicht Handlungskompetenzen]
+#pagebreak()
+
+#heading(level: 2, numbering: none)[Übersicht der Handlungskompetenzen]
 
 Die folgende Übersicht zeigt alle Handlungskompetenzbereiche mit ihren Handlungskompetenzen.
-#text(weight: "bold")[Pflicht] bedeutet, dass die Handlungskompetenz verbindlich auszubilden ist,
-#text(fill: muted)[Wahl] bedeutet, dass sie nach Absprache gewählt werden kann.
+#text(weight: "bold")[Pflicht] bedeutet, dass die Handlungskompetenz für alle Lernenden verbindlich besucht werden muss. Pflichtmodule werden an allen Lernorten (Bertrieb, Berufsschule und in den überbetrieblichen Kursen) ausgebildet.
+#text(fill: muted)[Wahl] bedeutet, dass die Kompetenzen je nach Betrieb felxibel gewählt werden können. Wahlmodule werden im Betrieb ausgebildet. Es sind keine Lernziele für Berufsschule oder überbetriebliche Kurse definiert. 
 
 #table(
-  columns: (auto, 1fr, auto),
-  inset: (x: 6pt, y: 3pt),
+  columns: ({{ ", ".join(["1fr"] * (overview.cols | length)) }}),
+  inset: (x: 5pt, y: 3pt),
   stroke: 0.35pt + border-color,
-  fill: (x, y) => if y == 0 { accent } else { white },
-  align: (left, left, center, center),
+  align: (left, top),
   table.header(
-    [#text(weight: "bold", size: 10pt, fill: white)[ID]],
-    [#text(weight: "bold", size: 10pt, fill: white)[Bezeichnung]],
-    [#text(weight: "bold", size: 10pt, fill: white)[Typ]],
+    {% for c in overview.cols %}
+    table.cell(fill: accent-soft)[
+      #text(weight: "bold", size: 9.5pt, fill: accent)[{{ c.name | typ }}]
+      #v(2pt)
+      #text(size: 8pt, fill: muted)[{{ c.id | typ }}]
+    ],
+    {% endfor %}
   ),
-{% for hkb in overview %}
-{% if not loop.first %}
-table.hline(stroke: 0.8pt + accent),
+  table.cell(colspan: {{ overview.cols | length }}, fill: accent)[#text(size: 9.5pt, weight: "bold", fill: white)[Handlungskompetenzen]],
+{% for row in overview.rows %}
+{% for cell in row %}
+{% if cell is none %}
+table.cell(fill: white)[],
+{% else %}
+table.cell(fill: {% if cell.pw == "P" %}accent-soft{% elif cell.pw == "W" %}wahl-soft{% else %}white{% endif %})[
+  #text(size: 9pt, weight: "bold", fill: accent)[{{ cell.code | typ }}]#h(2mm)#text(size: 8.5pt)[{{ cell.name | typ }}]
+  #v(2.5pt)
+  #text(size: 8pt, fill: muted)[{{ cell.id | typ }}]#h(3mm)#text(size: 8pt, weight: "bold", fill: {{ "accent" if cell.pw == "P" else "muted" }})[{{ cell.text | typ }}]
+],
 {% endif %}
-table.cell(fill: accent-soft)[#text(weight: "bold")[{{ hkb.id | typ }}]], table.cell(fill: accent-soft)[{{ hkb.name | typ }}], table.cell(fill: accent-soft)[#text(size: 8.5pt)[{{ hkb.status | typ }}]],
-{% for hk in hkb.hks %}
-[#text(size: 8.5pt)[{{ hk.id | typ }}]], [{{ hk.name | typ }}], [#text(size: 8.5pt)[{% if hk.pw == "P" %}#square(size: 3pt, fill: accent)#h(1.5mm)#text(weight: "bold", fill: accent)[Pflicht]{% elif hk.pw == "W" %}#square(size: 3pt, fill: faint)#h(1.5mm)#text(fill: muted)[Wahl]{% endif %}]],
 {% endfor %}
 {% endfor %}
 )
